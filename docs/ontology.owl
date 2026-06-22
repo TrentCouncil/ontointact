@@ -13,6 +13,7 @@
         <owl:versionIRI rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30/1.0.0"/>
         <terms:creator>INT-ACT UÉvora Team</terms:creator>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <terms:title>INT-ACT Ontology</terms:title>
         <rdfs:comment>This ontology reuses and integrates the SKOS (Simple Knowledge Organization System) vocabulary for the organisation of domain-specific concepts, and builds upon the CIDOC Conceptual Reference Model (CRM) for the representation of cultural heritage entities and events.</rdfs:comment>
     </owl:Ontology>
     
@@ -1354,28 +1355,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureGeneral -->
-
-
-    <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureGeneral">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E55_Type"/>
-        <rdfs:comment>General intagible features</rdfs:comment>
-        <rdfs:label xml:lang="en">Intangible Feature General</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureMegalithism -->
-
-
-    <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureMegalithism">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E55_Type"/>
-        <rdfs:comment>Specified to megalithism</rdfs:comment>
-        <rdfs:label xml:lang="en">Intangible Feature Megalithism</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Interview -->
 
 
@@ -1769,17 +1748,6 @@ plaques)</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E27_Site"/>
         <rdfs:comment>A space open to visitors.</rdfs:comment>
         <rdfs:label xml:lang="en">Touristic Site</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Trigger -->
-
-
-    <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Trigger">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E73_Information_Object"/>
-        <rdfs:comment>A element that evokes a intangible heritage experience</rdfs:comment>
-        <rdfs:label xml:lang="en">Trigger</rdfs:label>
     </owl:Class>
     
 
@@ -2623,7 +2591,6 @@ plaques)</rdfs:comment>
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_13">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Roll_up"/>
         <P46_IsComposedOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont19_CF_M5b"/>
-        <P46_IsComposedOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Trigger_9"/>
     </owl:NamedIndividual>
     
 
@@ -2646,7 +2613,6 @@ plaques)</rdfs:comment>
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Roll_up"/>
         <P46_IsComposedOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont3_CF_M3"/>
         <P46_IsComposedOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_TextFont3_Lunar_Theory"/>
-        <P46_IsComposedOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Trigger_3"/>
     </owl:NamedIndividual>
     
 
@@ -2657,7 +2623,6 @@ plaques)</rdfs:comment>
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_4">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Roll_up"/>
         <P46_IsComposedOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont4_CF_M4"/>
-        <P46_IsComposedOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Trigger_4"/>
     </owl:NamedIndividual>
     
 
@@ -2670,7 +2635,6 @@ plaques)</rdfs:comment>
         <P46_IsComposedOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont5_CF_M5"/>
         <P46_IsComposedOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont6_ArcheologicalDrawings"/>
         <P46_IsComposedOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_TextFont4_Archeological_Context"/>
-        <P46_IsComposedOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Trigger_5"/>
     </owl:NamedIndividual>
     
 
@@ -2692,7 +2656,6 @@ plaques)</rdfs:comment>
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Roll_up"/>
         <P46_IsComposedOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont8_Environment_2"/>
         <P46_IsComposedOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont9_RecoveryAndExcavation"/>
-        <P46_IsComposedOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Trigger_6"/>
         <P46_IsComposedOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_TextFont5_Cromlech_Excavation/Recovery"/>
     </owl:NamedIndividual>
     
@@ -2705,7 +2668,6 @@ plaques)</rdfs:comment>
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Roll_up"/>
         <P46_IsComposedOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont10_CF_M5a"/>
         <P46_IsComposedOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_TextFont6_Narrative_Texts"/>
-        <P46_IsComposedOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Trigger_7"/>
     </owl:NamedIndividual>
     
 
@@ -2718,7 +2680,6 @@ plaques)</rdfs:comment>
         <P46_IsComposedOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont11_Ontology_Model"/>
         <P46_IsComposedOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont12_Environment_3"/>
         <P46_IsComposedOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_TextFont7_Ontology_Explanation"/>
-        <P46_IsComposedOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Trigger_8"/>
     </owl:NamedIndividual>
     
 
@@ -2747,7 +2708,6 @@ plaques)</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Physical3DModel_MDF_CF_M1">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Demonstrator"/>
-        <P165_incorporates rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Trigger_2"/>
     </owl:NamedIndividual>
     
 
@@ -2877,88 +2837,6 @@ plaques)</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_TextFont9_KeyAspectsTourism">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Text"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Trigger_1 -->
-
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Trigger_1">
-        <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Trigger"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Trigger_2 -->
-
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Trigger_2">
-        <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Trigger"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Trigger_3 -->
-
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Trigger_3">
-        <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Trigger"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Trigger_4 -->
-
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Trigger_4">
-        <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Trigger"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Trigger_5 -->
-
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Trigger_5">
-        <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Trigger"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Trigger_6 -->
-
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Trigger_6">
-        <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Trigger"/>
-        <P165_incorporates rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont20_Cromlech_Pictures"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Trigger_7 -->
-
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Trigger_7">
-        <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Trigger"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Trigger_8 -->
-
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Trigger_8">
-        <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Trigger"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Trigger_9 -->
-
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Trigger_9">
-        <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Trigger"/>
     </owl:NamedIndividual>
     
 
@@ -3807,78 +3685,91 @@ plaques)</rdfs:comment>
     
 
 
-    <!-- http://www.w3.org/2004/02/skos/core#Arts_and_Aesthetics -->
+    <!-- http://www.w3.org/2004/02/skos/core#Appreciation -->
 
 
-    <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Arts_and_Aesthetics">
-        <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureMegalithism"/>
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Appreciation">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:broader rdf:resource="http://www.w3.org/2004/02/skos/core#Cultural_Assets"/>
+        <skos:broader rdf:resource="http://www.w3.org/2004/02/skos/core#Commemorative_and_Elevating_Emotions"/>
+        <skos:prefLabel xml:lang="en">Appreciation</skos:prefLabel>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.w3.org/2004/02/skos/core#Astronomical_Observation -->
+    <!-- http://www.w3.org/2004/02/skos/core#Awe -->
 
 
-    <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Astronomical_Observation">
-        <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureMegalithism"/>
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Awe">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:broader rdf:resource="http://www.w3.org/2004/02/skos/core#Cultural_Assets"/>
+        <skos:broader rdf:resource="http://www.w3.org/2004/02/skos/core#Commemorative_and_Elevating_Emotions"/>
+        <skos:prefLabel xml:lang="en">Awe</skos:prefLabel>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.w3.org/2004/02/skos/core#Awe_and_appreciation -->
+    <!-- http://www.w3.org/2004/02/skos/core#Civic_and_Ethical_Emotions -->
 
 
-    <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Awe_and_appreciation">
-        <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureGeneral"/>
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Civic_and_Ethical_Emotions">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:broader rdf:resource="http://www.w3.org/2004/02/skos/core#Experience"/>
+        <skos:broader rdf:resource="http://www.w3.org/2004/02/skos/core#Emotional_Connection"/>
+        <skos:prefLabel xml:lang="en">Civic and Ethical Emotions</skos:prefLabel>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.w3.org/2004/02/skos/core#Belonging -->
+    <!-- http://www.w3.org/2004/02/skos/core#Collective_Belonging -->
 
 
-    <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Belonging">
-        <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureMegalithism"/>
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Collective_Belonging">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:broader rdf:resource="http://www.w3.org/2004/02/skos/core#Emotions_and_Feelings"/>
+        <skos:broader rdf:resource="http://www.w3.org/2004/02/skos/core#Identity_and_Belonging"/>
+        <skos:prefLabel xml:lang="en">Collective belonging</skos:prefLabel>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.w3.org/2004/02/skos/core#Cultural_Assets -->
+    <!-- http://www.w3.org/2004/02/skos/core#Commemorative_and_Elevating_Emotions -->
 
 
-    <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Cultural_Assets">
-        <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureMegalithism"/>
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Commemorative_and_Elevating_Emotions">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="http://www.w3.org/2004/02/skos/core#Emotional_Connection"/>
+        <skos:prefLabel xml:lang="en">Commemorative and Elevating Emotions</skos:prefLabel>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.w3.org/2004/02/skos/core#Cultural_Practices_and_Expressions -->
+    <!-- http://www.w3.org/2004/02/skos/core#Cultural_Expression -->
 
 
-    <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Cultural_Practices_and_Expressions">
-        <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureGeneral"/>
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Cultural_Expression">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:broader rdf:resource="http://www.w3.org/2004/02/skos/core#Experience"/>
+        <skos:broader rdf:resource="http://www.w3.org/2004/02/skos/core#Emotions_and_Experiences"/>
+        <skos:prefLabel xml:lang="en">Cultural Expression</skos:prefLabel>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.w3.org/2004/02/skos/core#Cultural_Well_being -->
+    <!-- http://www.w3.org/2004/02/skos/core#Cultural_Well-being -->
 
 
-    <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Cultural_Well_being">
-        <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureGeneral"/>
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Cultural_Well-being">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:broader rdf:resource="http://www.w3.org/2004/02/skos/core#Well_being"/>
+        <skos:broader rdf:resource="http://www.w3.org/2004/02/skos/core#Well-being"/>
+        <skos:altLabel xml:lang="en">Inclusion</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Cultural well-being</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#Difficult_and_Conflictual_Emotions -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Difficult_and_Conflictual_Emotions">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="http://www.w3.org/2004/02/skos/core#Emotional_Connection"/>
+        <skos:prefLabel xml:lang="en">Difficult and Conflictual Emotions</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -3887,63 +3778,55 @@ plaques)</rdfs:comment>
 
 
     <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Emotional_Connection">
-        <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureGeneral"/>
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:broader rdf:resource="http://www.w3.org/2004/02/skos/core#Experience"/>
+        <skos:broader rdf:resource="http://www.w3.org/2004/02/skos/core#Emotions_and_Experiences"/>
+        <skos:prefLabel xml:lang="en">Emotional Connection</skos:prefLabel>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.w3.org/2004/02/skos/core#Emotional_Well_being -->
+    <!-- http://www.w3.org/2004/02/skos/core#Emotional_Well-being -->
 
 
-    <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Emotional_Well_being">
-        <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureGeneral"/>
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Emotional_Well-being">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:broader rdf:resource="http://www.w3.org/2004/02/skos/core#Well_being"/>
+        <skos:broader rdf:resource="http://www.w3.org/2004/02/skos/core#Well-being"/>
+        <skos:altLabel xml:lang="en">Peace</skos:altLabel>
+        <skos:altLabel xml:lang="en">Stress-relief</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Emotional well-being</skos:prefLabel>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.w3.org/2004/02/skos/core#Emotions_and_Feelings -->
+    <!-- http://www.w3.org/2004/02/skos/core#Emotions_and_Experiences -->
 
 
-    <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Emotions_and_Feelings">
-        <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureMegalithism"/>
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Emotions_and_Experiences">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Emotions and Experiences</skos:prefLabel>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.w3.org/2004/02/skos/core#Engineering_Techniques -->
+    <!-- http://www.w3.org/2004/02/skos/core#Environmental_Well-being -->
 
 
-    <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Engineering_Techniques">
-        <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureMegalithism"/>
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Environmental_Well-being">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:broader rdf:resource="http://www.w3.org/2004/02/skos/core#Cultural_Assets"/>
+        <skos:broader rdf:resource="http://www.w3.org/2004/02/skos/core#Well-being"/>
+        <skos:altLabel xml:lang="en">Safety</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Environmental well-being</skos:prefLabel>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.w3.org/2004/02/skos/core#Environmental_Well_being -->
+    <!-- http://www.w3.org/2004/02/skos/core#Grief -->
 
 
-    <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Environmental_Well_being">
-        <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureGeneral"/>
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Grief">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:broader rdf:resource="http://www.w3.org/2004/02/skos/core#Well_being"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.w3.org/2004/02/skos/core#Experience -->
-
-
-    <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Experience">
-        <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureGeneral"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureMegalithism"/>
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="http://www.w3.org/2004/02/skos/core#Difficult_and_Conflictual_Emotions"/>
+        <skos:prefLabel xml:lang="en">Grief</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -3952,53 +3835,80 @@ plaques)</rdfs:comment>
 
 
     <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Hearing">
-        <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureMegalithism"/>
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:broader rdf:resource="http://www.w3.org/2004/02/skos/core#Sensory_Experience"/>
+        <skos:altLabel xml:lang="en">Auditory perception</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Hearing</skos:prefLabel>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.w3.org/2004/02/skos/core#Injustice -->
+    <!-- http://www.w3.org/2004/02/skos/core#Identity_and_Belonging -->
 
 
-    <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Injustice">
-        <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureGeneral"/>
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Identity_and_Belonging">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:broader rdf:resource="http://www.w3.org/2004/02/skos/core#Experience"/>
+        <skos:broader rdf:resource="http://www.w3.org/2004/02/skos/core#Emotions_and_Experiences"/>
+        <skos:prefLabel xml:lang="en">Identity and Belonging</skos:prefLabel>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.w3.org/2004/02/skos/core#Intellectual_Experience -->
+    <!-- http://www.w3.org/2004/02/skos/core#Injustice_Indignation -->
 
 
-    <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Intellectual_Experience">
-        <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureGeneral"/>
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Injustice_Indignation">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:broader rdf:resource="http://www.w3.org/2004/02/skos/core#Experience"/>
+        <skos:broader rdf:resource="http://www.w3.org/2004/02/skos/core#Civic_and_Ethical_Emotions"/>
+        <skos:prefLabel xml:lang="en">Injustice/Indignation</skos:prefLabel>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.w3.org/2004/02/skos/core#Intellectual_Well_being -->
+    <!-- http://www.w3.org/2004/02/skos/core#Intellectual_Well-being -->
 
 
-    <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Intellectual_Well_being">
-        <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureGeneral"/>
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Intellectual_Well-being">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:broader rdf:resource="http://www.w3.org/2004/02/skos/core#Well_being"/>
+        <skos:broader rdf:resource="http://www.w3.org/2004/02/skos/core#Well-being"/>
+        <skos:altLabel xml:lang="en">Curiosity</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Intellectual well-being</skos:prefLabel>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.w3.org/2004/02/skos/core#Links_with_Past_and_Spirituality -->
+    <!-- http://www.w3.org/2004/02/skos/core#Interpersonal_Well-being -->
 
 
-    <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Links_with_Past_and_Spirituality">
-        <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureMegalithism"/>
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Interpersonal_Well-being">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:broader rdf:resource="http://www.w3.org/2004/02/skos/core#Emotions_and_Feelings"/>
+        <skos:broader rdf:resource="http://www.w3.org/2004/02/skos/core#Well-being"/>
+        <skos:altLabel xml:lang="en">Connectedness</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Interpersonal well-being</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#Loss -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Loss">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="http://www.w3.org/2004/02/skos/core#Difficult_and_Conflictual_Emotions"/>
+        <skos:prefLabel xml:lang="en">Loss</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#Narrating -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Narrating">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="http://www.w3.org/2004/02/skos/core#Cultural_Expression"/>
+        <skos:altLabel xml:lang="en">Oral history</skos:altLabel>
+        <skos:altLabel xml:lang="en">Storytelling</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Narrating</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -4007,20 +3917,23 @@ plaques)</rdfs:comment>
 
 
     <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Nostalgia">
-        <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureGeneral"/>
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:broader rdf:resource="http://www.w3.org/2004/02/skos/core#Experience"/>
+        <skos:broader rdf:resource="http://www.w3.org/2004/02/skos/core#Commemorative_and_Elevating_Emotions"/>
+        <skos:prefLabel xml:lang="en">Nostalgia</skos:prefLabel>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.w3.org/2004/02/skos/core#Peace -->
+    <!-- http://www.w3.org/2004/02/skos/core#Performing -->
 
 
-    <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Peace">
-        <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureMegalithism"/>
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Performing">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:broader rdf:resource="http://www.w3.org/2004/02/skos/core#Emotions_and_Feelings"/>
+        <skos:broader rdf:resource="http://www.w3.org/2004/02/skos/core#Cultural_Expression"/>
+        <skos:altLabel xml:lang="en">Dance</skos:altLabel>
+        <skos:altLabel xml:lang="en">Music</skos:altLabel>
+        <skos:altLabel xml:lang="en">Theatre</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Performing</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -4029,9 +3942,44 @@ plaques)</rdfs:comment>
 
 
     <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Pride">
-        <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureGeneral"/>
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:broader rdf:resource="http://www.w3.org/2004/02/skos/core#Experience"/>
+        <skos:broader rdf:resource="http://www.w3.org/2004/02/skos/core#Commemorative_and_Elevating_Emotions"/>
+        <skos:prefLabel xml:lang="en">Pride</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#Respect -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Respect">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="http://www.w3.org/2004/02/skos/core#Commemorative_and_Elevating_Emotions"/>
+        <skos:prefLabel xml:lang="en">Respect</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#Responsibility_Stewardship -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Responsibility_Stewardship">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="http://www.w3.org/2004/02/skos/core#Civic_and_Ethical_Emotions"/>
+        <skos:prefLabel xml:lang="en">Responsibility/Stewardship</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#Ritualizing -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Ritualizing">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="http://www.w3.org/2004/02/skos/core#Cultural_Expression"/>
+        <skos:altLabel xml:lang="en">Customs</skos:altLabel>
+        <skos:altLabel xml:lang="en">Festivals</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Ritualizing</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -4040,20 +3988,21 @@ plaques)</rdfs:comment>
 
 
     <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Seeing">
-        <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureMegalithism"/>
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:broader rdf:resource="http://www.w3.org/2004/02/skos/core#Sensory_Experience"/>
+        <skos:altLabel xml:lang="en">Visual perception</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Seeing</skos:prefLabel>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.w3.org/2004/02/skos/core#Sensory_Engagement -->
+    <!-- http://www.w3.org/2004/02/skos/core#Self-perception -->
 
 
-    <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Sensory_Engagement">
-        <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureGeneral"/>
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Self-perception">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:broader rdf:resource="http://www.w3.org/2004/02/skos/core#Experience"/>
+        <skos:broader rdf:resource="http://www.w3.org/2004/02/skos/core#Identity_and_Belonging"/>
+        <skos:prefLabel xml:lang="en">Self-perception</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -4062,9 +4011,9 @@ plaques)</rdfs:comment>
 
 
     <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Sensory_Experience">
-        <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureMegalithism"/>
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:broader rdf:resource="http://www.w3.org/2004/02/skos/core#Experience"/>
+        <skos:broader rdf:resource="http://www.w3.org/2004/02/skos/core#Emotions_and_Experiences"/>
+        <skos:prefLabel xml:lang="en">Sensory Experience</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -4073,31 +4022,22 @@ plaques)</rdfs:comment>
 
 
     <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Smelling">
-        <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureMegalithism"/>
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:broader rdf:resource="http://www.w3.org/2004/02/skos/core#Sensory_Experience"/>
+        <skos:altLabel xml:lang="en">Olfactory perception</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Smelling</skos:prefLabel>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.w3.org/2004/02/skos/core#Spiritual_Experience -->
+    <!-- http://www.w3.org/2004/02/skos/core#Spiritual_Well-being -->
 
 
-    <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Spiritual_Experience">
-        <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureMegalithism"/>
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Spiritual_Well-being">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:broader rdf:resource="http://www.w3.org/2004/02/skos/core#Experience"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.w3.org/2004/02/skos/core#Spiritual_well_being -->
-
-
-    <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Spiritual_well_being">
-        <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureGeneral"/>
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:broader rdf:resource="http://www.w3.org/2004/02/skos/core#Well_being"/>
+        <skos:broader rdf:resource="http://www.w3.org/2004/02/skos/core#Well-being"/>
+        <skos:altLabel xml:lang="en">Purpose</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Spiritual well-being</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -4106,20 +4046,10 @@ plaques)</rdfs:comment>
 
 
     <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Tasting">
-        <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureMegalithism"/>
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:broader rdf:resource="http://www.w3.org/2004/02/skos/core#Sensory_Experience"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.w3.org/2004/02/skos/core#Timelessness -->
-
-
-    <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Timelessness">
-        <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureMegalithism"/>
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:broader rdf:resource="http://www.w3.org/2004/02/skos/core#Emotions_and_Feelings"/>
+        <skos:altLabel xml:lang="en">Gustatory perception</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Tasting</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -4128,85 +4058,45 @@ plaques)</rdfs:comment>
 
 
     <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Touching">
-        <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureMegalithism"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:broader rdf:resource="http://www.w3.org/2004/02/skos/core#Sensory_Experience"/>
+        <skos:altLabel xml:lang="en">Bodily/Tactile perception</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Touching</skos:prefLabel>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.w3.org/2004/02/skos/core#Understanding_and_Identity -->
+    <!-- http://www.w3.org/2004/02/skos/core#Value_Alignment -->
 
 
-    <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Understanding_and_Identity">
-        <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureGeneral"/>
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Value_Alignment">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:broader rdf:resource="http://www.w3.org/2004/02/skos/core#Experience"/>
+        <skos:broader rdf:resource="http://www.w3.org/2004/02/skos/core#Identity_and_Belonging"/>
+        <skos:prefLabel xml:lang="en">Value alignment</skos:prefLabel>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.w3.org/2004/02/skos/core#Well_being -->
+    <!-- http://www.w3.org/2004/02/skos/core#Visualizing -->
 
 
-    <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Well_being">
-        <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureMegalithism"/>
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Visualizing">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:broader rdf:resource="http://www.w3.org/2004/02/skos/core#Emotions_and_Feelings"/>
+        <skos:broader rdf:resource="http://www.w3.org/2004/02/skos/core#Cultural_Expression"/>
+        <skos:altLabel xml:lang="en">Architecture</skos:altLabel>
+        <skos:altLabel xml:lang="en">Art</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Visualizing</skos:prefLabel>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.w3.org/2004/02/skos/core#Loss/Grief -->
+    <!-- http://www.w3.org/2004/02/skos/core#Well-being -->
 
 
-    <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Loss/Grief">
-        <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureGeneral"/>
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Well-being">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:broader rdf:resource="http://www.w3.org/2004/02/skos/core#Experience"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.w3.org/2004/02/skos/core#Responsibility/Stewardship -->
-
-
-    <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Responsibility/Stewardship">
-        <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureGeneral"/>
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:broader rdf:resource="http://www.w3.org/2004/02/skos/core#Experience"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.w3.org/2004/02/skos/core#Reverence/Respect -->
-
-
-    <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Reverence/Respect">
-        <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureGeneral"/>
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:broader rdf:resource="http://www.w3.org/2004/02/skos/core#Experience"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.w3.org/2004/02/skos/core#Social/Interpersonal_Well_being -->
-
-
-    <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Social/Interpersonal_Well_being">
-        <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureGeneral"/>
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:broader rdf:resource="http://www.w3.org/2004/02/skos/core#Well_being"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.w3.org/2004/02/skos/core#Storytelling/Narratives -->
-
-
-    <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Storytelling/Narratives">
-        <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureMegalithism"/>
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:broader rdf:resource="http://www.w3.org/2004/02/skos/core#Cultural_Assets"/>
+        <skos:broader rdf:resource="http://www.w3.org/2004/02/skos/core#Emotional_Connection"/>
+        <skos:prefLabel xml:lang="en">Well-being</skos:prefLabel>
     </owl:NamedIndividual>
 </rdf:RDF>
 

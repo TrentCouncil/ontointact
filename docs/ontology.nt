@@ -2,6 +2,7 @@
 <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30> <http://www.w3.org/2002/07/owl#versionIRI> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30/1.0.0> .
 <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30> <http://purl.org/dc/terms/creator> "INT-ACT UÉvora Team" .
 <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> .
+<http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30> <http://purl.org/dc/terms/title> "INT-ACT Ontology" .
 <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30> <http://www.w3.org/2000/01/rdf-schema#comment> "This ontology reuses and integrates the SKOS (Simple Knowledge Organization System) vocabulary for the organisation of domain-specific concepts, and builds upon the CIDOC Conceptual Reference Model (CRM) for the representation of cultural heritage entities and events." .
 # 
 # 
@@ -756,18 +757,6 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Institution> <http://www.w3.org/2000/01/rdf-schema#comment> "An organised body responsible for research, preservation, or management of cultural/natural heritage." .
 <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Institution> <http://www.w3.org/2000/01/rdf-schema#label> "Institution"@en .
 # 
-# http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureGeneral
-<http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureGeneral> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureGeneral> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E55_Type> .
-<http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureGeneral> <http://www.w3.org/2000/01/rdf-schema#comment> "General intagible features" .
-<http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureGeneral> <http://www.w3.org/2000/01/rdf-schema#label> "Intangible Feature General"@en .
-# 
-# http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureMegalithism
-<http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureMegalithism> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureMegalithism> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E55_Type> .
-<http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureMegalithism> <http://www.w3.org/2000/01/rdf-schema#comment> "Specified to megalithism" .
-<http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureMegalithism> <http://www.w3.org/2000/01/rdf-schema#label> "Intangible Feature Megalithism"@en .
-# 
 # http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Interview
 <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Interview> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Interview> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E33_Linguistic_Object> .
@@ -983,12 +972,6 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#TouristicSite> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E27_Site> .
 <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#TouristicSite> <http://www.w3.org/2000/01/rdf-schema#comment> "A space open to visitors." .
 <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#TouristicSite> <http://www.w3.org/2000/01/rdf-schema#label> "Touristic Site"@en .
-# 
-# http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Trigger
-<http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Trigger> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Trigger> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E73_Information_Object> .
-<http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Trigger> <http://www.w3.org/2000/01/rdf-schema#comment> "A element that evokes a intangible heritage experience" .
-<http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Trigger> <http://www.w3.org/2000/01/rdf-schema#label> "Trigger"@en .
 # 
 # http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#UrbanLandscape
 <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#UrbanLandscape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -1408,7 +1391,6 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Roll_up> .
 <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_13> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#P46_IsComposedOf> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont19_CF_M5b> .
-<http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_13> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#P46_IsComposedOf> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Trigger_9> .
 # 
 # http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_2
 <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -1421,13 +1403,11 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Roll_up> .
 <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_3> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#P46_IsComposedOf> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont3_CF_M3> .
 <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_3> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#P46_IsComposedOf> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_TextFont3_Lunar_Theory> .
-<http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_3> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#P46_IsComposedOf> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Trigger_3> .
 # 
 # http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_4
 <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Roll_up> .
 <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_4> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#P46_IsComposedOf> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont4_CF_M4> .
-<http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_4> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#P46_IsComposedOf> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Trigger_4> .
 # 
 # http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_5
 <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -1435,7 +1415,6 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_5> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#P46_IsComposedOf> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont5_CF_M5> .
 <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_5> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#P46_IsComposedOf> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont6_ArcheologicalDrawings> .
 <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_5> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#P46_IsComposedOf> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_TextFont4_Archeological_Context> .
-<http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_5> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#P46_IsComposedOf> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Trigger_5> .
 # 
 # http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_6
 <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -1447,7 +1426,6 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Roll_up> .
 <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_7> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#P46_IsComposedOf> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont8_Environment_2> .
 <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_7> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#P46_IsComposedOf> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont9_RecoveryAndExcavation> .
-<http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_7> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#P46_IsComposedOf> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Trigger_6> .
 <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_7> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#P46_IsComposedOf> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_TextFont5_Cromlech_Excavation/Recovery> .
 # 
 # http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_8
@@ -1455,7 +1433,6 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Roll_up> .
 <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_8> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#P46_IsComposedOf> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont10_CF_M5a> .
 <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_8> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#P46_IsComposedOf> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_TextFont6_Narrative_Texts> .
-<http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_8> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#P46_IsComposedOf> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Trigger_7> .
 # 
 # http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_9
 <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -1463,7 +1440,6 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_9> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#P46_IsComposedOf> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont11_Ontology_Model> .
 <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_9> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#P46_IsComposedOf> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont12_Environment_3> .
 <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_9> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#P46_IsComposedOf> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_TextFont7_Ontology_Explanation> .
-<http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_9> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#P46_IsComposedOf> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Trigger_8> .
 # 
 # http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Pavia
 <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Pavia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -1477,7 +1453,6 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Physical3DModel_MDF_CF_M1
 <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Physical3DModel_MDF_CF_M1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Physical3DModel_MDF_CF_M1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Demonstrator> .
-<http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Physical3DModel_MDF_CF_M1> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#P165_incorporates> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Trigger_2> .
 # 
 # http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Plaque_Idol_from_Coudelaria_de_Alter
 <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Plaque_Idol_from_Coudelaria_de_Alter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -1538,43 +1513,6 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_TextFont9_KeyAspectsTourism
 <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_TextFont9_KeyAspectsTourism> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_TextFont9_KeyAspectsTourism> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Text> .
-# 
-# http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Trigger_1
-<http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Trigger_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Trigger_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Trigger> .
-# 
-# http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Trigger_2
-<http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Trigger_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Trigger_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Trigger> .
-# 
-# http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Trigger_3
-<http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Trigger_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Trigger_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Trigger> .
-# 
-# http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Trigger_4
-<http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Trigger_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Trigger_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Trigger> .
-# 
-# http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Trigger_5
-<http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Trigger_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Trigger_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Trigger> .
-# 
-# http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Trigger_6
-<http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Trigger_6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Trigger_6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Trigger> .
-<http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Trigger_6> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#P165_incorporates> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont20_Cromlech_Pictures> .
-# 
-# http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Trigger_7
-<http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Trigger_7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Trigger_7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Trigger> .
-# 
-# http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Trigger_8
-<http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Trigger_8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Trigger_8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Trigger> .
-# 
-# http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Trigger_9
-<http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Trigger_9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Trigger_9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Trigger> .
 # 
 # http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_VidFont1_Panoramic_Video1
 <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_VidFont1_Panoramic_Video1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -2005,223 +1943,240 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_63.09444,_-_29.80861> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_63.09444,_-_29.80861> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Coordinates> .
 # 
-# http://www.w3.org/2004/02/skos/core#Arts_and_Aesthetics
-<http://www.w3.org/2004/02/skos/core#Arts_and_Aesthetics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.w3.org/2004/02/skos/core#Arts_and_Aesthetics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureMegalithism> .
-<http://www.w3.org/2004/02/skos/core#Arts_and_Aesthetics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://www.w3.org/2004/02/skos/core#Arts_and_Aesthetics> <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Cultural_Assets> .
+# http://www.w3.org/2004/02/skos/core#Appreciation
+<http://www.w3.org/2004/02/skos/core#Appreciation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.w3.org/2004/02/skos/core#Appreciation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.w3.org/2004/02/skos/core#Appreciation> <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Commemorative_and_Elevating_Emotions> .
+<http://www.w3.org/2004/02/skos/core#Appreciation> <http://www.w3.org/2004/02/skos/core#prefLabel> "Appreciation"@en .
 # 
-# http://www.w3.org/2004/02/skos/core#Astronomical_Observation
-<http://www.w3.org/2004/02/skos/core#Astronomical_Observation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.w3.org/2004/02/skos/core#Astronomical_Observation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureMegalithism> .
-<http://www.w3.org/2004/02/skos/core#Astronomical_Observation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://www.w3.org/2004/02/skos/core#Astronomical_Observation> <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Cultural_Assets> .
+# http://www.w3.org/2004/02/skos/core#Awe
+<http://www.w3.org/2004/02/skos/core#Awe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.w3.org/2004/02/skos/core#Awe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.w3.org/2004/02/skos/core#Awe> <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Commemorative_and_Elevating_Emotions> .
+<http://www.w3.org/2004/02/skos/core#Awe> <http://www.w3.org/2004/02/skos/core#prefLabel> "Awe"@en .
 # 
-# http://www.w3.org/2004/02/skos/core#Awe_and_appreciation
-<http://www.w3.org/2004/02/skos/core#Awe_and_appreciation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.w3.org/2004/02/skos/core#Awe_and_appreciation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureGeneral> .
-<http://www.w3.org/2004/02/skos/core#Awe_and_appreciation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://www.w3.org/2004/02/skos/core#Awe_and_appreciation> <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Experience> .
+# http://www.w3.org/2004/02/skos/core#Civic_and_Ethical_Emotions
+<http://www.w3.org/2004/02/skos/core#Civic_and_Ethical_Emotions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.w3.org/2004/02/skos/core#Civic_and_Ethical_Emotions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.w3.org/2004/02/skos/core#Civic_and_Ethical_Emotions> <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Emotional_Connection> .
+<http://www.w3.org/2004/02/skos/core#Civic_and_Ethical_Emotions> <http://www.w3.org/2004/02/skos/core#prefLabel> "Civic and Ethical Emotions"@en .
 # 
-# http://www.w3.org/2004/02/skos/core#Belonging
-<http://www.w3.org/2004/02/skos/core#Belonging> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.w3.org/2004/02/skos/core#Belonging> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureMegalithism> .
-<http://www.w3.org/2004/02/skos/core#Belonging> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://www.w3.org/2004/02/skos/core#Belonging> <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Emotions_and_Feelings> .
+# http://www.w3.org/2004/02/skos/core#Collective_Belonging
+<http://www.w3.org/2004/02/skos/core#Collective_Belonging> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.w3.org/2004/02/skos/core#Collective_Belonging> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.w3.org/2004/02/skos/core#Collective_Belonging> <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Identity_and_Belonging> .
+<http://www.w3.org/2004/02/skos/core#Collective_Belonging> <http://www.w3.org/2004/02/skos/core#prefLabel> "Collective belonging"@en .
 # 
-# http://www.w3.org/2004/02/skos/core#Cultural_Assets
-<http://www.w3.org/2004/02/skos/core#Cultural_Assets> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.w3.org/2004/02/skos/core#Cultural_Assets> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureMegalithism> .
-<http://www.w3.org/2004/02/skos/core#Cultural_Assets> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+# http://www.w3.org/2004/02/skos/core#Commemorative_and_Elevating_Emotions
+<http://www.w3.org/2004/02/skos/core#Commemorative_and_Elevating_Emotions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.w3.org/2004/02/skos/core#Commemorative_and_Elevating_Emotions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.w3.org/2004/02/skos/core#Commemorative_and_Elevating_Emotions> <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Emotional_Connection> .
+<http://www.w3.org/2004/02/skos/core#Commemorative_and_Elevating_Emotions> <http://www.w3.org/2004/02/skos/core#prefLabel> "Commemorative and Elevating Emotions"@en .
 # 
-# http://www.w3.org/2004/02/skos/core#Cultural_Practices_and_Expressions
-<http://www.w3.org/2004/02/skos/core#Cultural_Practices_and_Expressions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.w3.org/2004/02/skos/core#Cultural_Practices_and_Expressions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureGeneral> .
-<http://www.w3.org/2004/02/skos/core#Cultural_Practices_and_Expressions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://www.w3.org/2004/02/skos/core#Cultural_Practices_and_Expressions> <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Experience> .
+# http://www.w3.org/2004/02/skos/core#Cultural_Expression
+<http://www.w3.org/2004/02/skos/core#Cultural_Expression> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.w3.org/2004/02/skos/core#Cultural_Expression> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.w3.org/2004/02/skos/core#Cultural_Expression> <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Emotions_and_Experiences> .
+<http://www.w3.org/2004/02/skos/core#Cultural_Expression> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cultural Expression"@en .
 # 
-# http://www.w3.org/2004/02/skos/core#Cultural_Well_being
-<http://www.w3.org/2004/02/skos/core#Cultural_Well_being> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.w3.org/2004/02/skos/core#Cultural_Well_being> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureGeneral> .
-<http://www.w3.org/2004/02/skos/core#Cultural_Well_being> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://www.w3.org/2004/02/skos/core#Cultural_Well_being> <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Well_being> .
+# http://www.w3.org/2004/02/skos/core#Cultural_Well-being
+<http://www.w3.org/2004/02/skos/core#Cultural_Well-being> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.w3.org/2004/02/skos/core#Cultural_Well-being> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.w3.org/2004/02/skos/core#Cultural_Well-being> <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Well-being> .
+<http://www.w3.org/2004/02/skos/core#Cultural_Well-being> <http://www.w3.org/2004/02/skos/core#altLabel> "Inclusion"@en .
+<http://www.w3.org/2004/02/skos/core#Cultural_Well-being> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cultural well-being"@en .
+# 
+# http://www.w3.org/2004/02/skos/core#Difficult_and_Conflictual_Emotions
+<http://www.w3.org/2004/02/skos/core#Difficult_and_Conflictual_Emotions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.w3.org/2004/02/skos/core#Difficult_and_Conflictual_Emotions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.w3.org/2004/02/skos/core#Difficult_and_Conflictual_Emotions> <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Emotional_Connection> .
+<http://www.w3.org/2004/02/skos/core#Difficult_and_Conflictual_Emotions> <http://www.w3.org/2004/02/skos/core#prefLabel> "Difficult and Conflictual Emotions"@en .
 # 
 # http://www.w3.org/2004/02/skos/core#Emotional_Connection
 <http://www.w3.org/2004/02/skos/core#Emotional_Connection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.w3.org/2004/02/skos/core#Emotional_Connection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureGeneral> .
 <http://www.w3.org/2004/02/skos/core#Emotional_Connection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://www.w3.org/2004/02/skos/core#Emotional_Connection> <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Experience> .
+<http://www.w3.org/2004/02/skos/core#Emotional_Connection> <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Emotions_and_Experiences> .
+<http://www.w3.org/2004/02/skos/core#Emotional_Connection> <http://www.w3.org/2004/02/skos/core#prefLabel> "Emotional Connection"@en .
 # 
-# http://www.w3.org/2004/02/skos/core#Emotional_Well_being
-<http://www.w3.org/2004/02/skos/core#Emotional_Well_being> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.w3.org/2004/02/skos/core#Emotional_Well_being> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureGeneral> .
-<http://www.w3.org/2004/02/skos/core#Emotional_Well_being> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://www.w3.org/2004/02/skos/core#Emotional_Well_being> <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Well_being> .
+# http://www.w3.org/2004/02/skos/core#Emotional_Well-being
+<http://www.w3.org/2004/02/skos/core#Emotional_Well-being> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.w3.org/2004/02/skos/core#Emotional_Well-being> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.w3.org/2004/02/skos/core#Emotional_Well-being> <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Well-being> .
+<http://www.w3.org/2004/02/skos/core#Emotional_Well-being> <http://www.w3.org/2004/02/skos/core#altLabel> "Peace"@en .
+<http://www.w3.org/2004/02/skos/core#Emotional_Well-being> <http://www.w3.org/2004/02/skos/core#altLabel> "Stress-relief"@en .
+<http://www.w3.org/2004/02/skos/core#Emotional_Well-being> <http://www.w3.org/2004/02/skos/core#prefLabel> "Emotional well-being"@en .
 # 
-# http://www.w3.org/2004/02/skos/core#Emotions_and_Feelings
-<http://www.w3.org/2004/02/skos/core#Emotions_and_Feelings> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.w3.org/2004/02/skos/core#Emotions_and_Feelings> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureMegalithism> .
-<http://www.w3.org/2004/02/skos/core#Emotions_and_Feelings> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+# http://www.w3.org/2004/02/skos/core#Emotions_and_Experiences
+<http://www.w3.org/2004/02/skos/core#Emotions_and_Experiences> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.w3.org/2004/02/skos/core#Emotions_and_Experiences> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.w3.org/2004/02/skos/core#Emotions_and_Experiences> <http://www.w3.org/2004/02/skos/core#prefLabel> "Emotions and Experiences"@en .
 # 
-# http://www.w3.org/2004/02/skos/core#Engineering_Techniques
-<http://www.w3.org/2004/02/skos/core#Engineering_Techniques> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.w3.org/2004/02/skos/core#Engineering_Techniques> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureMegalithism> .
-<http://www.w3.org/2004/02/skos/core#Engineering_Techniques> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://www.w3.org/2004/02/skos/core#Engineering_Techniques> <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Cultural_Assets> .
+# http://www.w3.org/2004/02/skos/core#Environmental_Well-being
+<http://www.w3.org/2004/02/skos/core#Environmental_Well-being> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.w3.org/2004/02/skos/core#Environmental_Well-being> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.w3.org/2004/02/skos/core#Environmental_Well-being> <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Well-being> .
+<http://www.w3.org/2004/02/skos/core#Environmental_Well-being> <http://www.w3.org/2004/02/skos/core#altLabel> "Safety"@en .
+<http://www.w3.org/2004/02/skos/core#Environmental_Well-being> <http://www.w3.org/2004/02/skos/core#prefLabel> "Environmental well-being"@en .
 # 
-# http://www.w3.org/2004/02/skos/core#Environmental_Well_being
-<http://www.w3.org/2004/02/skos/core#Environmental_Well_being> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.w3.org/2004/02/skos/core#Environmental_Well_being> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureGeneral> .
-<http://www.w3.org/2004/02/skos/core#Environmental_Well_being> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://www.w3.org/2004/02/skos/core#Environmental_Well_being> <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Well_being> .
-# 
-# http://www.w3.org/2004/02/skos/core#Experience
-<http://www.w3.org/2004/02/skos/core#Experience> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.w3.org/2004/02/skos/core#Experience> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureGeneral> .
-<http://www.w3.org/2004/02/skos/core#Experience> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureMegalithism> .
-<http://www.w3.org/2004/02/skos/core#Experience> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+# http://www.w3.org/2004/02/skos/core#Grief
+<http://www.w3.org/2004/02/skos/core#Grief> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.w3.org/2004/02/skos/core#Grief> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.w3.org/2004/02/skos/core#Grief> <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Difficult_and_Conflictual_Emotions> .
+<http://www.w3.org/2004/02/skos/core#Grief> <http://www.w3.org/2004/02/skos/core#prefLabel> "Grief"@en .
 # 
 # http://www.w3.org/2004/02/skos/core#Hearing
 <http://www.w3.org/2004/02/skos/core#Hearing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.w3.org/2004/02/skos/core#Hearing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureMegalithism> .
 <http://www.w3.org/2004/02/skos/core#Hearing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.w3.org/2004/02/skos/core#Hearing> <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Sensory_Experience> .
+<http://www.w3.org/2004/02/skos/core#Hearing> <http://www.w3.org/2004/02/skos/core#altLabel> "Auditory perception"@en .
+<http://www.w3.org/2004/02/skos/core#Hearing> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hearing"@en .
 # 
-# http://www.w3.org/2004/02/skos/core#Injustice
-<http://www.w3.org/2004/02/skos/core#Injustice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.w3.org/2004/02/skos/core#Injustice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureGeneral> .
-<http://www.w3.org/2004/02/skos/core#Injustice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://www.w3.org/2004/02/skos/core#Injustice> <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Experience> .
+# http://www.w3.org/2004/02/skos/core#Identity_and_Belonging
+<http://www.w3.org/2004/02/skos/core#Identity_and_Belonging> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.w3.org/2004/02/skos/core#Identity_and_Belonging> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.w3.org/2004/02/skos/core#Identity_and_Belonging> <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Emotions_and_Experiences> .
+<http://www.w3.org/2004/02/skos/core#Identity_and_Belonging> <http://www.w3.org/2004/02/skos/core#prefLabel> "Identity and Belonging"@en .
 # 
-# http://www.w3.org/2004/02/skos/core#Intellectual_Experience
-<http://www.w3.org/2004/02/skos/core#Intellectual_Experience> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.w3.org/2004/02/skos/core#Intellectual_Experience> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureGeneral> .
-<http://www.w3.org/2004/02/skos/core#Intellectual_Experience> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://www.w3.org/2004/02/skos/core#Intellectual_Experience> <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Experience> .
+# http://www.w3.org/2004/02/skos/core#Injustice_Indignation
+<http://www.w3.org/2004/02/skos/core#Injustice_Indignation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.w3.org/2004/02/skos/core#Injustice_Indignation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.w3.org/2004/02/skos/core#Injustice_Indignation> <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Civic_and_Ethical_Emotions> .
+<http://www.w3.org/2004/02/skos/core#Injustice_Indignation> <http://www.w3.org/2004/02/skos/core#prefLabel> "Injustice/Indignation"@en .
 # 
-# http://www.w3.org/2004/02/skos/core#Intellectual_Well_being
-<http://www.w3.org/2004/02/skos/core#Intellectual_Well_being> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.w3.org/2004/02/skos/core#Intellectual_Well_being> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureGeneral> .
-<http://www.w3.org/2004/02/skos/core#Intellectual_Well_being> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://www.w3.org/2004/02/skos/core#Intellectual_Well_being> <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Well_being> .
+# http://www.w3.org/2004/02/skos/core#Intellectual_Well-being
+<http://www.w3.org/2004/02/skos/core#Intellectual_Well-being> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.w3.org/2004/02/skos/core#Intellectual_Well-being> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.w3.org/2004/02/skos/core#Intellectual_Well-being> <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Well-being> .
+<http://www.w3.org/2004/02/skos/core#Intellectual_Well-being> <http://www.w3.org/2004/02/skos/core#altLabel> "Curiosity"@en .
+<http://www.w3.org/2004/02/skos/core#Intellectual_Well-being> <http://www.w3.org/2004/02/skos/core#prefLabel> "Intellectual well-being"@en .
 # 
-# http://www.w3.org/2004/02/skos/core#Links_with_Past_and_Spirituality
-<http://www.w3.org/2004/02/skos/core#Links_with_Past_and_Spirituality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.w3.org/2004/02/skos/core#Links_with_Past_and_Spirituality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureMegalithism> .
-<http://www.w3.org/2004/02/skos/core#Links_with_Past_and_Spirituality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://www.w3.org/2004/02/skos/core#Links_with_Past_and_Spirituality> <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Emotions_and_Feelings> .
+# http://www.w3.org/2004/02/skos/core#Interpersonal_Well-being
+<http://www.w3.org/2004/02/skos/core#Interpersonal_Well-being> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.w3.org/2004/02/skos/core#Interpersonal_Well-being> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.w3.org/2004/02/skos/core#Interpersonal_Well-being> <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Well-being> .
+<http://www.w3.org/2004/02/skos/core#Interpersonal_Well-being> <http://www.w3.org/2004/02/skos/core#altLabel> "Connectedness"@en .
+<http://www.w3.org/2004/02/skos/core#Interpersonal_Well-being> <http://www.w3.org/2004/02/skos/core#prefLabel> "Interpersonal well-being"@en .
+# 
+# http://www.w3.org/2004/02/skos/core#Loss
+<http://www.w3.org/2004/02/skos/core#Loss> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.w3.org/2004/02/skos/core#Loss> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.w3.org/2004/02/skos/core#Loss> <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Difficult_and_Conflictual_Emotions> .
+<http://www.w3.org/2004/02/skos/core#Loss> <http://www.w3.org/2004/02/skos/core#prefLabel> "Loss"@en .
+# 
+# http://www.w3.org/2004/02/skos/core#Narrating
+<http://www.w3.org/2004/02/skos/core#Narrating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.w3.org/2004/02/skos/core#Narrating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.w3.org/2004/02/skos/core#Narrating> <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Cultural_Expression> .
+<http://www.w3.org/2004/02/skos/core#Narrating> <http://www.w3.org/2004/02/skos/core#altLabel> "Oral history"@en .
+<http://www.w3.org/2004/02/skos/core#Narrating> <http://www.w3.org/2004/02/skos/core#altLabel> "Storytelling"@en .
+<http://www.w3.org/2004/02/skos/core#Narrating> <http://www.w3.org/2004/02/skos/core#prefLabel> "Narrating"@en .
 # 
 # http://www.w3.org/2004/02/skos/core#Nostalgia
 <http://www.w3.org/2004/02/skos/core#Nostalgia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.w3.org/2004/02/skos/core#Nostalgia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureGeneral> .
 <http://www.w3.org/2004/02/skos/core#Nostalgia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://www.w3.org/2004/02/skos/core#Nostalgia> <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Experience> .
+<http://www.w3.org/2004/02/skos/core#Nostalgia> <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Commemorative_and_Elevating_Emotions> .
+<http://www.w3.org/2004/02/skos/core#Nostalgia> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nostalgia"@en .
 # 
-# http://www.w3.org/2004/02/skos/core#Peace
-<http://www.w3.org/2004/02/skos/core#Peace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.w3.org/2004/02/skos/core#Peace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureMegalithism> .
-<http://www.w3.org/2004/02/skos/core#Peace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://www.w3.org/2004/02/skos/core#Peace> <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Emotions_and_Feelings> .
+# http://www.w3.org/2004/02/skos/core#Performing
+<http://www.w3.org/2004/02/skos/core#Performing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.w3.org/2004/02/skos/core#Performing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.w3.org/2004/02/skos/core#Performing> <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Cultural_Expression> .
+<http://www.w3.org/2004/02/skos/core#Performing> <http://www.w3.org/2004/02/skos/core#altLabel> "Dance"@en .
+<http://www.w3.org/2004/02/skos/core#Performing> <http://www.w3.org/2004/02/skos/core#altLabel> "Music"@en .
+<http://www.w3.org/2004/02/skos/core#Performing> <http://www.w3.org/2004/02/skos/core#altLabel> "Theatre"@en .
+<http://www.w3.org/2004/02/skos/core#Performing> <http://www.w3.org/2004/02/skos/core#prefLabel> "Performing"@en .
 # 
 # http://www.w3.org/2004/02/skos/core#Pride
 <http://www.w3.org/2004/02/skos/core#Pride> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.w3.org/2004/02/skos/core#Pride> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureGeneral> .
 <http://www.w3.org/2004/02/skos/core#Pride> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://www.w3.org/2004/02/skos/core#Pride> <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Experience> .
+<http://www.w3.org/2004/02/skos/core#Pride> <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Commemorative_and_Elevating_Emotions> .
+<http://www.w3.org/2004/02/skos/core#Pride> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pride"@en .
+# 
+# http://www.w3.org/2004/02/skos/core#Respect
+<http://www.w3.org/2004/02/skos/core#Respect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.w3.org/2004/02/skos/core#Respect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.w3.org/2004/02/skos/core#Respect> <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Commemorative_and_Elevating_Emotions> .
+<http://www.w3.org/2004/02/skos/core#Respect> <http://www.w3.org/2004/02/skos/core#prefLabel> "Respect"@en .
+# 
+# http://www.w3.org/2004/02/skos/core#Responsibility_Stewardship
+<http://www.w3.org/2004/02/skos/core#Responsibility_Stewardship> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.w3.org/2004/02/skos/core#Responsibility_Stewardship> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.w3.org/2004/02/skos/core#Responsibility_Stewardship> <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Civic_and_Ethical_Emotions> .
+<http://www.w3.org/2004/02/skos/core#Responsibility_Stewardship> <http://www.w3.org/2004/02/skos/core#prefLabel> "Responsibility/Stewardship"@en .
+# 
+# http://www.w3.org/2004/02/skos/core#Ritualizing
+<http://www.w3.org/2004/02/skos/core#Ritualizing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.w3.org/2004/02/skos/core#Ritualizing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.w3.org/2004/02/skos/core#Ritualizing> <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Cultural_Expression> .
+<http://www.w3.org/2004/02/skos/core#Ritualizing> <http://www.w3.org/2004/02/skos/core#altLabel> "Customs"@en .
+<http://www.w3.org/2004/02/skos/core#Ritualizing> <http://www.w3.org/2004/02/skos/core#altLabel> "Festivals"@en .
+<http://www.w3.org/2004/02/skos/core#Ritualizing> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ritualizing"@en .
 # 
 # http://www.w3.org/2004/02/skos/core#Seeing
 <http://www.w3.org/2004/02/skos/core#Seeing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.w3.org/2004/02/skos/core#Seeing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureMegalithism> .
 <http://www.w3.org/2004/02/skos/core#Seeing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.w3.org/2004/02/skos/core#Seeing> <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Sensory_Experience> .
+<http://www.w3.org/2004/02/skos/core#Seeing> <http://www.w3.org/2004/02/skos/core#altLabel> "Visual perception"@en .
+<http://www.w3.org/2004/02/skos/core#Seeing> <http://www.w3.org/2004/02/skos/core#prefLabel> "Seeing"@en .
 # 
-# http://www.w3.org/2004/02/skos/core#Sensory_Engagement
-<http://www.w3.org/2004/02/skos/core#Sensory_Engagement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.w3.org/2004/02/skos/core#Sensory_Engagement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureGeneral> .
-<http://www.w3.org/2004/02/skos/core#Sensory_Engagement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://www.w3.org/2004/02/skos/core#Sensory_Engagement> <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Experience> .
+# http://www.w3.org/2004/02/skos/core#Self-perception
+<http://www.w3.org/2004/02/skos/core#Self-perception> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.w3.org/2004/02/skos/core#Self-perception> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.w3.org/2004/02/skos/core#Self-perception> <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Identity_and_Belonging> .
+<http://www.w3.org/2004/02/skos/core#Self-perception> <http://www.w3.org/2004/02/skos/core#prefLabel> "Self-perception"@en .
 # 
 # http://www.w3.org/2004/02/skos/core#Sensory_Experience
 <http://www.w3.org/2004/02/skos/core#Sensory_Experience> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.w3.org/2004/02/skos/core#Sensory_Experience> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureMegalithism> .
 <http://www.w3.org/2004/02/skos/core#Sensory_Experience> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://www.w3.org/2004/02/skos/core#Sensory_Experience> <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Experience> .
+<http://www.w3.org/2004/02/skos/core#Sensory_Experience> <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Emotions_and_Experiences> .
+<http://www.w3.org/2004/02/skos/core#Sensory_Experience> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sensory Experience"@en .
 # 
 # http://www.w3.org/2004/02/skos/core#Smelling
 <http://www.w3.org/2004/02/skos/core#Smelling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.w3.org/2004/02/skos/core#Smelling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureMegalithism> .
 <http://www.w3.org/2004/02/skos/core#Smelling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.w3.org/2004/02/skos/core#Smelling> <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Sensory_Experience> .
+<http://www.w3.org/2004/02/skos/core#Smelling> <http://www.w3.org/2004/02/skos/core#altLabel> "Olfactory perception"@en .
+<http://www.w3.org/2004/02/skos/core#Smelling> <http://www.w3.org/2004/02/skos/core#prefLabel> "Smelling"@en .
 # 
-# http://www.w3.org/2004/02/skos/core#Spiritual_Experience
-<http://www.w3.org/2004/02/skos/core#Spiritual_Experience> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.w3.org/2004/02/skos/core#Spiritual_Experience> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureMegalithism> .
-<http://www.w3.org/2004/02/skos/core#Spiritual_Experience> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://www.w3.org/2004/02/skos/core#Spiritual_Experience> <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Experience> .
-# 
-# http://www.w3.org/2004/02/skos/core#Spiritual_well_being
-<http://www.w3.org/2004/02/skos/core#Spiritual_well_being> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.w3.org/2004/02/skos/core#Spiritual_well_being> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureGeneral> .
-<http://www.w3.org/2004/02/skos/core#Spiritual_well_being> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://www.w3.org/2004/02/skos/core#Spiritual_well_being> <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Well_being> .
+# http://www.w3.org/2004/02/skos/core#Spiritual_Well-being
+<http://www.w3.org/2004/02/skos/core#Spiritual_Well-being> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.w3.org/2004/02/skos/core#Spiritual_Well-being> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.w3.org/2004/02/skos/core#Spiritual_Well-being> <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Well-being> .
+<http://www.w3.org/2004/02/skos/core#Spiritual_Well-being> <http://www.w3.org/2004/02/skos/core#altLabel> "Purpose"@en .
+<http://www.w3.org/2004/02/skos/core#Spiritual_Well-being> <http://www.w3.org/2004/02/skos/core#prefLabel> "Spiritual well-being"@en .
 # 
 # http://www.w3.org/2004/02/skos/core#Tasting
 <http://www.w3.org/2004/02/skos/core#Tasting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.w3.org/2004/02/skos/core#Tasting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureMegalithism> .
 <http://www.w3.org/2004/02/skos/core#Tasting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.w3.org/2004/02/skos/core#Tasting> <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Sensory_Experience> .
-# 
-# http://www.w3.org/2004/02/skos/core#Timelessness
-<http://www.w3.org/2004/02/skos/core#Timelessness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.w3.org/2004/02/skos/core#Timelessness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureMegalithism> .
-<http://www.w3.org/2004/02/skos/core#Timelessness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://www.w3.org/2004/02/skos/core#Timelessness> <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Emotions_and_Feelings> .
+<http://www.w3.org/2004/02/skos/core#Tasting> <http://www.w3.org/2004/02/skos/core#altLabel> "Gustatory perception"@en .
+<http://www.w3.org/2004/02/skos/core#Tasting> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tasting"@en .
 # 
 # http://www.w3.org/2004/02/skos/core#Touching
 <http://www.w3.org/2004/02/skos/core#Touching> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.w3.org/2004/02/skos/core#Touching> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureMegalithism> .
+<http://www.w3.org/2004/02/skos/core#Touching> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.w3.org/2004/02/skos/core#Touching> <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Sensory_Experience> .
+<http://www.w3.org/2004/02/skos/core#Touching> <http://www.w3.org/2004/02/skos/core#altLabel> "Bodily/Tactile perception"@en .
+<http://www.w3.org/2004/02/skos/core#Touching> <http://www.w3.org/2004/02/skos/core#prefLabel> "Touching"@en .
 # 
-# http://www.w3.org/2004/02/skos/core#Understanding_and_Identity
-<http://www.w3.org/2004/02/skos/core#Understanding_and_Identity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.w3.org/2004/02/skos/core#Understanding_and_Identity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureGeneral> .
-<http://www.w3.org/2004/02/skos/core#Understanding_and_Identity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://www.w3.org/2004/02/skos/core#Understanding_and_Identity> <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Experience> .
+# http://www.w3.org/2004/02/skos/core#Value_Alignment
+<http://www.w3.org/2004/02/skos/core#Value_Alignment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.w3.org/2004/02/skos/core#Value_Alignment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.w3.org/2004/02/skos/core#Value_Alignment> <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Identity_and_Belonging> .
+<http://www.w3.org/2004/02/skos/core#Value_Alignment> <http://www.w3.org/2004/02/skos/core#prefLabel> "Value alignment"@en .
 # 
-# http://www.w3.org/2004/02/skos/core#Well_being
-<http://www.w3.org/2004/02/skos/core#Well_being> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.w3.org/2004/02/skos/core#Well_being> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureMegalithism> .
-<http://www.w3.org/2004/02/skos/core#Well_being> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://www.w3.org/2004/02/skos/core#Well_being> <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Emotions_and_Feelings> .
+# http://www.w3.org/2004/02/skos/core#Visualizing
+<http://www.w3.org/2004/02/skos/core#Visualizing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.w3.org/2004/02/skos/core#Visualizing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.w3.org/2004/02/skos/core#Visualizing> <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Cultural_Expression> .
+<http://www.w3.org/2004/02/skos/core#Visualizing> <http://www.w3.org/2004/02/skos/core#altLabel> "Architecture"@en .
+<http://www.w3.org/2004/02/skos/core#Visualizing> <http://www.w3.org/2004/02/skos/core#altLabel> "Art"@en .
+<http://www.w3.org/2004/02/skos/core#Visualizing> <http://www.w3.org/2004/02/skos/core#prefLabel> "Visualizing"@en .
 # 
-# http://www.w3.org/2004/02/skos/core#Loss/Grief
-<http://www.w3.org/2004/02/skos/core#Loss/Grief> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.w3.org/2004/02/skos/core#Loss/Grief> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureGeneral> .
-<http://www.w3.org/2004/02/skos/core#Loss/Grief> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://www.w3.org/2004/02/skos/core#Loss/Grief> <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Experience> .
-# 
-# http://www.w3.org/2004/02/skos/core#Responsibility/Stewardship
-<http://www.w3.org/2004/02/skos/core#Responsibility/Stewardship> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.w3.org/2004/02/skos/core#Responsibility/Stewardship> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureGeneral> .
-<http://www.w3.org/2004/02/skos/core#Responsibility/Stewardship> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://www.w3.org/2004/02/skos/core#Responsibility/Stewardship> <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Experience> .
-# 
-# http://www.w3.org/2004/02/skos/core#Reverence/Respect
-<http://www.w3.org/2004/02/skos/core#Reverence/Respect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.w3.org/2004/02/skos/core#Reverence/Respect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureGeneral> .
-<http://www.w3.org/2004/02/skos/core#Reverence/Respect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://www.w3.org/2004/02/skos/core#Reverence/Respect> <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Experience> .
-# 
-# http://www.w3.org/2004/02/skos/core#Social/Interpersonal_Well_being
-<http://www.w3.org/2004/02/skos/core#Social/Interpersonal_Well_being> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.w3.org/2004/02/skos/core#Social/Interpersonal_Well_being> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureGeneral> .
-<http://www.w3.org/2004/02/skos/core#Social/Interpersonal_Well_being> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://www.w3.org/2004/02/skos/core#Social/Interpersonal_Well_being> <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Well_being> .
-# 
-# http://www.w3.org/2004/02/skos/core#Storytelling/Narratives
-<http://www.w3.org/2004/02/skos/core#Storytelling/Narratives> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.w3.org/2004/02/skos/core#Storytelling/Narratives> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#IntangibleFeatureMegalithism> .
-<http://www.w3.org/2004/02/skos/core#Storytelling/Narratives> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://www.w3.org/2004/02/skos/core#Storytelling/Narratives> <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Cultural_Assets> .
+# http://www.w3.org/2004/02/skos/core#Well-being
+<http://www.w3.org/2004/02/skos/core#Well-being> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.w3.org/2004/02/skos/core#Well-being> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.w3.org/2004/02/skos/core#Well-being> <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Emotional_Connection> .
+<http://www.w3.org/2004/02/skos/core#Well-being> <http://www.w3.org/2004/02/skos/core#prefLabel> "Well-being"@en .
 # 
 # Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
