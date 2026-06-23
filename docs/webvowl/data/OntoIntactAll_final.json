@@ -16,10 +16,11 @@
     "prefixList": {
       "owl": "http://www.w3.org/2002/07/owl#",
       "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-      "dcterms": "http://purl.org/dc/terms/",
+      "terms": "http://purl.org/dc/terms/",
       "skos": "http://www.w3.org/2004/02/skos/core#",
       "xsd": "http://www.w3.org/2001/XMLSchema#",
       "": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#",
+      "untitled-ontology-30": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#",
       "xml": "http://www.w3.org/XML/1998/namespace",
       "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
     },
@@ -63,10 +64,10 @@
   "namespace": [],
   "settings": {
     "global": {
-      "zoom": "0.49",
+      "zoom": "0.42",
       "translation": [
-        370.41,
-        15.42
+        368.48,
+        126.9
       ],
       "paused": false
     },
@@ -123,10 +124,6 @@
   },
   "class": [
     {
-      "id": "12",
-      "type": "owl:Class"
-    },
-    {
       "id": "14",
       "type": "owl:Class"
     },
@@ -135,199 +132,7 @@
       "type": "owl:Class"
     },
     {
-      "id": "44",
-      "type": "owl:Class"
-    },
-    {
-      "id": "1",
-      "type": "owl:Class"
-    },
-    {
-      "id": "57",
-      "type": "owl:Class"
-    },
-    {
-      "id": "55",
-      "type": "owl:Class"
-    },
-    {
-      "id": "52",
-      "type": "owl:Class"
-    },
-    {
-      "id": "67",
-      "type": "owl:Class"
-    },
-    {
-      "id": "68",
-      "type": "owl:Class"
-    },
-    {
-      "id": "79",
-      "type": "owl:Class"
-    },
-    {
-      "id": "86",
-      "type": "owl:Class"
-    },
-    {
-      "id": "90",
-      "type": "owl:Class"
-    },
-    {
-      "id": "92",
-      "type": "owl:Class"
-    },
-    {
-      "id": "54",
-      "type": "owl:Class"
-    },
-    {
-      "id": "59",
-      "type": "owl:Class"
-    },
-    {
-      "id": "13",
-      "type": "owl:Class"
-    },
-    {
-      "id": "102",
-      "type": "owl:Class"
-    },
-    {
-      "id": "58",
-      "type": "owl:Class"
-    },
-    {
-      "id": "17",
-      "type": "owl:Class"
-    },
-    {
-      "id": "60",
-      "type": "owl:Class"
-    },
-    {
-      "id": "80",
-      "type": "owl:Class"
-    },
-    {
-      "id": "107",
-      "type": "owl:Class"
-    },
-    {
-      "id": "37",
-      "type": "owl:Class"
-    },
-    {
-      "id": "35",
-      "type": "owl:Class"
-    },
-    {
-      "id": "95",
-      "type": "owl:Class"
-    },
-    {
-      "id": "116",
-      "type": "owl:Class"
-    },
-    {
-      "id": "26",
-      "type": "owl:Class"
-    },
-    {
-      "id": "65",
-      "type": "owl:Class"
-    },
-    {
-      "id": "103",
-      "type": "owl:Class"
-    },
-    {
-      "id": "120",
-      "type": "owl:Class"
-    },
-    {
-      "id": "83",
-      "type": "owl:Class"
-    },
-    {
-      "id": "87",
-      "type": "owl:Class"
-    },
-    {
-      "id": "123",
-      "type": "owl:Class"
-    },
-    {
-      "id": "100",
-      "type": "owl:Class"
-    },
-    {
-      "id": "126",
-      "type": "owl:Class"
-    },
-    {
-      "id": "93",
-      "type": "owl:Class"
-    },
-    {
-      "id": "96",
-      "type": "owl:Class"
-    },
-    {
-      "id": "97",
-      "type": "owl:Class"
-    },
-    {
-      "id": "22",
-      "type": "owl:Class"
-    },
-    {
-      "id": "134",
-      "type": "owl:Class"
-    },
-    {
-      "id": "135",
-      "type": "owl:Class"
-    },
-    {
-      "id": "117",
-      "type": "owl:Class"
-    },
-    {
-      "id": "99",
-      "type": "owl:Class"
-    },
-    {
-      "id": "69",
-      "type": "owl:Class"
-    },
-    {
-      "id": "127",
-      "type": "owl:Class"
-    },
-    {
-      "id": "72",
-      "type": "owl:Class"
-    },
-    {
-      "id": "136",
-      "type": "owl:Class"
-    },
-    {
-      "id": "31",
-      "type": "owl:Class"
-    },
-    {
-      "id": "28",
-      "type": "owl:Class"
-    },
-    {
-      "id": "2",
-      "type": "owl:Class"
-    },
-    {
-      "id": "56",
+      "id": "18",
       "type": "owl:Class"
     },
     {
@@ -339,207 +144,19 @@
       "type": "owl:Class"
     },
     {
-      "id": "88",
+      "id": "60",
       "type": "owl:Class"
     },
     {
-      "id": "133",
+      "id": "58",
       "type": "owl:Class"
     },
     {
-      "id": "15",
+      "id": "55",
       "type": "owl:Class"
     },
     {
-      "id": "130",
-      "type": "owl:Class"
-    },
-    {
-      "id": "33",
-      "type": "owl:Class"
-    },
-    {
-      "id": "168",
-      "type": "owl:Class"
-    },
-    {
-      "id": "131",
-      "type": "owl:Class"
-    },
-    {
-      "id": "49",
-      "type": "owl:Class"
-    },
-    {
-      "id": "98",
-      "type": "owl:Class"
-    },
-    {
-      "id": "61",
-      "type": "owl:Class"
-    },
-    {
-      "id": "173",
-      "type": "owl:Class"
-    },
-    {
-      "id": "109",
-      "type": "rdfs:Literal"
-    },
-    {
-      "id": "82",
-      "type": "owl:Thing"
-    },
-    {
-      "id": "129",
-      "type": "rdfs:Literal"
-    },
-    {
-      "id": "19",
-      "type": "owl:Thing"
-    },
-    {
-      "id": "157",
-      "type": "owl:Class"
-    },
-    {
-      "id": "43",
-      "type": "owl:Class"
-    },
-    {
-      "id": "75",
-      "type": "owl:Class"
-    },
-    {
-      "id": "179",
-      "type": "owl:Class"
-    },
-    {
-      "id": "121",
-      "type": "owl:Class"
-    },
-    {
-      "id": "112",
-      "type": "owl:Class"
-    },
-    {
-      "id": "119",
-      "type": "owl:Class"
-    },
-    {
-      "id": "110",
-      "type": "owl:Class"
-    },
-    {
-      "id": "111",
-      "type": "owl:Class"
-    },
-    {
-      "id": "132",
-      "type": "owl:Class"
-    },
-    {
-      "id": "156",
-      "type": "owl:Class"
-    },
-    {
-      "id": "191",
-      "type": "owl:Class"
-    },
-    {
-      "id": "192",
-      "type": "owl:Class"
-    },
-    {
-      "id": "115",
-      "type": "owl:Class"
-    },
-    {
-      "id": "101",
-      "type": "owl:Class"
-    },
-    {
-      "id": "122",
-      "type": "owl:Class"
-    },
-    {
-      "id": "169",
-      "type": "owl:Class"
-    },
-    {
-      "id": "205",
-      "type": "owl:Class"
-    },
-    {
-      "id": "10",
-      "type": "owl:Class"
-    },
-    {
-      "id": "197",
-      "type": "owl:Class"
-    },
-    {
-      "id": "91",
-      "type": "owl:Class"
-    },
-    {
-      "id": "78",
-      "type": "owl:Class"
-    },
-    {
-      "id": "204",
-      "type": "owl:Class"
-    },
-    {
-      "id": "51",
-      "type": "owl:Class"
-    },
-    {
-      "id": "148",
-      "type": "owl:Class"
-    },
-    {
-      "id": "158",
-      "type": "owl:Class"
-    },
-    {
-      "id": "23",
-      "type": "owl:Class"
-    },
-    {
-      "id": "141",
-      "type": "owl:unionOf"
-    },
-    {
-      "id": "239",
-      "type": "rdfs:Datatype"
-    },
-    {
-      "id": "238",
-      "type": "rdfs:Datatype"
-    },
-    {
-      "id": "195",
-      "type": "rdfs:Datatype"
-    },
-    {
-      "id": "66",
-      "type": "rdfs:Datatype"
-    },
-    {
-      "id": "39",
-      "type": "rdfs:Datatype"
-    },
-    {
-      "id": "11",
-      "type": "rdfs:Datatype"
-    },
-    {
-      "id": "143",
-      "type": "owl:Thing"
-    },
-    {
-      "id": "30",
+      "id": "70",
       "type": "owl:Class"
     },
     {
@@ -547,7 +164,11 @@
       "type": "owl:Class"
     },
     {
-      "id": "62",
+      "id": "80",
+      "type": "owl:Class"
+    },
+    {
+      "id": "82",
       "type": "owl:Class"
     },
     {
@@ -555,37 +176,421 @@
       "type": "owl:Class"
     },
     {
-      "id": "76",
+      "id": "93",
       "type": "owl:Class"
     },
     {
-      "id": "214",
+      "id": "95",
       "type": "owl:Class"
+    },
+    {
+      "id": "57",
+      "type": "owl:Class"
+    },
+    {
+      "id": "62",
+      "type": "owl:Class"
+    },
+    {
+      "id": "15",
+      "type": "owl:Class"
+    },
+    {
+      "id": "105",
+      "type": "owl:Class"
+    },
+    {
+      "id": "61",
+      "type": "owl:Class"
+    },
+    {
+      "id": "19",
+      "type": "owl:Class"
+    },
+    {
+      "id": "63",
+      "type": "owl:Class"
+    },
+    {
+      "id": "83",
+      "type": "owl:Class"
+    },
+    {
+      "id": "110",
+      "type": "owl:Class"
+    },
+    {
+      "id": "44",
+      "type": "owl:Class"
+    },
+    {
+      "id": "39",
+      "type": "owl:Class"
+    },
+    {
+      "id": "98",
+      "type": "owl:Class"
+    },
+    {
+      "id": "118",
+      "type": "owl:Class"
+    },
+    {
+      "id": "30",
+      "type": "owl:Class"
+    },
+    {
+      "id": "68",
+      "type": "owl:Class"
+    },
+    {
+      "id": "106",
+      "type": "owl:Class"
+    },
+    {
+      "id": "122",
+      "type": "owl:Class"
+    },
+    {
+      "id": "86",
+      "type": "owl:Class"
+    },
+    {
+      "id": "90",
+      "type": "owl:Class"
+    },
+    {
+      "id": "125",
+      "type": "owl:Class"
+    },
+    {
+      "id": "103",
+      "type": "owl:Class"
+    },
+    {
+      "id": "128",
+      "type": "owl:Class"
+    },
+    {
+      "id": "96",
+      "type": "owl:Class"
+    },
+    {
+      "id": "99",
+      "type": "owl:Class"
+    },
+    {
+      "id": "100",
+      "type": "owl:Class"
+    },
+    {
+      "id": "24",
+      "type": "owl:Class"
+    },
+    {
+      "id": "136",
+      "type": "owl:Class"
+    },
+    {
+      "id": "137",
+      "type": "owl:Class"
+    },
+    {
+      "id": "119",
+      "type": "owl:Class"
+    },
+    {
+      "id": "102",
+      "type": "owl:Class"
+    },
+    {
+      "id": "72",
+      "type": "owl:Class"
+    },
+    {
+      "id": "129",
+      "type": "owl:Class"
+    },
+    {
+      "id": "77",
+      "type": "owl:Class"
+    },
+    {
+      "id": "138",
+      "type": "owl:Class"
+    },
+    {
+      "id": "36",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1",
+      "type": "owl:Class"
+    },
+    {
+      "id": "2",
+      "type": "owl:Class"
+    },
+    {
+      "id": "59",
+      "type": "owl:Class"
+    },
+    {
+      "id": "52",
+      "type": "owl:Class"
+    },
+    {
+      "id": "6",
+      "type": "owl:Class"
+    },
+    {
+      "id": "91",
+      "type": "owl:Class"
+    },
+    {
+      "id": "135",
+      "type": "owl:Class"
+    },
+    {
+      "id": "17",
+      "type": "owl:Class"
+    },
+    {
+      "id": "132",
+      "type": "owl:Class"
+    },
+    {
+      "id": "38",
+      "type": "owl:Class"
+    },
+    {
+      "id": "170",
+      "type": "owl:Class"
+    },
+    {
+      "id": "133",
+      "type": "owl:Class"
+    },
+    {
+      "id": "54",
+      "type": "owl:Class"
+    },
+    {
+      "id": "101",
+      "type": "owl:Class"
+    },
+    {
+      "id": "64",
+      "type": "owl:Class"
+    },
+    {
+      "id": "175",
+      "type": "owl:Class"
+    },
+    {
+      "id": "112",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "85",
+      "type": "owl:Thing"
+    },
+    {
+      "id": "131",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "21",
+      "type": "owl:Thing"
     },
     {
       "id": "159",
       "type": "owl:Class"
     },
     {
-      "id": "53",
+      "id": "49",
       "type": "owl:Class"
     },
     {
-      "id": "41",
+      "id": "79",
       "type": "owl:Class"
     },
     {
-      "id": "149",
+      "id": "181",
       "type": "owl:Class"
     },
     {
-      "id": "118",
+      "id": "123",
+      "type": "owl:Class"
+    },
+    {
+      "id": "81",
+      "type": "owl:Class"
+    },
+    {
+      "id": "121",
+      "type": "owl:Class"
+    },
+    {
+      "id": "113",
+      "type": "owl:Class"
+    },
+    {
+      "id": "114",
+      "type": "owl:Class"
+    },
+    {
+      "id": "134",
+      "type": "owl:Class"
+    },
+    {
+      "id": "158",
+      "type": "owl:Class"
+    },
+    {
+      "id": "193",
+      "type": "owl:Class"
+    },
+    {
+      "id": "194",
+      "type": "owl:Class"
+    },
+    {
+      "id": "117",
+      "type": "owl:Class"
+    },
+    {
+      "id": "104",
+      "type": "owl:Class"
+    },
+    {
+      "id": "124",
+      "type": "owl:Class"
+    },
+    {
+      "id": "171",
+      "type": "owl:Class"
+    },
+    {
+      "id": "207",
+      "type": "owl:Class"
+    },
+    {
+      "id": "12",
+      "type": "owl:Class"
+    },
+    {
+      "id": "199",
+      "type": "owl:Class"
+    },
+    {
+      "id": "94",
+      "type": "owl:Class"
+    },
+    {
+      "id": "32",
+      "type": "owl:Class"
+    },
+    {
+      "id": "206",
+      "type": "owl:Class"
+    },
+    {
+      "id": "28",
+      "type": "owl:Class"
+    },
+    {
+      "id": "150",
+      "type": "owl:Class"
+    },
+    {
+      "id": "160",
+      "type": "owl:Class"
+    },
+    {
+      "id": "25",
+      "type": "owl:Class"
+    },
+    {
+      "id": "143",
+      "type": "owl:unionOf"
+    },
+    {
+      "id": "241",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "240",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "197",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "69",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "42",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "13",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "145",
+      "type": "owl:Thing"
+    },
+    {
+      "id": "35",
+      "type": "owl:Class"
+    },
+    {
+      "id": "76",
+      "type": "owl:Class"
+    },
+    {
+      "id": "65",
+      "type": "owl:Class"
+    },
+    {
+      "id": "92",
+      "type": "owl:Class"
+    },
+    {
+      "id": "33",
+      "type": "owl:Class"
+    },
+    {
+      "id": "216",
+      "type": "owl:Class"
+    },
+    {
+      "id": "161",
+      "type": "owl:Class"
+    },
+    {
+      "id": "56",
+      "type": "owl:Class"
+    },
+    {
+      "id": "46",
+      "type": "owl:Class"
+    },
+    {
+      "id": "151",
+      "type": "owl:Class"
+    },
+    {
+      "id": "120",
       "type": "owl:Class"
     }
   ],
   "classAttribute": [
     {
-      "id": "12",
+      "id": "14",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Text",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -671,7 +676,7 @@
       ]
     },
     {
-      "id": "14",
+      "id": "16",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Formation",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -691,7 +696,7 @@
       ]
     },
     {
-      "id": "16",
+      "id": "18",
       "iri": "http://www.w3.org/2004/02/skos/core#OrderedCollection",
       "baseIri": "http://www.w3.org/2004/02/skos/core",
       "label": {
@@ -728,7 +733,7 @@
       }
     },
     {
-      "id": "44",
+      "id": "47",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#CulturalLandscapeSite",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -748,7 +753,7 @@
       ]
     },
     {
-      "id": "1",
+      "id": "4",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E27_Site",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -759,12 +764,12 @@
         "undefined": "This class comprises pieces of land or sea floor. In contrast to the purely geometric notion of E53 Place, this class describes constellations of matter on the surface of the Earth or other celestial body, which can be represented by photographs, paintings and maps. Instances of E27 Site are composed of relatively immobile material items and features in a particular configuration at a particular location."
       },
       "pos": [
-        1543.25,
-        1106.14
+        1322.11,
+        290.36
       ]
     },
     {
-      "id": "57",
+      "id": "60",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E70_Thing",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -772,12 +777,12 @@
         "en": "E70 Thing"
       },
       "pos": [
-        978.18,
-        1064.8
+        11.77,
+        212.18
       ]
     },
     {
-      "id": "55",
+      "id": "58",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#NaturalHeritageSite",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -813,18 +818,6 @@
           }
         },
         {
-          "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Ukko-Koli_Hill",
-          "labels": {
-            "IRI-based": "S3_Ukko-Koli_Hill"
-          }
-        },
-        {
-          "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Pirunkirkko",
-          "labels": {
-            "IRI-based": "S3_Pirunkirkko"
-          }
-        },
-        {
           "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Mäkrävaara_Hill",
           "labels": {
             "IRI-based": "S3_Mäkrävaara_Hill"
@@ -834,6 +827,18 @@
           "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Akka-Koli_Hill",
           "labels": {
             "IRI-based": "S3_Akka-Koli_Hill"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Pirunkirkko",
+          "labels": {
+            "IRI-based": "S3_Pirunkirkko"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Ukko-Koli_Hill",
+          "labels": {
+            "IRI-based": "S3_Ukko-Koli_Hill"
           }
         },
         {
@@ -850,12 +855,12 @@
         }
       ],
       "pos": [
-        1872.47,
-        936.32
+        1656.33,
+        490.08
       ]
     },
     {
-      "id": "52",
+      "id": "55",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#ArchaeologicalSite",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -867,7 +872,7 @@
       }
     },
     {
-      "id": "67",
+      "id": "70",
       "iri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#List",
       "baseIri": "http://www.w3.org/1999/02/22-rdf-syntax-ns",
       "label": {
@@ -878,7 +883,7 @@
       ]
     },
     {
-      "id": "68",
+      "id": "71",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E90_Symbolic_Object",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -886,12 +891,239 @@
         "en": "E90 Symbolic Object"
       },
       "pos": [
-        1291.84,
-        83.07
+        -357.67,
+        916.81
       ]
     },
     {
-      "id": "79",
+      "id": "80",
+      "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Intangible_Feature",
+      "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
+      "label": {
+        "IRI-based": "Intangible_Feature",
+        "undefined": "Intangible Feature"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.w3.org/2004/02/skos/core#Ritualizing",
+          "labels": {
+            "IRI-based": "Ritualizing"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/2004/02/skos/core#Tasting",
+          "labels": {
+            "IRI-based": "Tasting"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/2004/02/skos/core#Narrating",
+          "labels": {
+            "IRI-based": "Narrating"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/2004/02/skos/core#Responsibility_Stewardship",
+          "labels": {
+            "IRI-based": "Responsibility_Stewardship"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/2004/02/skos/core#Self-perception",
+          "labels": {
+            "IRI-based": "Self-perception"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/2004/02/skos/core#Cultural_Expression",
+          "labels": {
+            "IRI-based": "Cultural_Expression"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/2004/02/skos/core#Awe",
+          "labels": {
+            "IRI-based": "Awe"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/2004/02/skos/core#Loss",
+          "labels": {
+            "IRI-based": "Loss"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/2004/02/skos/core#Environmental_Well-being",
+          "labels": {
+            "IRI-based": "Environmental_Well-being"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/2004/02/skos/core#Difficult_and_Conflictual_Emotions",
+          "labels": {
+            "IRI-based": "Difficult_and_Conflictual_Emotions"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/2004/02/skos/core#Sensory_Experience",
+          "labels": {
+            "IRI-based": "Sensory_Experience"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/2004/02/skos/core#Respect",
+          "labels": {
+            "IRI-based": "Respect"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/2004/02/skos/core#Spiritual_Well-being",
+          "labels": {
+            "IRI-based": "Spiritual_Well-being"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/2004/02/skos/core#Civic_and_Ethical_Emotions",
+          "labels": {
+            "IRI-based": "Civic_and_Ethical_Emotions"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/2004/02/skos/core#Identity_and_Belonging",
+          "labels": {
+            "IRI-based": "Identity_and_Belonging"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/2004/02/skos/core#Appreciation",
+          "labels": {
+            "IRI-based": "Appreciation"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/2004/02/skos/core#Hearing",
+          "labels": {
+            "IRI-based": "Hearing"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/2004/02/skos/core#Grief",
+          "labels": {
+            "IRI-based": "Grief"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/2004/02/skos/core#Collective_Belonging",
+          "labels": {
+            "IRI-based": "Collective_Belonging"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/2004/02/skos/core#Seeing",
+          "labels": {
+            "IRI-based": "Seeing"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/2004/02/skos/core#Intellectual_Well-being",
+          "labels": {
+            "IRI-based": "Intellectual_Well-being"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/2004/02/skos/core#Injustice_Indignation",
+          "labels": {
+            "IRI-based": "Injustice_Indignation"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/2004/02/skos/core#Emotional_Connection",
+          "labels": {
+            "IRI-based": "Emotional_Connection"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/2004/02/skos/core#Performing",
+          "labels": {
+            "IRI-based": "Performing"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/2004/02/skos/core#Emotional_Well-being",
+          "labels": {
+            "IRI-based": "Emotional_Well-being"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/2004/02/skos/core#Commemorative_and_Elevating_Emotions",
+          "labels": {
+            "IRI-based": "Commemorative_and_Elevating_Emotions"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/2004/02/skos/core#Emotions_and_Experiences",
+          "labels": {
+            "IRI-based": "Emotions_and_Experiences"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/2004/02/skos/core#Well-being",
+          "labels": {
+            "IRI-based": "Well-being"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/2004/02/skos/core#Nostalgia",
+          "labels": {
+            "IRI-based": "Nostalgia"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/2004/02/skos/core#Visualizing",
+          "labels": {
+            "IRI-based": "Visualizing"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/2004/02/skos/core#Touching",
+          "labels": {
+            "IRI-based": "Touching"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/2004/02/skos/core#Pride",
+          "labels": {
+            "IRI-based": "Pride"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/2004/02/skos/core#Interpersonal_Well-being",
+          "labels": {
+            "IRI-based": "Interpersonal_Well-being"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/2004/02/skos/core#Smelling",
+          "labels": {
+            "IRI-based": "Smelling"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/2004/02/skos/core#Cultural_Well-being",
+          "labels": {
+            "IRI-based": "Cultural_Well-being"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/2004/02/skos/core#Value_Alignment",
+          "labels": {
+            "IRI-based": "Value_Alignment"
+          }
+        }
+      ]
+    },
+    {
+      "id": "82",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E94_Space_Primitive",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -900,7 +1132,7 @@
       }
     },
     {
-      "id": "86",
+      "id": "89",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E74_Group",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -908,12 +1140,12 @@
         "en": "E74 Group"
       },
       "pos": [
-        410.99,
-        -97.7
+        1191.49,
+        669.12
       ]
     },
     {
-      "id": "90",
+      "id": "93",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Region",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -945,7 +1177,7 @@
       ]
     },
     {
-      "id": "92",
+      "id": "95",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Arrowhead",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -965,7 +1197,7 @@
       ]
     },
     {
-      "id": "54",
+      "id": "57",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#TouristicSite",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -1007,6 +1239,12 @@
           }
         },
         {
+          "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Ukko-Koli_Hill",
+          "labels": {
+            "IRI-based": "S3_Ukko-Koli_Hill"
+          }
+        },
+        {
           "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Akka-Koli_Hill",
           "labels": {
             "IRI-based": "S3_Akka-Koli_Hill"
@@ -1022,12 +1260,6 @@
           "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Pirunkirkko",
           "labels": {
             "IRI-based": "S3_Pirunkirkko"
-          }
-        },
-        {
-          "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Ukko-Koli_Hill",
-          "labels": {
-            "IRI-based": "S3_Ukko-Koli_Hill"
           }
         },
         {
@@ -1051,7 +1283,7 @@
       ]
     },
     {
-      "id": "59",
+      "id": "62",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Fissure",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -1071,7 +1303,7 @@
       ]
     },
     {
-      "id": "13",
+      "id": "15",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E31_Document",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -1079,12 +1311,12 @@
         "en": "E31 Document"
       },
       "pos": [
-        1548.78,
-        -454.1
+        72.46,
+        1580.16
       ]
     },
     {
-      "id": "102",
+      "id": "105",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#SoundsOfTheWindBlowing",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -1096,7 +1328,7 @@
       }
     },
     {
-      "id": "58",
+      "id": "61",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Cave",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -1116,7 +1348,7 @@
       ]
     },
     {
-      "id": "17",
+      "id": "19",
       "iri": "http://www.w3.org/2004/02/skos/core#Collection",
       "baseIri": "http://www.w3.org/2004/02/skos/core",
       "label": {
@@ -1152,12 +1384,12 @@
         ]
       },
       "pos": [
-        2228.46,
-        1053.36
+        1877.51,
+        -66.87
       ]
     },
     {
-      "id": "60",
+      "id": "63",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Lake",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -1177,7 +1409,7 @@
       ]
     },
     {
-      "id": "80",
+      "id": "83",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Coordinates",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -1209,7 +1441,7 @@
       ]
     },
     {
-      "id": "107",
+      "id": "110",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Paleoproterozoic",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -1221,7 +1453,7 @@
       }
     },
     {
-      "id": "37",
+      "id": "44",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Demonstrator",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -1241,7 +1473,7 @@
       ]
     },
     {
-      "id": "35",
+      "id": "39",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E1_CRM_Entity",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -1249,12 +1481,12 @@
         "en": "E1 CRM Entity"
       },
       "pos": [
-        617.68,
-        774.8
+        281.21,
+        528.68
       ]
     },
     {
-      "id": "95",
+      "id": "98",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E4_Period",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -1262,12 +1494,12 @@
         "en": "E4 Period"
       },
       "pos": [
-        278.81,
-        537.78
+        582.16,
+        737.83
       ]
     },
     {
-      "id": "116",
+      "id": "118",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#RuralLandscape",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -1293,7 +1525,7 @@
       ]
     },
     {
-      "id": "26",
+      "id": "30",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Soundscape",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -1305,7 +1537,7 @@
       }
     },
     {
-      "id": "65",
+      "id": "68",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#MegalithicSite",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -1331,7 +1563,7 @@
       ]
     },
     {
-      "id": "103",
+      "id": "106",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#NaturalSoundscape",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -1342,12 +1574,12 @@
         "undefined": "Sounds of nature in its characteristic environment."
       },
       "pos": [
-        115.92,
-        1722.75
+        -338.01,
+        1565.4
       ]
     },
     {
-      "id": "120",
+      "id": "122",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Restoration",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -1373,7 +1605,7 @@
       ]
     },
     {
-      "id": "83",
+      "id": "86",
       "iri": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
       "baseIri": "http://www.w3.org/2004/02/skos/core",
       "label": {
@@ -1417,12 +1649,12 @@
         ]
       },
       "pos": [
-        1815.98,
-        117.99
+        1034.6,
+        -635.64
       ]
     },
     {
-      "id": "87",
+      "id": "90",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E39_Actor",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -1430,12 +1662,12 @@
         "en": "E39 Actor"
       },
       "pos": [
-        532.9,
-        268.24
+        798.78,
+        661.09
       ]
     },
     {
-      "id": "123",
+      "id": "125",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#StoneCircleOrCromlech",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -1461,7 +1693,7 @@
       ]
     },
     {
-      "id": "100",
+      "id": "103",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#3DModel",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -1517,7 +1749,7 @@
       ]
     },
     {
-      "id": "126",
+      "id": "128",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Beaker",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -1537,7 +1769,7 @@
       ]
     },
     {
-      "id": "93",
+      "id": "96",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#ArchaeologicalArtefact",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -1548,12 +1780,12 @@
         "undefined": "Artefacts found in an archaeological site."
       },
       "pos": [
-        -424.79,
-        922.6
+        1677.01,
+        1208.95
       ]
     },
     {
-      "id": "96",
+      "id": "99",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Video",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -1591,7 +1823,7 @@
       ]
     },
     {
-      "id": "97",
+      "id": "100",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Audio",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -1627,15 +1859,15 @@
           }
         },
         {
-          "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_AudFont4",
-          "labels": {
-            "IRI-based": "S1_AudFont4"
-          }
-        },
-        {
           "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_AudCal1",
           "labels": {
             "IRI-based": "S2_AudCal1"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_AudFont4",
+          "labels": {
+            "IRI-based": "S1_AudFont4"
           }
         },
         {
@@ -1645,21 +1877,21 @@
           }
         },
         {
-          "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_AudKoli1",
-          "labels": {
-            "IRI-based": "S3_AudKoli1"
-          }
-        },
-        {
           "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_AudFont6",
           "labels": {
             "IRI-based": "S1_AudFont6"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_AudKoli1",
+          "labels": {
+            "IRI-based": "S3_AudKoli1"
           }
         }
       ]
     },
     {
-      "id": "22",
+      "id": "24",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Menhir",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -1683,15 +1915,15 @@
           }
         },
         {
-          "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_CF_M5b",
-          "labels": {
-            "IRI-based": "S1_CF_M5b"
-          }
-        },
-        {
           "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_CL_M3",
           "labels": {
             "IRI-based": "S2_CL_M3"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_CF_M5b",
+          "labels": {
+            "IRI-based": "S1_CF_M5b"
           }
         },
         {
@@ -1713,15 +1945,15 @@
           }
         },
         {
-          "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_CF_M5a",
-          "labels": {
-            "IRI-based": "S1_CF_M5a"
-          }
-        },
-        {
           "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_CL_M45",
           "labels": {
             "IRI-based": "S2_CL_M45"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_CF_M5a",
+          "labels": {
+            "IRI-based": "S1_CF_M5a"
           }
         },
         {
@@ -1761,21 +1993,15 @@
           }
         },
         {
-          "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_CF_M7",
-          "labels": {
-            "IRI-based": "S1_CF_M7"
-          }
-        },
-        {
           "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_CL_M5",
           "labels": {
             "IRI-based": "S2_CL_M5"
           }
         },
         {
-          "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_CL_M4",
+          "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_CF_M7",
           "labels": {
-            "IRI-based": "S2_CL_M4"
+            "IRI-based": "S1_CF_M7"
           }
         },
         {
@@ -1783,15 +2009,21 @@
           "labels": {
             "IRI-based": "S1_CF_M8"
           }
+        },
+        {
+          "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_CL_M4",
+          "labels": {
+            "IRI-based": "S2_CL_M4"
+          }
         }
       ],
       "pos": [
-        1725.84,
-        1900.27
+        1172.14,
+        1636.57
       ]
     },
     {
-      "id": "134",
+      "id": "136",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#ArchaeologicalMonument",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -1803,7 +2035,7 @@
       }
     },
     {
-      "id": "135",
+      "id": "137",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#CulturalHeritageMonument",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -1812,7 +2044,7 @@
       }
     },
     {
-      "id": "117",
+      "id": "119",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#SoundsOfTheTreeBranches",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -1824,7 +2056,7 @@
       }
     },
     {
-      "id": "99",
+      "id": "102",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Image",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -1878,12 +2110,6 @@
           }
         },
         {
-          "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont4_CF_M4",
-          "labels": {
-            "IRI-based": "S1_ImgFont4_CF_M4"
-          }
-        },
-        {
           "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_ImgCal2",
           "labels": {
             "IRI-based": "S2_ImgCal2"
@@ -1893,6 +2119,12 @@
           "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont5_CF_M5",
           "labels": {
             "IRI-based": "S1_ImgFont5_CF_M5"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont4_CF_M4",
+          "labels": {
+            "IRI-based": "S1_ImgFont4_CF_M4"
           }
         },
         {
@@ -1908,15 +2140,21 @@
           }
         },
         {
+          "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont9_RecoveryAndExcavation",
+          "labels": {
+            "IRI-based": "S1_ImgFont9_RecoveryAndExcavation"
+          }
+        },
+        {
           "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont2_CF_M2",
           "labels": {
             "IRI-based": "S1_ImgFont2_CF_M2"
           }
         },
         {
-          "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont9_RecoveryAndExcavation",
+          "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont18_Tourism_Scheme",
           "labels": {
-            "IRI-based": "S1_ImgFont9_RecoveryAndExcavation"
+            "IRI-based": "S1_ImgFont18_Tourism_Scheme"
           }
         },
         {
@@ -1932,27 +2170,21 @@
           }
         },
         {
-          "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont18_Tourism_Scheme",
-          "labels": {
-            "IRI-based": "S1_ImgFont18_Tourism_Scheme"
-          }
-        },
-        {
           "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont6_ArcheologicalDrawings",
           "labels": {
             "IRI-based": "S1_ImgFont6_ArcheologicalDrawings"
           }
         },
         {
-          "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont13_Museum_Pictures",
-          "labels": {
-            "IRI-based": "S1_ImgFont13_Museum_Pictures"
-          }
-        },
-        {
           "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont17_Environment_6",
           "labels": {
             "IRI-based": "S1_ImgFont17_Environment_6"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont13_Museum_Pictures",
+          "labels": {
+            "IRI-based": "S1_ImgFont13_Museum_Pictures"
           }
         },
         {
@@ -1976,7 +2208,7 @@
       ]
     },
     {
-      "id": "69",
+      "id": "72",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E73_Information_Object",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -1984,12 +2216,12 @@
         "en": "E73 Information Object"
       },
       "pos": [
-        1601.17,
-        -119.12
+        -118.83,
+        1265.61
       ]
     },
     {
-      "id": "127",
+      "id": "129",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#FoodVessel",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -2009,7 +2241,7 @@
       ]
     },
     {
-      "id": "72",
+      "id": "77",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#BronzeAge",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -2020,12 +2252,12 @@
         "undefined": "A specific and transitional period between prehistory and protohistory"
       },
       "pos": [
-        -46.02,
-        329.01
+        739.23,
+        1107.7
       ]
     },
     {
-      "id": "136",
+      "id": "138",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Identification",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -2051,7 +2283,7 @@
       ]
     },
     {
-      "id": "31",
+      "id": "36",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E71_Human-Made_Thing",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -2059,12 +2291,12 @@
         "en": "E71 Human Made Thing"
       },
       "pos": [
-        1236.63,
-        733.87
+        -334.9,
+        149.2
       ]
     },
     {
-      "id": "28",
+      "id": "1",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Landscape",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -2075,8 +2307,8 @@
         "undefined": "Landscape includes physical and natural elements of an environment, as well as human elements such as built structures."
       },
       "pos": [
-        994.85,
-        1465.59
+        846.21,
+        -111.79
       ]
     },
     {
@@ -2088,12 +2320,12 @@
         "en": "E26 Physical Feature"
       },
       "pos": [
-        1148.36,
-        1102.54
+        916.2,
+        200.23
       ]
     },
     {
-      "id": "56",
+      "id": "59",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#CulturalHeritageSite",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -2125,7 +2357,7 @@
       ]
     },
     {
-      "id": "47",
+      "id": "52",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#CulturalLandscape",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -2136,12 +2368,12 @@
         "undefined": "A landscape containing features made by humans. It can be protected as a cultural heritage site."
       },
       "pos": [
-        1293.68,
-        1657.32
+        1158.71,
+        -274.58
       ]
     },
     {
-      "id": "4",
+      "id": "6",
       "iri": "http://www.w3.org/2004/02/skos/core#Concept",
       "baseIri": "http://www.w3.org/2004/02/skos/core",
       "label": {
@@ -2189,15 +2421,15 @@
           }
         },
         {
-          "iri": "http://www.w3.org/2004/02/skos/core#Self-perception",
-          "labels": {
-            "IRI-based": "Self-perception"
-          }
-        },
-        {
           "iri": "http://www.w3.org/2004/02/skos/core#Responsibility_Stewardship",
           "labels": {
             "IRI-based": "Responsibility_Stewardship"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/2004/02/skos/core#Self-perception",
+          "labels": {
+            "IRI-based": "Self-perception"
           }
         },
         {
@@ -2207,15 +2439,15 @@
           }
         },
         {
-          "iri": "http://www.w3.org/2004/02/skos/core#Loss",
-          "labels": {
-            "IRI-based": "Loss"
-          }
-        },
-        {
           "iri": "http://www.w3.org/2004/02/skos/core#Awe",
           "labels": {
             "IRI-based": "Awe"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/2004/02/skos/core#Loss",
+          "labels": {
+            "IRI-based": "Loss"
           }
         },
         {
@@ -2243,15 +2475,15 @@
           }
         },
         {
-          "iri": "http://www.w3.org/2004/02/skos/core#Civic_and_Ethical_Emotions",
-          "labels": {
-            "IRI-based": "Civic_and_Ethical_Emotions"
-          }
-        },
-        {
           "iri": "http://www.w3.org/2004/02/skos/core#Spiritual_Well-being",
           "labels": {
             "IRI-based": "Spiritual_Well-being"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/2004/02/skos/core#Civic_and_Ethical_Emotions",
+          "labels": {
+            "IRI-based": "Civic_and_Ethical_Emotions"
           }
         },
         {
@@ -2285,15 +2517,15 @@
           }
         },
         {
-          "iri": "http://www.w3.org/2004/02/skos/core#Intellectual_Well-being",
-          "labels": {
-            "IRI-based": "Intellectual_Well-being"
-          }
-        },
-        {
           "iri": "http://www.w3.org/2004/02/skos/core#Seeing",
           "labels": {
             "IRI-based": "Seeing"
+          }
+        },
+        {
+          "iri": "http://www.w3.org/2004/02/skos/core#Intellectual_Well-being",
+          "labels": {
+            "IRI-based": "Intellectual_Well-being"
           }
         },
         {
@@ -2345,15 +2577,15 @@
           }
         },
         {
-          "iri": "http://www.w3.org/2004/02/skos/core#Pride",
+          "iri": "http://www.w3.org/2004/02/skos/core#Touching",
           "labels": {
-            "IRI-based": "Pride"
+            "IRI-based": "Touching"
           }
         },
         {
-          "iri": "http://www.w3.org/2004/02/skos/core#Visualizing",
+          "iri": "http://www.w3.org/2004/02/skos/core#Pride",
           "labels": {
-            "IRI-based": "Visualizing"
+            "IRI-based": "Pride"
           }
         },
         {
@@ -2363,9 +2595,9 @@
           }
         },
         {
-          "iri": "http://www.w3.org/2004/02/skos/core#Touching",
+          "iri": "http://www.w3.org/2004/02/skos/core#Visualizing",
           "labels": {
-            "IRI-based": "Touching"
+            "IRI-based": "Visualizing"
           }
         },
         {
@@ -2388,12 +2620,12 @@
         }
       ],
       "pos": [
-        2059.21,
-        393.65
+        1408.25,
+        -571.56
       ]
     },
     {
-      "id": "88",
+      "id": "91",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Museum",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -2413,7 +2645,7 @@
       ]
     },
     {
-      "id": "133",
+      "id": "135",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Idol",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -2425,7 +2657,7 @@
       }
     },
     {
-      "id": "15",
+      "id": "17",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E7_Activity",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -2433,12 +2665,12 @@
         "en": "E7 Activity"
       },
       "pos": [
-        182.5,
-        163.3
+        903.33,
+        995.45
       ]
     },
     {
-      "id": "130",
+      "id": "132",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#LoomWeight",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -2450,7 +2682,7 @@
       }
     },
     {
-      "id": "33",
+      "id": "38",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E89_Propositional_Object",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -2458,12 +2690,12 @@
         "en": "E89 Propositional Object"
       },
       "pos": [
-        1046.44,
-        381.06
+        -243.37,
+        560.92
       ]
     },
     {
-      "id": "168",
+      "id": "170",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Parish",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -2489,7 +2721,7 @@
       ]
     },
     {
-      "id": "131",
+      "id": "133",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#StoneTool",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -2509,7 +2741,7 @@
       ]
     },
     {
-      "id": "49",
+      "id": "54",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#NaturalLandscape",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -2529,7 +2761,7 @@
       ]
     },
     {
-      "id": "98",
+      "id": "101",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#App",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -2549,7 +2781,7 @@
       ]
     },
     {
-      "id": "61",
+      "id": "64",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Hill",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -2579,15 +2811,15 @@
           }
         },
         {
-          "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Mäkrävaara_Hill",
-          "labels": {
-            "IRI-based": "S3_Mäkrävaara_Hill"
-          }
-        },
-        {
           "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Akka-Koli_Hill",
           "labels": {
             "IRI-based": "S3_Akka-Koli_Hill"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Mäkrävaara_Hill",
+          "labels": {
+            "IRI-based": "S3_Mäkrävaara_Hill"
           }
         },
         {
@@ -2599,18 +2831,18 @@
       ]
     },
     {
-      "id": "173",
+      "id": "175",
       "attributes": [
         "union",
         "anonymous"
       ],
       "pos": [
-        669.53,
-        1990.88
+        -868.02,
+        440.65
       ]
     },
     {
-      "id": "109",
+      "id": "112",
       "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
       "label": "Literal",
       "attributes": [
@@ -2618,7 +2850,7 @@
       ]
     },
     {
-      "id": "82",
+      "id": "85",
       "iri": "http://www.w3.org/2002/07/owl#Thing",
       "baseIri": "http://owl2vowl.de",
       "label": {
@@ -2626,7 +2858,7 @@
       }
     },
     {
-      "id": "129",
+      "id": "131",
       "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
       "label": "Literal",
       "attributes": [
@@ -2634,19 +2866,19 @@
       ]
     },
     {
-      "id": "19",
+      "id": "21",
       "iri": "http://www.w3.org/2002/07/owl#Thing",
       "baseIri": "http://owl2vowl.de",
       "label": {
         "undefined": "Thing"
       },
       "pos": [
-        1103.78,
-        -994.49
+        479.22,
+        -892.54
       ]
     },
     {
-      "id": "157",
+      "id": "159",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Romanticism",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -2666,7 +2898,7 @@
       ]
     },
     {
-      "id": "43",
+      "id": "49",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E19_Physical_Object",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -2675,7 +2907,7 @@
       }
     },
     {
-      "id": "75",
+      "id": "79",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Interview",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -2687,7 +2919,7 @@
       }
     },
     {
-      "id": "179",
+      "id": "181",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#LateNeolithic",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -2699,7 +2931,7 @@
       }
     },
     {
-      "id": "121",
+      "id": "123",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Patron/Promoter",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -2719,7 +2951,7 @@
       ]
     },
     {
-      "id": "112",
+      "id": "81",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E55_Type",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -2728,7 +2960,7 @@
       }
     },
     {
-      "id": "119",
+      "id": "121",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#BirdSounds",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -2740,7 +2972,7 @@
       }
     },
     {
-      "id": "110",
+      "id": "113",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E2_Temporal_Entity",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -2748,12 +2980,12 @@
         "en": "E2 Temporal Entity"
       },
       "pos": [
-        185.94,
-        861.21
+        263.09,
+        916.3
       ]
     },
     {
-      "id": "111",
+      "id": "114",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E52_TimeSpan",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -2780,9 +3012,9 @@
           }
         },
         {
-          "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_2900-1500",
+          "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_1857",
           "labels": {
-            "IRI-based": "S2_2900-1500"
+            "IRI-based": "S2_1857"
           }
         },
         {
@@ -2792,9 +3024,9 @@
           }
         },
         {
-          "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_1857",
+          "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_2900-1500",
           "labels": {
-            "IRI-based": "S2_1857"
+            "IRI-based": "S2_2900-1500"
           }
         },
         {
@@ -2829,12 +3061,12 @@
         }
       ],
       "pos": [
-        364.79,
-        1151.33
+        -58.34,
+        752.71
       ]
     },
     {
-      "id": "132",
+      "id": "134",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#GroovedWare",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -2854,7 +3086,7 @@
       ]
     },
     {
-      "id": "156",
+      "id": "158",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Construction",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -2880,7 +3112,7 @@
       ]
     },
     {
-      "id": "191",
+      "id": "193",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Artist",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -2910,15 +3142,15 @@
           }
         },
         {
-          "iri": "http://www.co-ode.org/ontologies/ont.owl#S3_Venny_Soldan-Brofeldt",
-          "labels": {
-            "IRI-based": "S3_Venny_Soldan-Brofeldt"
-          }
-        },
-        {
           "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Juhani_Aho",
           "labels": {
             "IRI-based": "S3_Juhani_Aho"
+          }
+        },
+        {
+          "iri": "http://www.co-ode.org/ontologies/ont.owl#S3_Venny_Soldan-Brofeldt",
+          "labels": {
+            "IRI-based": "S3_Venny_Soldan-Brofeldt"
           }
         },
         {
@@ -2936,7 +3168,7 @@
       ]
     },
     {
-      "id": "192",
+      "id": "194",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#District",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -2956,7 +3188,7 @@
       ]
     },
     {
-      "id": "115",
+      "id": "117",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Neolithic",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -2967,12 +3199,12 @@
         "undefined": "A specific period from pre-history marked by early farming and stone tools."
       },
       "pos": [
-        -100.37,
-        566.19
+        538.58,
+        1127.96
       ]
     },
     {
-      "id": "101",
+      "id": "104",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Roll_up",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -3038,15 +3270,15 @@
           }
         },
         {
-          "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_13",
-          "labels": {
-            "IRI-based": "S1_Panel_13"
-          }
-        },
-        {
           "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_6",
           "labels": {
             "IRI-based": "S1_Panel_6"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_13",
+          "labels": {
+            "IRI-based": "S1_Panel_13"
           }
         },
         {
@@ -3064,7 +3296,7 @@
       ]
     },
     {
-      "id": "122",
+      "id": "124",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E21_Person",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -3072,12 +3304,12 @@
         "en": "E21 Person"
       },
       "pos": [
-        631.5,
-        -100.29
+        1152.92,
+        847.35
       ]
     },
     {
-      "id": "169",
+      "id": "171",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#LithicTool",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -3109,7 +3341,7 @@
       ]
     },
     {
-      "id": "205",
+      "id": "207",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Archaeologist",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -3147,7 +3379,7 @@
       ]
     },
     {
-      "id": "10",
+      "id": "12",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#MegalithicMonument",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -3158,12 +3390,12 @@
         "undefined": "An archaeological monument built with standing megalithic stones"
       },
       "pos": [
-        1638.62,
-        1758.61
+        831.28,
+        1779.46
       ]
     },
     {
-      "id": "197",
+      "id": "199",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#EarlyNeolithic",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -3175,7 +3407,7 @@
       }
     },
     {
-      "id": "91",
+      "id": "94",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E53_Place",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -3183,12 +3415,12 @@
         "en": "E53 Place"
       },
       "pos": [
-        652.77,
-        1241.83
+        713.98,
+        298.1
       ]
     },
     {
-      "id": "78",
+      "id": "32",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Narrative",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -3250,7 +3482,7 @@
       ]
     },
     {
-      "id": "204",
+      "id": "206",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Volunteer",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -3282,7 +3514,7 @@
       ]
     },
     {
-      "id": "51",
+      "id": "28",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Climate",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -3294,15 +3526,15 @@
       },
       "individuals": [
         {
-          "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Humid_Continental_Climate",
-          "labels": {
-            "IRI-based": "S3_Humid_Continental_Climate"
-          }
-        },
-        {
           "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_OceanicClimate",
           "labels": {
             "IRI-based": "S2_OceanicClimate"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Humid_Continental_Climate",
+          "labels": {
+            "IRI-based": "S3_Humid_Continental_Climate"
           }
         },
         {
@@ -3314,7 +3546,7 @@
       ]
     },
     {
-      "id": "148",
+      "id": "150",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#UrbanLandscape",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -3326,7 +3558,7 @@
       }
     },
     {
-      "id": "158",
+      "id": "160",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Excavation",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -3352,7 +3584,7 @@
       ]
     },
     {
-      "id": "23",
+      "id": "25",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Engravings",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -3372,18 +3604,18 @@
       ]
     },
     {
-      "id": "141",
+      "id": "143",
       "attributes": [
         "union",
         "anonymous"
       ],
       "pos": [
-        2201.07,
-        742.68
+        1669.4,
+        -283.28
       ]
     },
     {
-      "id": "239",
+      "id": "241",
       "iri": "http://www.w3.org/2001/XMLSchema#string",
       "baseIri": "http://www.w3.org/2001/XMLSchema",
       "label": {
@@ -3394,7 +3626,7 @@
       ]
     },
     {
-      "id": "238",
+      "id": "240",
       "iri": "http://www.w3.org/2001/XMLSchema#anyURI",
       "baseIri": "http://www.w3.org/2001/XMLSchema",
       "label": {
@@ -3405,7 +3637,7 @@
       ]
     },
     {
-      "id": "195",
+      "id": "197",
       "iri": "http://www.w3.org/2001/XMLSchema#string",
       "baseIri": "http://www.w3.org/2001/XMLSchema",
       "label": {
@@ -3416,7 +3648,7 @@
       ]
     },
     {
-      "id": "66",
+      "id": "69",
       "iri": "http://www.w3.org/2001/XMLSchema#string",
       "baseIri": "http://www.w3.org/2001/XMLSchema",
       "label": {
@@ -3427,7 +3659,7 @@
       ]
     },
     {
-      "id": "39",
+      "id": "42",
       "iri": "http://www.w3.org/2001/XMLSchema#decimal",
       "baseIri": "http://www.w3.org/2001/XMLSchema",
       "label": {
@@ -3438,7 +3670,7 @@
       ]
     },
     {
-      "id": "11",
+      "id": "13",
       "iri": "http://www.w3.org/2001/XMLSchema#string",
       "baseIri": "http://www.w3.org/2001/XMLSchema",
       "label": {
@@ -3449,7 +3681,7 @@
       ]
     },
     {
-      "id": "143",
+      "id": "145",
       "iri": "http://www.w3.org/2002/07/owl#Thing",
       "baseIri": "http://owl2vowl.de",
       "label": {
@@ -3457,7 +3689,7 @@
       }
     },
     {
-      "id": "30",
+      "id": "35",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E24_Physical_Human-Made_Thing",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -3465,12 +3697,12 @@
         "en": "E24 Physical Human Made Thing"
       },
       "pos": [
-        976.48,
-        510.02
+        23.29,
+        -33.09
       ]
     },
     {
-      "id": "71",
+      "id": "76",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#MiddleBronzeAge",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -3482,7 +3714,7 @@
       }
     },
     {
-      "id": "62",
+      "id": "65",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Park",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -3494,7 +3726,7 @@
       }
     },
     {
-      "id": "89",
+      "id": "92",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Institution",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -3526,7 +3758,7 @@
       ]
     },
     {
-      "id": "76",
+      "id": "33",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E33_Linguistic_Object",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -3534,12 +3766,12 @@
         "en": "E33 Linguistic Object"
       },
       "pos": [
-        1946.28,
-        -198.28
+        207.42,
+        1455.32
       ]
     },
     {
-      "id": "214",
+      "id": "216",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Municipality",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -3571,7 +3803,7 @@
       ]
     },
     {
-      "id": "159",
+      "id": "161",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#OcupationOrUsage",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -3603,7 +3835,7 @@
       ]
     },
     {
-      "id": "53",
+      "id": "56",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#SpiritualOrRitualSite",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -3651,15 +3883,15 @@
           }
         },
         {
-          "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Mäkrävaara_Hill",
-          "labels": {
-            "IRI-based": "S3_Mäkrävaara_Hill"
-          }
-        },
-        {
           "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Akka-Koli_Hill",
           "labels": {
             "IRI-based": "S3_Akka-Koli_Hill"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Mäkrävaara_Hill",
+          "labels": {
+            "IRI-based": "S3_Mäkrävaara_Hill"
           }
         },
         {
@@ -3683,7 +3915,7 @@
       ]
     },
     {
-      "id": "41",
+      "id": "46",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E18_Physical_Thing",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -3691,12 +3923,12 @@
         "en": "E18 Physical Thing"
       },
       "pos": [
-        736.59,
-        821.03
+        418.11,
+        174.27
       ]
     },
     {
-      "id": "149",
+      "id": "151",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#PlaqueIdol",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -3716,7 +3948,7 @@
       ]
     },
     {
-      "id": "118",
+      "id": "120",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#OtherSounds",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -3735,23 +3967,23 @@
     },
     {
       "id": "3",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "5",
       "type": "owl:ObjectProperty"
     },
     {
-      "id": "9",
+      "id": "11",
       "type": "owl:DatatypeProperty"
     },
     {
-      "id": "18",
+      "id": "20",
       "type": "owl:ObjectProperty"
     },
     {
-      "id": "21",
+      "id": "23",
       "type": "owl:ObjectProperty"
-    },
-    {
-      "id": "25",
-      "type": "rdfs:subClassOf"
     },
     {
       "id": "27",
@@ -3762,35 +3994,31 @@
       "type": "rdfs:subClassOf"
     },
     {
-      "id": "32",
+      "id": "31",
       "type": "rdfs:subClassOf"
     },
     {
       "id": "34",
-      "type": "owl:ObjectProperty"
-    },
-    {
-      "id": "36",
       "type": "rdfs:subClassOf"
     },
     {
-      "id": "38",
-      "type": "owl:DatatypeProperty"
+      "id": "37",
+      "type": "owl:ObjectProperty"
     },
     {
       "id": "40",
       "type": "rdfs:subClassOf"
     },
     {
-      "id": "42",
+      "id": "41",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "43",
       "type": "rdfs:subClassOf"
     },
     {
       "id": "45",
-      "type": "rdfs:subClassOf"
-    },
-    {
-      "id": "46",
       "type": "rdfs:subClassOf"
     },
     {
@@ -3802,16 +4030,20 @@
       "type": "rdfs:subClassOf"
     },
     {
-      "id": "7",
+      "id": "51",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "53",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "9",
       "type": "owl:ObjectProperty"
     },
     {
-      "id": "64",
+      "id": "67",
       "type": "owl:DatatypeProperty"
-    },
-    {
-      "id": "70",
-      "type": "rdfs:subClassOf"
     },
     {
       "id": "73",
@@ -3822,67 +4054,59 @@
       "type": "rdfs:subClassOf"
     },
     {
-      "id": "77",
+      "id": "75",
       "type": "rdfs:subClassOf"
     },
     {
-      "id": "81",
-      "type": "owl:ObjectProperty"
-    },
-    {
-      "id": "85",
-      "type": "owl:ObjectProperty"
-    },
-    {
-      "id": "94",
-      "type": "owl:ObjectProperty"
-    },
-    {
-      "id": "104",
-      "type": "owl:ObjectProperty"
-    },
-    {
-      "id": "106",
-      "type": "owl:ObjectProperty"
-    },
-    {
-      "id": "108",
-      "type": "owl:DatatypeProperty"
-    },
-    {
-      "id": "113",
-      "type": "owl:ObjectProperty"
-    },
-    {
-      "id": "124",
-      "type": "owl:ObjectProperty"
-    },
-    {
-      "id": "24",
-      "type": "owl:ObjectProperty"
-    },
-    {
-      "id": "128",
-      "type": "owl:DatatypeProperty"
-    },
-    {
-      "id": "63",
-      "type": "owl:ObjectProperty"
+      "id": "78",
+      "type": "rdfs:subClassOf"
     },
     {
       "id": "84",
       "type": "owl:ObjectProperty"
     },
     {
-      "id": "137",
+      "id": "88",
       "type": "owl:ObjectProperty"
     },
     {
-      "id": "20",
+      "id": "97",
       "type": "owl:ObjectProperty"
     },
     {
-      "id": "138",
+      "id": "107",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "109",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "111",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "115",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "126",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "26",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "130",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "66",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "87",
       "type": "owl:ObjectProperty"
     },
     {
@@ -3890,7 +4114,15 @@
       "type": "owl:ObjectProperty"
     },
     {
+      "id": "22",
+      "type": "owl:ObjectProperty"
+    },
+    {
       "id": "140",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "141",
       "type": "owl:ObjectProperty"
     },
     {
@@ -3898,35 +4130,31 @@
       "type": "owl:ObjectProperty"
     },
     {
-      "id": "145",
+      "id": "144",
       "type": "owl:ObjectProperty"
-    },
-    {
-      "id": "146",
-      "type": "rdfs:subClassOf"
     },
     {
       "id": "147",
       "type": "owl:ObjectProperty"
     },
     {
-      "id": "150",
+      "id": "148",
       "type": "rdfs:subClassOf"
     },
     {
-      "id": "144",
+      "id": "149",
       "type": "owl:ObjectProperty"
     },
     {
-      "id": "155",
+      "id": "152",
       "type": "rdfs:subClassOf"
     },
     {
-      "id": "160",
-      "type": "rdfs:subClassOf"
+      "id": "146",
+      "type": "owl:ObjectProperty"
     },
     {
-      "id": "161",
+      "id": "157",
       "type": "rdfs:subClassOf"
     },
     {
@@ -3954,32 +4182,32 @@
       "type": "rdfs:subClassOf"
     },
     {
-      "id": "151",
+      "id": "168",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "169",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "153",
       "type": "owl:ObjectProperty"
-    },
-    {
-      "id": "170",
-      "type": "rdfs:subClassOf"
-    },
-    {
-      "id": "171",
-      "type": "rdfs:subClassOf"
     },
     {
       "id": "172",
       "type": "rdfs:subClassOf"
     },
     {
-      "id": "154",
-      "type": "owl:ObjectProperty"
+      "id": "173",
+      "type": "rdfs:subClassOf"
     },
     {
       "id": "174",
       "type": "rdfs:subClassOf"
     },
     {
-      "id": "175",
-      "type": "rdfs:subClassOf"
+      "id": "156",
+      "type": "owl:ObjectProperty"
     },
     {
       "id": "176",
@@ -3990,32 +4218,32 @@
       "type": "rdfs:subClassOf"
     },
     {
-      "id": "152",
-      "type": "owl:ObjectProperty"
-    },
-    {
       "id": "178",
       "type": "rdfs:subClassOf"
     },
     {
-      "id": "105",
-      "type": "owl:ObjectProperty"
+      "id": "179",
+      "type": "rdfs:subClassOf"
     },
     {
-      "id": "153",
+      "id": "154",
       "type": "owl:ObjectProperty"
     },
     {
       "id": "180",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "108",
       "type": "owl:ObjectProperty"
     },
     {
-      "id": "181",
-      "type": "rdfs:subClassOf"
+      "id": "155",
+      "type": "owl:ObjectProperty"
     },
     {
       "id": "182",
-      "type": "rdfs:subClassOf"
+      "type": "owl:ObjectProperty"
     },
     {
       "id": "183",
@@ -4050,23 +4278,23 @@
       "type": "rdfs:subClassOf"
     },
     {
-      "id": "193",
+      "id": "191",
       "type": "rdfs:subClassOf"
     },
     {
-      "id": "194",
-      "type": "owl:DatatypeProperty"
+      "id": "192",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "195",
+      "type": "rdfs:subClassOf"
     },
     {
       "id": "196",
-      "type": "rdfs:subClassOf"
+      "type": "owl:DatatypeProperty"
     },
     {
       "id": "198",
-      "type": "rdfs:subClassOf"
-    },
-    {
-      "id": "199",
       "type": "rdfs:subClassOf"
     },
     {
@@ -4086,11 +4314,11 @@
       "type": "rdfs:subClassOf"
     },
     {
-      "id": "206",
+      "id": "204",
       "type": "rdfs:subClassOf"
     },
     {
-      "id": "207",
+      "id": "205",
       "type": "rdfs:subClassOf"
     },
     {
@@ -4110,14 +4338,6 @@
       "type": "rdfs:subClassOf"
     },
     {
-      "id": "125",
-      "type": "owl:ObjectProperty"
-    },
-    {
-      "id": "6",
-      "type": "owl:ObjectProperty"
-    },
-    {
       "id": "212",
       "type": "rdfs:subClassOf"
     },
@@ -4126,11 +4346,19 @@
       "type": "rdfs:subClassOf"
     },
     {
-      "id": "215",
+      "id": "127",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "8",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "214",
       "type": "rdfs:subClassOf"
     },
     {
-      "id": "216",
+      "id": "215",
       "type": "rdfs:subClassOf"
     },
     {
@@ -4158,16 +4386,16 @@
       "type": "rdfs:subClassOf"
     },
     {
-      "id": "114",
-      "type": "owl:ObjectProperty"
-    },
-    {
       "id": "223",
       "type": "rdfs:subClassOf"
     },
     {
       "id": "224",
       "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "116",
+      "type": "owl:ObjectProperty"
     },
     {
       "id": "225",
@@ -4182,16 +4410,16 @@
       "type": "rdfs:subClassOf"
     },
     {
-      "id": "8",
-      "type": "owl:ObjectProperty"
-    },
-    {
       "id": "228",
       "type": "rdfs:subClassOf"
     },
     {
       "id": "229",
       "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "10",
+      "type": "owl:ObjectProperty"
     },
     {
       "id": "230",
@@ -4223,31 +4451,31 @@
     },
     {
       "id": "237",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "238",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "239",
       "type": "owl:DatatypeProperty"
     },
     {
-      "id": "240",
-      "type": "owl:ObjectProperty"
-    },
-    {
-      "id": "241",
-      "type": "owl:ObjectProperty"
-    },
-    {
       "id": "242",
-      "type": "owl:disjointWith"
+      "type": "owl:ObjectProperty"
     },
     {
       "id": "243",
-      "type": "owl:disjointWith"
+      "type": "owl:ObjectProperty"
     },
     {
       "id": "244",
-      "type": "rdfs:subClassOf"
+      "type": "owl:disjointWith"
     },
     {
       "id": "245",
-      "type": "rdfs:subClassOf"
+      "type": "owl:disjointWith"
     },
     {
       "id": "246",
@@ -4283,11 +4511,7 @@
     },
     {
       "id": "254",
-      "type": "owl:DatatypeProperty"
-    },
-    {
-      "id": "5",
-      "type": "owl:ObjectProperty"
+      "type": "rdfs:subClassOf"
     },
     {
       "id": "255",
@@ -4295,7 +4519,11 @@
     },
     {
       "id": "256",
-      "type": "rdfs:subClassOf"
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "7",
+      "type": "owl:ObjectProperty"
     },
     {
       "id": "257",
@@ -4310,23 +4538,31 @@
       "type": "rdfs:subClassOf"
     },
     {
-      "id": "GENERATED-UNION-173-97-0",
+      "id": "260",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "261",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "GENERATED-UNION-175-100-0",
       "type": "setOperatorProperty"
     },
     {
-      "id": "GENERATED-UNION-173-99-1",
+      "id": "GENERATED-UNION-175-102-1",
       "type": "setOperatorProperty"
     },
     {
-      "id": "GENERATED-UNION-173-78-2",
+      "id": "GENERATED-UNION-175-32-2",
       "type": "setOperatorProperty"
     },
     {
-      "id": "GENERATED-UNION-141-17-0",
+      "id": "GENERATED-UNION-143-19-0",
       "type": "setOperatorProperty"
     },
     {
-      "id": "GENERATED-UNION-141-4-1",
+      "id": "GENERATED-UNION-143-6-1",
       "type": "setOperatorProperty"
     }
   ],
@@ -4341,12 +4577,26 @@
       "domain": "1",
       "range": "2",
       "pos": [
-        1345.8,
-        1104.34
+        881.21,
+        44.22
       ]
     },
     {
       "id": "3",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "4",
+      "range": "2",
+      "pos": [
+        1119.15,
+        245.3
+      ]
+    },
+    {
+      "id": "5",
       "iri": "http://www.w3.org/2004/02/skos/core#semanticRelation",
       "baseIri": "http://www.w3.org/2004/02/skos/core",
       "label": {
@@ -4382,21 +4632,21 @@
           }
         ]
       },
-      "domain": "4",
-      "range": "4",
+      "domain": "6",
+      "range": "6",
       "subproperty": [
-        "5",
-        "6",
         "7",
-        "8"
+        "8",
+        "9",
+        "10"
       ],
       "pos": [
-        2145.25,
-        265.19
+        1393.5,
+        -725.57
       ]
     },
     {
-      "id": "9",
+      "id": "11",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#rockType",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -4406,11 +4656,11 @@
       "attributes": [
         "datatype"
       ],
-      "domain": "10",
-      "range": "11"
+      "domain": "12",
+      "range": "13"
     },
     {
-      "id": "18",
+      "id": "20",
       "iri": "http://www.w3.org/2004/02/skos/core#narrower",
       "baseIri": "http://www.w3.org/2004/02/skos/core",
       "label": {
@@ -4449,22 +4699,22 @@
           }
         ]
       },
-      "domain": "19",
-      "range": "19",
+      "domain": "21",
+      "range": "21",
       "subproperty": [
-        "20"
+        "22"
       ],
       "superproperty": [
-        "5"
+        "7"
       ],
-      "inverse": "114",
+      "inverse": "116",
       "pos": [
-        1207.47,
-        -1113.67
+        508.85,
+        -738.74
       ]
     },
     {
-      "id": "21",
+      "id": "23",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#hasEngravings",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -4474,21 +4724,11 @@
       "attributes": [
         "object"
       ],
-      "domain": "22",
-      "range": "23",
+      "domain": "24",
+      "range": "25",
       "superproperty": [
-        "24"
+        "26"
       ]
-    },
-    {
-      "id": "25",
-      "label": "Subclass of",
-      "attributes": [
-        "object",
-        "anonymous"
-      ],
-      "domain": "26",
-      "range": "2"
     },
     {
       "id": "27",
@@ -4498,11 +4738,7 @@
         "anonymous"
       ],
       "domain": "28",
-      "range": "2",
-      "pos": [
-        1071.6,
-        1284.06
-      ]
+      "range": "2"
     },
     {
       "id": "29",
@@ -4512,28 +4748,34 @@
         "anonymous"
       ],
       "domain": "30",
-      "range": "31",
-      "pos": [
-        1106.55,
-        621.95
-      ]
+      "range": "2"
     },
     {
-      "id": "32",
+      "id": "31",
       "label": "Subclass of",
       "attributes": [
         "object",
         "anonymous"
       ],
-      "domain": "33",
-      "range": "31",
-      "pos": [
-        1141.53,
-        557.46
-      ]
+      "domain": "32",
+      "range": "33"
     },
     {
       "id": "34",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "35",
+      "range": "36",
+      "pos": [
+        -155.8,
+        58.06
+      ]
+    },
+    {
+      "id": "37",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#P129_isAbout",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -4543,25 +4785,29 @@
       "attributes": [
         "object"
       ],
-      "domain": "33",
-      "range": "35",
+      "domain": "38",
+      "range": "39",
       "pos": [
-        832.06,
-        577.93
+        18.92,
+        544.8
       ]
     },
     {
-      "id": "36",
+      "id": "40",
       "label": "Subclass of",
       "attributes": [
         "object",
         "anonymous"
       ],
-      "domain": "37",
-      "range": "31"
+      "domain": "38",
+      "range": "36",
+      "pos": [
+        -289.13,
+        355.06
+      ]
     },
     {
-      "id": "38",
+      "id": "41",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#heightMeters",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -4571,32 +4817,18 @@
       "attributes": [
         "datatype"
       ],
-      "domain": "22",
-      "range": "39"
+      "domain": "24",
+      "range": "42"
     },
     {
-      "id": "40",
+      "id": "43",
       "label": "Subclass of",
       "attributes": [
         "object",
         "anonymous"
       ],
-      "domain": "30",
-      "range": "41",
-      "pos": [
-        856.53,
-        665.52
-      ]
-    },
-    {
-      "id": "42",
-      "label": "Subclass of",
-      "attributes": [
-        "object",
-        "anonymous"
-      ],
-      "domain": "43",
-      "range": "41"
+      "domain": "44",
+      "range": "36"
     },
     {
       "id": "45",
@@ -4605,25 +4837,11 @@
         "object",
         "anonymous"
       ],
-      "domain": "2",
-      "range": "41",
+      "domain": "35",
+      "range": "46",
       "pos": [
-        942.47,
-        961.78
-      ]
-    },
-    {
-      "id": "46",
-      "label": "Subclass of",
-      "attributes": [
-        "object",
-        "anonymous"
-      ],
-      "domain": "47",
-      "range": "28",
-      "pos": [
-        1144.26,
-        1561.46
+        220.7,
+        70.59
       ]
     },
     {
@@ -4634,7 +4852,7 @@
         "anonymous"
       ],
       "domain": "49",
-      "range": "28"
+      "range": "46"
     },
     {
       "id": "50",
@@ -4643,11 +4861,39 @@
         "object",
         "anonymous"
       ],
-      "domain": "51",
-      "range": "2"
+      "domain": "2",
+      "range": "46",
+      "pos": [
+        667.15,
+        187.25
+      ]
     },
     {
-      "id": "7",
+      "id": "51",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "52",
+      "range": "1",
+      "pos": [
+        1002.46,
+        -193.19
+      ]
+    },
+    {
+      "id": "53",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "54",
+      "range": "1"
+    },
+    {
+      "id": "9",
       "iri": "http://www.w3.org/2004/02/skos/core#related",
       "baseIri": "http://www.w3.org/2004/02/skos/core",
       "label": {
@@ -4679,21 +4925,21 @@
           }
         ]
       },
-      "domain": "19",
-      "range": "19",
+      "domain": "21",
+      "range": "21",
       "subproperty": [
-        "63"
+        "66"
       ],
       "superproperty": [
-        "3"
+        "5"
       ],
       "pos": [
-        1075.28,
-        -1148.98
+        636.54,
+        -917.88
       ]
     },
     {
-      "id": "64",
+      "id": "67",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#usagetypeMegalithism",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -4703,18 +4949,8 @@
       "attributes": [
         "datatype"
       ],
-      "domain": "65",
-      "range": "66"
-    },
-    {
-      "id": "70",
-      "label": "Subclass of",
-      "attributes": [
-        "object",
-        "anonymous"
-      ],
-      "domain": "71",
-      "range": "72"
+      "domain": "68",
+      "range": "69"
     },
     {
       "id": "73",
@@ -4723,11 +4959,11 @@
         "object",
         "anonymous"
       ],
-      "domain": "13",
-      "range": "69",
+      "domain": "15",
+      "range": "72",
       "pos": [
-        1574.97,
-        -286.61
+        -23.18,
+        1422.88
       ]
     },
     {
@@ -4737,21 +4973,35 @@
         "object",
         "anonymous"
       ],
-      "domain": "75",
-      "range": "76"
+      "domain": "33",
+      "range": "72",
+      "pos": [
+        44.3,
+        1360.46
+      ]
     },
     {
-      "id": "77",
+      "id": "75",
       "label": "Subclass of",
       "attributes": [
         "object",
         "anonymous"
       ],
-      "domain": "78",
-      "range": "76"
+      "domain": "76",
+      "range": "77"
     },
     {
-      "id": "81",
+      "id": "78",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "79",
+      "range": "33"
+    },
+    {
+      "id": "84",
       "iri": "http://www.w3.org/2004/02/skos/core#inScheme",
       "baseIri": "http://www.w3.org/2004/02/skos/core",
       "label": {
@@ -4787,14 +5037,14 @@
           }
         ]
       },
-      "domain": "82",
-      "range": "83",
+      "domain": "85",
+      "range": "86",
       "subproperty": [
-        "84"
+        "87"
       ]
     },
     {
-      "id": "85",
+      "id": "88",
       "iri": "http://www.w3.org/2004/02/skos/core#hasTopConcept",
       "baseIri": "http://www.w3.org/2004/02/skos/core",
       "label": {
@@ -4822,16 +5072,16 @@
           }
         ]
       },
-      "domain": "83",
-      "range": "4",
-      "inverse": "84",
+      "domain": "86",
+      "range": "6",
+      "inverse": "87",
       "pos": [
-        1926.38,
-        243.12
+        1204.72,
+        -606.46
       ]
     },
     {
-      "id": "94",
+      "id": "97",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#P8_took_place_on_or_within",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -4841,15 +5091,15 @@
       "attributes": [
         "object"
       ],
-      "domain": "95",
-      "range": "41",
+      "domain": "98",
+      "range": "46",
       "pos": [
-        507.7,
-        679.41
+        500.13,
+        456.05
       ]
     },
     {
-      "id": "104",
+      "id": "107",
       "iri": "http://www.w3.org/2004/02/skos/core#exactMatch",
       "baseIri": "http://www.w3.org/2004/02/skos/core",
       "label": {
@@ -4882,18 +5132,18 @@
           }
         ]
       },
-      "domain": "19",
-      "range": "19",
+      "domain": "21",
+      "range": "21",
       "superproperty": [
-        "105"
+        "108"
       ],
       "pos": [
-        969.39,
-        -1078.63
+        323.29,
+        -859.69
       ]
     },
     {
-      "id": "106",
+      "id": "109",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#hasTypicalLandscape",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -4903,18 +5153,18 @@
       "attributes": [
         "object"
       ],
-      "domain": "91",
-      "range": "28",
+      "domain": "94",
+      "range": "1",
       "superproperty": [
-        "24"
+        "26"
       ],
       "pos": [
-        823.81,
-        1353.71
+        780.1,
+        93.16
       ]
     },
     {
-      "id": "108",
+      "id": "111",
       "iri": "http://www.w3.org/2002/07/owl#topDataProperty",
       "baseIri": "http://www.w3.org/2002/07/owl",
       "label": {
@@ -4924,11 +5174,11 @@
         "external",
         "datatype"
       ],
-      "domain": "19",
-      "range": "109"
+      "domain": "21",
+      "range": "112"
     },
     {
-      "id": "113",
+      "id": "115",
       "iri": "http://www.w3.org/2004/02/skos/core#broadMatch",
       "baseIri": "http://www.w3.org/2004/02/skos/core",
       "label": {
@@ -4956,20 +5206,20 @@
           }
         ]
       },
-      "domain": "19",
-      "range": "19",
+      "domain": "21",
+      "range": "21",
       "superproperty": [
-        "114",
-        "8"
+        "116",
+        "10"
       ],
-      "inverse": "20",
+      "inverse": "22",
       "pos": [
-        1000.44,
-        -874.91
+        338.52,
+        -965.46
       ]
     },
     {
-      "id": "124",
+      "id": "126",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#P14_carriedOutBy",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -4979,15 +5229,15 @@
       "attributes": [
         "object"
       ],
-      "domain": "15",
-      "range": "87",
+      "domain": "17",
+      "range": "90",
       "pos": [
-        357.7,
-        215.77
+        851.06,
+        828.27
       ]
     },
     {
-      "id": "24",
+      "id": "26",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#P130_shows_features_of",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -4997,20 +5247,20 @@
       "attributes": [
         "object"
       ],
-      "domain": "57",
-      "range": "57",
+      "domain": "60",
+      "range": "60",
       "subproperty": [
-        "21",
-        "125",
-        "106"
+        "23",
+        "127",
+        "109"
       ],
       "pos": [
-        986.46,
-        1227.49
+        -145.75,
+        239.47
       ]
     },
     {
-      "id": "128",
+      "id": "130",
       "iri": "http://www.w3.org/2004/02/skos/core#notation",
       "baseIri": "http://www.w3.org/2004/02/skos/core",
       "label": {
@@ -5046,11 +5296,11 @@
           }
         ]
       },
-      "domain": "19",
-      "range": "129"
+      "domain": "21",
+      "range": "131"
     },
     {
-      "id": "63",
+      "id": "66",
       "iri": "http://www.w3.org/2004/02/skos/core#relatedMatch",
       "baseIri": "http://www.w3.org/2004/02/skos/core",
       "label": {
@@ -5079,19 +5329,19 @@
           }
         ]
       },
-      "domain": "19",
-      "range": "19",
+      "domain": "21",
+      "range": "21",
       "superproperty": [
-        "7",
-        "8"
+        "9",
+        "10"
       ],
       "pos": [
-        946.01,
-        -972.66
+        448.13,
+        -1046.26
       ]
     },
     {
-      "id": "84",
+      "id": "87",
       "iri": "http://www.w3.org/2004/02/skos/core#topConceptOf",
       "baseIri": "http://www.w3.org/2004/02/skos/core",
       "label": {
@@ -5119,15 +5369,15 @@
           }
         ]
       },
-      "domain": "4",
-      "range": "83",
+      "domain": "6",
+      "range": "86",
       "superproperty": [
-        "81"
+        "84"
       ],
-      "inverse": "85"
+      "inverse": "88"
     },
     {
-      "id": "137",
+      "id": "139",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#P198_holds_or_supports",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -5137,15 +5387,15 @@
       "attributes": [
         "object"
       ],
-      "domain": "41",
-      "range": "41",
+      "domain": "46",
+      "range": "46",
       "pos": [
-        755.12,
-        664.15
+        356.62,
+        21.9
       ]
     },
     {
-      "id": "20",
+      "id": "22",
       "iri": "http://www.w3.org/2004/02/skos/core#narrowMatch",
       "baseIri": "http://www.w3.org/2004/02/skos/core",
       "label": {
@@ -5173,16 +5423,16 @@
           }
         ]
       },
-      "domain": "19",
-      "range": "19",
+      "domain": "21",
+      "range": "21",
       "superproperty": [
-        "18",
-        "8"
+        "20",
+        "10"
       ],
-      "inverse": "113"
+      "inverse": "115"
     },
     {
-      "id": "138",
+      "id": "140",
       "iri": "http://www.w3.org/2004/02/skos/core#memberList",
       "baseIri": "http://www.w3.org/2004/02/skos/core",
       "label": {
@@ -5214,11 +5464,11 @@
           }
         ]
       },
-      "domain": "16",
-      "range": "67"
+      "domain": "18",
+      "range": "70"
     },
     {
-      "id": "139",
+      "id": "141",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#P53_has_former_or_current_location",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -5228,15 +5478,15 @@
       "attributes": [
         "object"
       ],
-      "domain": "41",
-      "range": "91",
+      "domain": "46",
+      "range": "94",
       "pos": [
-        694.68,
-        1031.43
+        566.04,
+        236.19
       ]
     },
     {
-      "id": "140",
+      "id": "142",
       "iri": "http://www.w3.org/2004/02/skos/core#member",
       "baseIri": "http://www.w3.org/2004/02/skos/core",
       "label": {
@@ -5264,15 +5514,15 @@
           }
         ]
       },
-      "domain": "17",
-      "range": "141",
+      "domain": "19",
+      "range": "143",
       "pos": [
-        2141.39,
-        905.55
+        1836.5,
+        -236.11
       ]
     },
     {
-      "id": "142",
+      "id": "144",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#hasIdentificationTimeSpan",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -5282,14 +5532,14 @@
       "attributes": [
         "object"
       ],
-      "domain": "136",
-      "range": "143",
+      "domain": "138",
+      "range": "145",
       "superproperty": [
-        "144"
+        "146"
       ]
     },
     {
-      "id": "145",
+      "id": "147",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#P165_incorporates",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -5299,29 +5549,29 @@
       "attributes": [
         "object"
       ],
-      "domain": "33",
-      "range": "68",
+      "domain": "38",
+      "range": "71",
       "pos": [
-        1138.17,
-        194.59
+        -325.37,
+        735.1
       ]
     },
     {
-      "id": "146",
+      "id": "148",
       "label": "Subclass of",
       "attributes": [
         "object",
         "anonymous"
       ],
-      "domain": "55",
-      "range": "1",
+      "domain": "58",
+      "range": "4",
       "pos": [
-        1697.11,
-        1026.77
+        1478.84,
+        384.02
       ]
     },
     {
-      "id": "147",
+      "id": "149",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#hasFormationTimeSpan",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -5331,24 +5581,24 @@
       "attributes": [
         "object"
       ],
-      "domain": "14",
-      "range": "111",
+      "domain": "16",
+      "range": "114",
       "superproperty": [
-        "144"
+        "146"
       ]
     },
     {
-      "id": "150",
+      "id": "152",
       "label": "Subclass of",
       "attributes": [
         "object",
         "anonymous"
       ],
-      "domain": "44",
-      "range": "1"
+      "domain": "47",
+      "range": "4"
     },
     {
-      "id": "144",
+      "id": "146",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#P4_hasTimeSpan",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -5358,54 +5608,30 @@
       "attributes": [
         "object"
       ],
-      "domain": "110",
-      "range": "111",
+      "domain": "113",
+      "range": "114",
       "subproperty": [
-        "142",
-        "151",
-        "152",
-        "147",
+        "144",
         "153",
-        "154"
+        "154",
+        "149",
+        "155",
+        "156"
       ],
       "pos": [
-        268.84,
-        995.68
+        113.46,
+        840.15
       ]
     },
     {
-      "id": "155",
+      "id": "157",
       "label": "Subclass of",
       "attributes": [
         "object",
         "anonymous"
       ],
-      "domain": "54",
-      "range": "1"
-    },
-    {
-      "id": "160",
-      "label": "Subclass of",
-      "attributes": [
-        "object",
-        "anonymous"
-      ],
-      "domain": "68",
-      "range": "33",
-      "pos": [
-        1203.6,
-        247.98
-      ]
-    },
-    {
-      "id": "161",
-      "label": "Subclass of",
-      "attributes": [
-        "object",
-        "anonymous"
-      ],
-      "domain": "159",
-      "range": "15"
+      "domain": "57",
+      "range": "4"
     },
     {
       "id": "162",
@@ -5414,8 +5640,12 @@
         "object",
         "anonymous"
       ],
-      "domain": "53",
-      "range": "1"
+      "domain": "71",
+      "range": "38",
+      "pos": [
+        -385.58,
+        715.2
+      ]
     },
     {
       "id": "163",
@@ -5424,8 +5654,8 @@
         "object",
         "anonymous"
       ],
-      "domain": "52",
-      "range": "1"
+      "domain": "161",
+      "range": "17"
     },
     {
       "id": "164",
@@ -5434,8 +5664,8 @@
         "object",
         "anonymous"
       ],
-      "domain": "158",
-      "range": "15"
+      "domain": "56",
+      "range": "4"
     },
     {
       "id": "165",
@@ -5444,8 +5674,8 @@
         "object",
         "anonymous"
       ],
-      "domain": "136",
-      "range": "15"
+      "domain": "55",
+      "range": "4"
     },
     {
       "id": "166",
@@ -5454,8 +5684,8 @@
         "object",
         "anonymous"
       ],
-      "domain": "120",
-      "range": "15"
+      "domain": "160",
+      "range": "17"
     },
     {
       "id": "167",
@@ -5464,11 +5694,31 @@
         "object",
         "anonymous"
       ],
-      "domain": "14",
-      "range": "15"
+      "domain": "138",
+      "range": "17"
     },
     {
-      "id": "151",
+      "id": "168",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "122",
+      "range": "17"
+    },
+    {
+      "id": "169",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "16",
+      "range": "17"
+    },
+    {
+      "id": "153",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#hasArtisticTimeSpan",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -5478,31 +5728,11 @@
       "attributes": [
         "object"
       ],
-      "domain": "157",
-      "range": "111",
+      "domain": "159",
+      "range": "114",
       "superproperty": [
-        "144"
+        "146"
       ]
-    },
-    {
-      "id": "170",
-      "label": "Subclass of",
-      "attributes": [
-        "object",
-        "anonymous"
-      ],
-      "domain": "156",
-      "range": "15"
-    },
-    {
-      "id": "171",
-      "label": "Subclass of",
-      "attributes": [
-        "object",
-        "anonymous"
-      ],
-      "domain": "149",
-      "range": "133"
     },
     {
       "id": "172",
@@ -5511,11 +5741,31 @@
         "object",
         "anonymous"
       ],
-      "domain": "157",
-      "range": "15"
+      "domain": "158",
+      "range": "17"
     },
     {
-      "id": "154",
+      "id": "173",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "151",
+      "range": "135"
+    },
+    {
+      "id": "174",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "159",
+      "range": "17"
+    },
+    {
+      "id": "156",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#hasConstructionTimeSpan",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -5525,31 +5775,11 @@
       "attributes": [
         "object"
       ],
-      "domain": "156",
-      "range": "111",
+      "domain": "158",
+      "range": "114",
       "superproperty": [
-        "144"
+        "146"
       ]
-    },
-    {
-      "id": "174",
-      "label": "Subclass of",
-      "attributes": [
-        "object",
-        "anonymous"
-      ],
-      "domain": "148",
-      "range": "47"
-    },
-    {
-      "id": "175",
-      "label": "Subclass of",
-      "attributes": [
-        "object",
-        "anonymous"
-      ],
-      "domain": "116",
-      "range": "47"
     },
     {
       "id": "176",
@@ -5558,8 +5788,8 @@
         "object",
         "anonymous"
       ],
-      "domain": "99",
-      "range": "13"
+      "domain": "150",
+      "range": "52"
     },
     {
       "id": "177",
@@ -5568,11 +5798,31 @@
         "object",
         "anonymous"
       ],
-      "domain": "100",
-      "range": "13"
+      "domain": "118",
+      "range": "52"
     },
     {
-      "id": "152",
+      "id": "178",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "102",
+      "range": "15"
+    },
+    {
+      "id": "179",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "103",
+      "range": "15"
+    },
+    {
+      "id": "154",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#hasUsageTimeSpan",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -5582,24 +5832,24 @@
       "attributes": [
         "object"
       ],
-      "domain": "159",
-      "range": "111",
+      "domain": "161",
+      "range": "114",
       "superproperty": [
-        "144"
+        "146"
       ]
     },
     {
-      "id": "178",
+      "id": "180",
       "label": "Subclass of",
       "attributes": [
         "object",
         "anonymous"
       ],
-      "domain": "12",
-      "range": "13"
+      "domain": "14",
+      "range": "15"
     },
     {
-      "id": "105",
+      "id": "108",
       "iri": "http://www.w3.org/2004/02/skos/core#closeMatch",
       "baseIri": "http://www.w3.org/2004/02/skos/core",
       "label": {
@@ -5628,21 +5878,21 @@
           }
         ]
       },
-      "domain": "19",
-      "range": "19",
+      "domain": "21",
+      "range": "21",
       "subproperty": [
-        "104"
+        "107"
       ],
       "superproperty": [
-        "8"
+        "10"
       ],
       "pos": [
-        1238.77,
-        -911.33
+        615.62,
+        -812.15
       ]
     },
     {
-      "id": "153",
+      "id": "155",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#hasExcavationTimeSpan",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -5652,14 +5902,14 @@
       "attributes": [
         "object"
       ],
-      "domain": "158",
-      "range": "111",
+      "domain": "160",
+      "range": "114",
       "superproperty": [
-        "144"
+        "146"
       ]
     },
     {
-      "id": "180",
+      "id": "182",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#P89_falls_within",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -5669,32 +5919,12 @@
       "attributes": [
         "object"
       ],
-      "domain": "91",
-      "range": "91",
+      "domain": "94",
+      "range": "94",
       "pos": [
-        587.62,
-        1395
+        869.6,
+        340.43
       ]
-    },
-    {
-      "id": "181",
-      "label": "Subclass of",
-      "attributes": [
-        "object",
-        "anonymous"
-      ],
-      "domain": "96",
-      "range": "13"
-    },
-    {
-      "id": "182",
-      "label": "Subclass of",
-      "attributes": [
-        "object",
-        "anonymous"
-      ],
-      "domain": "89",
-      "range": "86"
     },
     {
       "id": "183",
@@ -5703,8 +5933,8 @@
         "object",
         "anonymous"
       ],
-      "domain": "98",
-      "range": "13"
+      "domain": "99",
+      "range": "15"
     },
     {
       "id": "184",
@@ -5713,8 +5943,8 @@
         "object",
         "anonymous"
       ],
-      "domain": "97",
-      "range": "13"
+      "domain": "92",
+      "range": "89"
     },
     {
       "id": "185",
@@ -5723,8 +5953,8 @@
         "object",
         "anonymous"
       ],
-      "domain": "80",
-      "range": "79"
+      "domain": "101",
+      "range": "15"
     },
     {
       "id": "186",
@@ -5733,12 +5963,8 @@
         "object",
         "anonymous"
       ],
-      "domain": "69",
-      "range": "68",
-      "pos": [
-        1446.5,
-        -18.02
-      ]
+      "domain": "100",
+      "range": "15"
     },
     {
       "id": "187",
@@ -5747,8 +5973,8 @@
         "object",
         "anonymous"
       ],
-      "domain": "88",
-      "range": "86"
+      "domain": "83",
+      "range": "82"
     },
     {
       "id": "188",
@@ -5757,8 +5983,12 @@
         "object",
         "anonymous"
       ],
-      "domain": "93",
-      "range": "43"
+      "domain": "72",
+      "range": "71",
+      "pos": [
+        -238.25,
+        1091.21
+      ]
     },
     {
       "id": "189",
@@ -5767,8 +5997,8 @@
         "object",
         "anonymous"
       ],
-      "domain": "23",
-      "range": "68"
+      "domain": "91",
+      "range": "89"
     },
     {
       "id": "190",
@@ -5777,21 +6007,41 @@
         "object",
         "anonymous"
       ],
-      "domain": "65",
-      "range": "52"
+      "domain": "96",
+      "range": "49"
     },
     {
-      "id": "193",
+      "id": "191",
       "label": "Subclass of",
       "attributes": [
         "object",
         "anonymous"
       ],
-      "domain": "62",
+      "domain": "25",
+      "range": "71"
+    },
+    {
+      "id": "192",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "68",
       "range": "55"
     },
     {
-      "id": "194",
+      "id": "195",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "65",
+      "range": "58"
+    },
+    {
+      "id": "196",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#usagetypeArtefacts",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -5801,18 +6051,8 @@
       "attributes": [
         "datatype"
       ],
-      "domain": "93",
-      "range": "195"
-    },
-    {
-      "id": "196",
-      "label": "Subclass of",
-      "attributes": [
-        "object",
-        "anonymous"
-      ],
-      "domain": "59",
-      "range": "55"
+      "domain": "96",
+      "range": "197"
     },
     {
       "id": "198",
@@ -5821,18 +6061,8 @@
         "object",
         "anonymous"
       ],
-      "domain": "58",
-      "range": "55"
-    },
-    {
-      "id": "199",
-      "label": "Subclass of",
-      "attributes": [
-        "object",
-        "anonymous"
-      ],
-      "domain": "61",
-      "range": "55"
+      "domain": "62",
+      "range": "58"
     },
     {
       "id": "200",
@@ -5841,8 +6071,8 @@
         "object",
         "anonymous"
       ],
-      "domain": "60",
-      "range": "55"
+      "domain": "61",
+      "range": "58"
     },
     {
       "id": "201",
@@ -5851,8 +6081,8 @@
         "object",
         "anonymous"
       ],
-      "domain": "169",
-      "range": "131"
+      "domain": "64",
+      "range": "58"
     },
     {
       "id": "202",
@@ -5861,8 +6091,8 @@
         "object",
         "anonymous"
       ],
-      "domain": "56",
-      "range": "1"
+      "domain": "63",
+      "range": "58"
     },
     {
       "id": "203",
@@ -5871,36 +6101,32 @@
         "object",
         "anonymous"
       ],
-      "domain": "31",
-      "range": "57",
-      "pos": [
-        1107.4,
-        899.34
-      ]
+      "domain": "171",
+      "range": "133"
     },
     {
-      "id": "206",
+      "id": "204",
       "label": "Subclass of",
       "attributes": [
         "object",
         "anonymous"
       ],
-      "domain": "41",
-      "range": "57",
-      "pos": [
-        857.38,
-        942.92
-      ]
+      "domain": "59",
+      "range": "4"
     },
     {
-      "id": "207",
+      "id": "205",
       "label": "Subclass of",
       "attributes": [
         "object",
         "anonymous"
       ],
-      "domain": "103",
-      "range": "26"
+      "domain": "36",
+      "range": "60",
+      "pos": [
+        -161.57,
+        180.69
+      ]
     },
     {
       "id": "208",
@@ -5909,11 +6135,11 @@
         "object",
         "anonymous"
       ],
-      "domain": "115",
-      "range": "95",
+      "domain": "46",
+      "range": "60",
       "pos": [
-        89.22,
-        551.99
+        214.94,
+        193.23
       ]
     },
     {
@@ -5923,8 +6149,12 @@
         "object",
         "anonymous"
       ],
-      "domain": "123",
-      "range": "10"
+      "domain": "117",
+      "range": "98",
+      "pos": [
+        560.37,
+        932.9
+      ]
     },
     {
       "id": "210",
@@ -5933,11 +6163,11 @@
         "object",
         "anonymous"
       ],
-      "domain": "22",
-      "range": "10",
+      "domain": "17",
+      "range": "98",
       "pos": [
-        1526.68,
-        1893.98
+        742.74,
+        866.64
       ]
     },
     {
@@ -5947,15 +6177,35 @@
         "object",
         "anonymous"
       ],
-      "domain": "15",
-      "range": "95",
+      "domain": "24",
+      "range": "12",
       "pos": [
-        230.66,
-        350.54
+        988.36,
+        1713.61
       ]
     },
     {
-      "id": "125",
+      "id": "212",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "106",
+      "range": "30"
+    },
+    {
+      "id": "213",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "110",
+      "range": "98"
+    },
+    {
+      "id": "127",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#hasClimate",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -5965,14 +6215,14 @@
       "attributes": [
         "object"
       ],
-      "domain": "91",
-      "range": "51",
+      "domain": "94",
+      "range": "28",
       "superproperty": [
-        "24"
+        "26"
       ]
     },
     {
-      "id": "6",
+      "id": "8",
       "iri": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
       "baseIri": "http://www.w3.org/2004/02/skos/core",
       "label": {
@@ -6009,42 +6259,32 @@
           }
         ]
       },
-      "domain": "19",
-      "range": "19",
+      "domain": "21",
+      "range": "21",
       "subproperty": [
-        "114"
+        "116"
       ],
       "superproperty": [
-        "3"
+        "5"
       ],
-      "inverse": "5",
+      "inverse": "7",
       "pos": [
-        1132.8,
-        -840.1
+        581.71,
+        -1013.12
       ]
     },
     {
-      "id": "212",
+      "id": "214",
       "label": "Subclass of",
       "attributes": [
         "object",
         "anonymous"
       ],
-      "domain": "107",
-      "range": "95"
-    },
-    {
-      "id": "213",
-      "label": "Subclass of",
-      "attributes": [
-        "object",
-        "anonymous"
-      ],
-      "domain": "72",
-      "range": "95",
+      "domain": "77",
+      "range": "98",
       "pos": [
-        116.4,
-        433.4
+        660.7,
+        922.77
       ]
     },
     {
@@ -6054,21 +6294,11 @@
         "object",
         "anonymous"
       ],
-      "domain": "112",
-      "range": "35"
-    },
-    {
-      "id": "216",
-      "label": "Subclass of",
-      "attributes": [
-        "object",
-        "anonymous"
-      ],
-      "domain": "111",
-      "range": "35",
+      "domain": "60",
+      "range": "39",
       "pos": [
-        498.17,
-        952.74
+        146.49,
+        370.43
       ]
     },
     {
@@ -6078,11 +6308,11 @@
         "object",
         "anonymous"
       ],
-      "domain": "57",
-      "range": "35",
+      "domain": "114",
+      "range": "39",
       "pos": [
-        797.93,
-        919.8
+        121.82,
+        633.84
       ]
     },
     {
@@ -6092,11 +6322,11 @@
         "object",
         "anonymous"
       ],
-      "domain": "91",
-      "range": "35",
+      "domain": "90",
+      "range": "39",
       "pos": [
-        635.22,
-        1008.31
+        540,
+        594.88
       ]
     },
     {
@@ -6106,11 +6336,11 @@
         "object",
         "anonymous"
       ],
-      "domain": "110",
-      "range": "35",
+      "domain": "94",
+      "range": "39",
       "pos": [
-        401.81,
-        818
+        497.6,
+        413.39
       ]
     },
     {
@@ -6120,8 +6350,8 @@
         "object",
         "anonymous"
       ],
-      "domain": "205",
-      "range": "122"
+      "domain": "81",
+      "range": "39"
     },
     {
       "id": "221",
@@ -6130,12 +6360,8 @@
         "object",
         "anonymous"
       ],
-      "domain": "87",
-      "range": "35",
-      "pos": [
-        575.29,
-        521.52
-      ]
+      "domain": "207",
+      "range": "124"
     },
     {
       "id": "222",
@@ -6144,11 +6370,35 @@
         "object",
         "anonymous"
       ],
-      "domain": "79",
-      "range": "35"
+      "domain": "193",
+      "range": "124"
     },
     {
-      "id": "114",
+      "id": "223",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "82",
+      "range": "39"
+    },
+    {
+      "id": "224",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "113",
+      "range": "39",
+      "pos": [
+        272.15,
+        722.49
+      ]
+    },
+    {
+      "id": "116",
       "iri": "http://www.w3.org/2004/02/skos/core#broader",
       "baseIri": "http://www.w3.org/2004/02/skos/core",
       "label": {
@@ -6187,35 +6437,15 @@
           }
         ]
       },
-      "domain": "19",
-      "range": "19",
+      "domain": "21",
+      "range": "21",
       "subproperty": [
-        "113"
+        "115"
       ],
       "superproperty": [
-        "6"
+        "8"
       ],
-      "inverse": "18"
-    },
-    {
-      "id": "223",
-      "label": "Subclass of",
-      "attributes": [
-        "object",
-        "anonymous"
-      ],
-      "domain": "204",
-      "range": "122"
-    },
-    {
-      "id": "224",
-      "label": "Subclass of",
-      "attributes": [
-        "object",
-        "anonymous"
-      ],
-      "domain": "179",
-      "range": "115"
+      "inverse": "20"
     },
     {
       "id": "225",
@@ -6224,8 +6454,8 @@
         "object",
         "anonymous"
       ],
-      "domain": "191",
-      "range": "122"
+      "domain": "181",
+      "range": "117"
     },
     {
       "id": "226",
@@ -6234,12 +6464,8 @@
         "object",
         "anonymous"
       ],
-      "domain": "95",
-      "range": "110",
-      "pos": [
-        232.38,
-        699.49
-      ]
+      "domain": "199",
+      "range": "117"
     },
     {
       "id": "227",
@@ -6248,11 +6474,31 @@
         "object",
         "anonymous"
       ],
-      "domain": "101",
-      "range": "13"
+      "domain": "206",
+      "range": "124"
     },
     {
-      "id": "8",
+      "id": "228",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "80",
+      "range": "81"
+    },
+    {
+      "id": "229",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "104",
+      "range": "15"
+    },
+    {
+      "id": "10",
       "iri": "http://www.w3.org/2004/02/skos/core#mappingRelation",
       "baseIri": "http://www.w3.org/2004/02/skos/core",
       "label": {
@@ -6283,41 +6529,21 @@
           }
         ]
       },
-      "domain": "19",
-      "range": "19",
+      "domain": "21",
+      "range": "21",
       "subproperty": [
-        "63",
-        "105",
-        "20",
-        "113"
+        "66",
+        "108",
+        "22",
+        "115"
       ],
       "superproperty": [
-        "3"
+        "5"
       ],
       "pos": [
-        1261.87,
-        -1014.57
+        379.92,
+        -769.23
       ]
-    },
-    {
-      "id": "228",
-      "label": "Subclass of",
-      "attributes": [
-        "object",
-        "anonymous"
-      ],
-      "domain": "197",
-      "range": "115"
-    },
-    {
-      "id": "229",
-      "label": "Subclass of",
-      "attributes": [
-        "object",
-        "anonymous"
-      ],
-      "domain": "16",
-      "range": "17"
     },
     {
       "id": "230",
@@ -6326,8 +6552,8 @@
         "object",
         "anonymous"
       ],
-      "domain": "135",
-      "range": "30"
+      "domain": "18",
+      "range": "19"
     },
     {
       "id": "231",
@@ -6336,8 +6562,12 @@
         "object",
         "anonymous"
       ],
-      "domain": "10",
-      "range": "134"
+      "domain": "98",
+      "range": "113",
+      "pos": [
+        422.62,
+        827.07
+      ]
     },
     {
       "id": "232",
@@ -6346,12 +6576,8 @@
         "object",
         "anonymous"
       ],
-      "domain": "76",
-      "range": "69",
-      "pos": [
-        1773.72,
-        -158.7
-      ]
+      "domain": "12",
+      "range": "136"
     },
     {
       "id": "233",
@@ -6360,8 +6586,8 @@
         "object",
         "anonymous"
       ],
-      "domain": "134",
-      "range": "135"
+      "domain": "135",
+      "range": "96"
     },
     {
       "id": "234",
@@ -6370,8 +6596,8 @@
         "object",
         "anonymous"
       ],
-      "domain": "92",
-      "range": "93"
+      "domain": "136",
+      "range": "137"
     },
     {
       "id": "235",
@@ -6380,8 +6606,8 @@
         "object",
         "anonymous"
       ],
-      "domain": "133",
-      "range": "93"
+      "domain": "137",
+      "range": "35"
     },
     {
       "id": "236",
@@ -6390,11 +6616,31 @@
         "object",
         "anonymous"
       ],
-      "domain": "132",
-      "range": "93"
+      "domain": "133",
+      "range": "96"
     },
     {
       "id": "237",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "134",
+      "range": "96"
+    },
+    {
+      "id": "238",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "95",
+      "range": "96"
+    },
+    {
+      "id": "239",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Link",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -6404,11 +6650,11 @@
       "attributes": [
         "datatype"
       ],
-      "domain": "173",
-      "range": "238"
+      "domain": "175",
+      "range": "240"
     },
     {
-      "id": "240",
+      "id": "242",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#P46_IsComposedOf",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -6418,18 +6664,18 @@
       "attributes": [
         "object"
       ],
-      "domain": "41",
-      "range": "41",
+      "domain": "46",
+      "range": "46",
       "subproperty": [
-        "241"
+        "243"
       ],
       "pos": [
-        662,
-        680.01
+        443.71,
+        12.44
       ]
     },
     {
-      "id": "241",
+      "id": "243",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#hasMegalithicComponents",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -6439,55 +6685,31 @@
       "attributes": [
         "object"
       ],
-      "domain": "10",
-      "range": "22",
+      "domain": "125",
+      "range": "24",
       "superproperty": [
-        "240"
-      ],
-      "pos": [
-        1807.91,
-        1717.53
+        "242"
       ]
     },
     {
-      "id": "242",
-      "label": "Disjoint With",
-      "attributes": [
-        "object",
-        "anonymous"
-      ],
-      "domain": "17",
-      "range": "83"
-    },
-    {
-      "id": "243",
-      "label": "Disjoint With",
-      "attributes": [
-        "object",
-        "anonymous"
-      ],
-      "domain": "72",
-      "range": "115"
-    },
-    {
       "id": "244",
-      "label": "Subclass of",
+      "label": "Disjoint With",
       "attributes": [
         "object",
         "anonymous"
       ],
-      "domain": "126",
-      "range": "93"
+      "domain": "19",
+      "range": "86"
     },
     {
       "id": "245",
-      "label": "Subclass of",
+      "label": "Disjoint With",
       "attributes": [
         "object",
         "anonymous"
       ],
-      "domain": "127",
-      "range": "126"
+      "domain": "77",
+      "range": "117"
     },
     {
       "id": "246",
@@ -6496,8 +6718,8 @@
         "object",
         "anonymous"
       ],
-      "domain": "131",
-      "range": "93"
+      "domain": "129",
+      "range": "128"
     },
     {
       "id": "247",
@@ -6506,8 +6728,12 @@
         "object",
         "anonymous"
       ],
-      "domain": "130",
-      "range": "93"
+      "domain": "124",
+      "range": "90",
+      "pos": [
+        975.85,
+        754.22
+      ]
     },
     {
       "id": "248",
@@ -6516,8 +6742,8 @@
         "object",
         "anonymous"
       ],
-      "domain": "121",
-      "range": "87"
+      "domain": "132",
+      "range": "96"
     },
     {
       "id": "249",
@@ -6526,8 +6752,8 @@
         "object",
         "anonymous"
       ],
-      "domain": "119",
-      "range": "103"
+      "domain": "128",
+      "range": "96"
     },
     {
       "id": "250",
@@ -6536,12 +6762,8 @@
         "object",
         "anonymous"
       ],
-      "domain": "122",
-      "range": "87",
-      "pos": [
-        582.2,
-        83.98
-      ]
+      "domain": "121",
+      "range": "106"
     },
     {
       "id": "251",
@@ -6550,12 +6772,8 @@
         "object",
         "anonymous"
       ],
-      "domain": "86",
-      "range": "87",
-      "pos": [
-        471.94,
-        85.27
-      ]
+      "domain": "120",
+      "range": "106"
     },
     {
       "id": "252",
@@ -6564,8 +6782,12 @@
         "object",
         "anonymous"
       ],
-      "domain": "118",
-      "range": "103"
+      "domain": "89",
+      "range": "90",
+      "pos": [
+        995.14,
+        665.1
+      ]
     },
     {
       "id": "253",
@@ -6574,11 +6796,31 @@
         "object",
         "anonymous"
       ],
-      "domain": "102",
-      "range": "103"
+      "domain": "123",
+      "range": "90"
     },
     {
       "id": "254",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "105",
+      "range": "106"
+    },
+    {
+      "id": "255",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "119",
+      "range": "106"
+    },
+    {
+      "id": "256",
       "iri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#format",
       "baseIri": "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30",
       "label": {
@@ -6588,11 +6830,11 @@
       "attributes": [
         "datatype"
       ],
-      "domain": "10",
-      "range": "239"
+      "domain": "12",
+      "range": "241"
     },
     {
-      "id": "5",
+      "id": "7",
       "iri": "http://www.w3.org/2004/02/skos/core#narrowerTransitive",
       "baseIri": "http://www.w3.org/2004/02/skos/core",
       "label": {
@@ -6629,35 +6871,15 @@
           }
         ]
       },
-      "domain": "19",
-      "range": "19",
+      "domain": "21",
+      "range": "21",
       "subproperty": [
-        "18"
+        "20"
       ],
       "superproperty": [
-        "3"
+        "5"
       ],
-      "inverse": "6"
-    },
-    {
-      "id": "255",
-      "label": "Subclass of",
-      "attributes": [
-        "object",
-        "anonymous"
-      ],
-      "domain": "117",
-      "range": "103"
-    },
-    {
-      "id": "256",
-      "label": "Subclass of",
-      "attributes": [
-        "object",
-        "anonymous"
-      ],
-      "domain": "192",
-      "range": "91"
+      "inverse": "8"
     },
     {
       "id": "257",
@@ -6666,8 +6888,8 @@
         "object",
         "anonymous"
       ],
-      "domain": "168",
-      "range": "91"
+      "domain": "216",
+      "range": "94"
     },
     {
       "id": "258",
@@ -6676,8 +6898,8 @@
         "object",
         "anonymous"
       ],
-      "domain": "214",
-      "range": "91"
+      "domain": "170",
+      "range": "94"
     },
     {
       "id": "259",
@@ -6686,40 +6908,60 @@
         "object",
         "anonymous"
       ],
-      "domain": "90",
-      "range": "91"
+      "domain": "125",
+      "range": "12"
     },
     {
-      "id": "GENERATED-UNION-173-97-0",
-      "domain": "173",
-      "range": "97"
+      "id": "260",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "93",
+      "range": "94"
     },
     {
-      "id": "GENERATED-UNION-173-99-1",
-      "domain": "173",
-      "range": "99"
+      "id": "261",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "194",
+      "range": "94"
     },
     {
-      "id": "GENERATED-UNION-173-78-2",
-      "domain": "173",
-      "range": "78"
+      "id": "GENERATED-UNION-175-100-0",
+      "domain": "175",
+      "range": "100"
     },
     {
-      "id": "GENERATED-UNION-141-17-0",
-      "domain": "141",
-      "range": "17",
+      "id": "GENERATED-UNION-175-102-1",
+      "domain": "175",
+      "range": "102"
+    },
+    {
+      "id": "GENERATED-UNION-175-32-2",
+      "domain": "175",
+      "range": "32"
+    },
+    {
+      "id": "GENERATED-UNION-143-19-0",
+      "domain": "143",
+      "range": "19",
       "pos": [
-        2291.84,
-        890.54
+        1712.16,
+        -112.33
       ]
     },
     {
-      "id": "GENERATED-UNION-141-4-1",
-      "domain": "141",
-      "range": "4",
+      "id": "GENERATED-UNION-143-6-1",
+      "domain": "143",
+      "range": "6",
       "pos": [
-        2136.52,
-        583.86
+        1550.2,
+        -414.86
       ]
     }
   ]
