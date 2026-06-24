@@ -27,10 +27,12 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+
     
 
 
     <!-- http://purl.org/dc/terms/contributor -->
+
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/contributor"/>
     
@@ -38,11 +40,13 @@
 
     <!-- http://purl.org/dc/terms/creator -->
 
+
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
     
 
 
     <!-- http://purl.org/dc/terms/description -->
+
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
     
@@ -50,17 +54,20 @@
 
     <!-- http://purl.org/dc/terms/license -->
 
+
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
     
 
 
     <!-- http://purl.org/dc/terms/title -->
 
+
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
     
 
 
     <!-- http://www.w3.org/2004/02/skos/core#altLabel -->
+
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#altLabel">
         <rdfs:comment xml:lang="en">The range of skos:altLabel is the class of RDF plain literals.</rdfs:comment>
@@ -74,6 +81,7 @@
 
     <!-- http://www.w3.org/2004/02/skos/core#changeNote -->
 
+
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#changeNote">
         <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2004/02/skos/core"/>
         <skos:definition xml:lang="en">A note about a modification to a concept.</skos:definition>
@@ -83,6 +91,7 @@
 
 
     <!-- http://www.w3.org/2004/02/skos/core#definition -->
+
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition">
         <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2004/02/skos/core"/>
@@ -94,6 +103,7 @@
 
     <!-- http://www.w3.org/2004/02/skos/core#editorialNote -->
 
+
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#editorialNote">
         <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2004/02/skos/core"/>
         <skos:definition xml:lang="en">A note for an editor, translator or maintainer of the vocabulary.</skos:definition>
@@ -104,6 +114,7 @@
 
     <!-- http://www.w3.org/2004/02/skos/core#example -->
 
+
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#example">
         <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2004/02/skos/core"/>
         <skos:definition xml:lang="en">An example of the use of a concept.</skos:definition>
@@ -113,6 +124,7 @@
 
 
     <!-- http://www.w3.org/2004/02/skos/core#hiddenLabel -->
+
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#hiddenLabel">
         <rdfs:comment xml:lang="en">The range of skos:hiddenLabel is the class of RDF plain literals.</rdfs:comment>
@@ -125,6 +137,7 @@
 
     <!-- http://www.w3.org/2004/02/skos/core#historyNote -->
 
+
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#historyNote">
         <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2004/02/skos/core"/>
         <skos:definition xml:lang="en">A note about the past state/use/meaning of a concept.</skos:definition>
@@ -135,6 +148,7 @@
 
     <!-- http://www.w3.org/2004/02/skos/core#note -->
 
+
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#note">
         <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2004/02/skos/core"/>
         <skos:definition xml:lang="en">A general note, for any purpose.</skos:definition>
@@ -144,6 +158,7 @@
 
 
     <!-- http://www.w3.org/2004/02/skos/core#prefLabel -->
+
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel">
         <rdfs:comment xml:lang="en">A resource has no more than one value of skos:prefLabel per language tag, and no more than one value of skos:prefLabel without language tag.</rdfs:comment>
@@ -157,6 +172,7 @@
 
 
     <!-- http://www.w3.org/2004/02/skos/core#scopeNote -->
+
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#scopeNote">
         <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2004/02/skos/core"/>
@@ -174,10 +190,12 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+
     
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#P129_isAbout -->
+
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#P129_isAbout">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E89_Propositional_Object"/>
@@ -189,6 +207,7 @@
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#P130_shows_features_of -->
 
+
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#P130_shows_features_of">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E70_Thing"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E70_Thing"/>
@@ -198,6 +217,7 @@
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#P14_carriedOutBy -->
+
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#P14_carriedOutBy">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E7_Activity"/>
@@ -209,6 +229,7 @@
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#P165_incorporates -->
 
+
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#P165_incorporates">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E89_Propositional_Object"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E90_Symbolic_Object"/>
@@ -218,6 +239,7 @@
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#P198_holds_or_supports -->
+
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#P198_holds_or_supports">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E18_Physical_Thing"/>
@@ -229,6 +251,7 @@
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#P46_IsComposedOf -->
 
+
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#P46_IsComposedOf">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E18_Physical_Thing"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E18_Physical_Thing"/>
@@ -238,6 +261,7 @@
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#P4_hasTimeSpan -->
+
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#P4_hasTimeSpan">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E2_Temporal_Entity"/>
@@ -249,6 +273,7 @@
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#P53_has_former_or_current_location -->
 
+
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#P53_has_former_or_current_location">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E18_Physical_Thing"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E53_Place"/>
@@ -258,6 +283,7 @@
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#P89_falls_within -->
+
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#P89_falls_within">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E53_Place"/>
@@ -269,6 +295,7 @@
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#P8_took_place_on_or_within -->
 
+
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#P8_took_place_on_or_within">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E4_Period"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E18_Physical_Thing"/>
@@ -278,6 +305,7 @@
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#hasArtisticTimeSpan -->
+
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#hasArtisticTimeSpan">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#P4_hasTimeSpan"/>
@@ -290,6 +318,7 @@
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#hasClimate -->
 
+
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#hasClimate">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#P130_shows_features_of"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E53_Place"/>
@@ -300,6 +329,7 @@
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#hasConstructionTimeSpan -->
+
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#hasConstructionTimeSpan">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#P4_hasTimeSpan"/>
@@ -312,6 +342,7 @@
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#hasEngravings -->
 
+
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#hasEngravings">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#P130_shows_features_of"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Menhir"/>
@@ -322,6 +353,7 @@
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#hasExcavationTimeSpan -->
+
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#hasExcavationTimeSpan">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#P4_hasTimeSpan"/>
@@ -334,6 +366,7 @@
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#hasFormationTimeSpan -->
 
+
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#hasFormationTimeSpan">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#P4_hasTimeSpan"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Formation"/>
@@ -345,6 +378,7 @@
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#hasIdentificationTimeSpan -->
 
+
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#hasIdentificationTimeSpan">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#P4_hasTimeSpan"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Identification"/>
@@ -354,6 +388,7 @@
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#hasMegalithicComponents -->
+
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#hasMegalithicComponents">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#P46_IsComposedOf"/>
@@ -366,6 +401,7 @@
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#hasTypicalLandscape -->
 
+
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#hasTypicalLandscape">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#P130_shows_features_of"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E53_Place"/>
@@ -376,6 +412,7 @@
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#hasUsageTimeSpan -->
+
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#hasUsageTimeSpan">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#P4_hasTimeSpan"/>
@@ -388,6 +425,7 @@
 
     <!-- http://www.w3.org/2004/02/skos/core#broadMatch -->
 
+
     <owl:ObjectProperty rdf:about="http://www.w3.org/2004/02/skos/core#broadMatch">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#broader"/>
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
@@ -399,6 +437,7 @@
 
 
     <!-- http://www.w3.org/2004/02/skos/core#broader -->
+
 
     <owl:ObjectProperty rdf:about="http://www.w3.org/2004/02/skos/core#broader">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#broaderTransitive"/>
@@ -413,6 +452,7 @@
 
     <!-- http://www.w3.org/2004/02/skos/core#broaderTransitive -->
 
+
     <owl:ObjectProperty rdf:about="http://www.w3.org/2004/02/skos/core#broaderTransitive">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#semanticRelation"/>
         <owl:inverseOf rdf:resource="http://www.w3.org/2004/02/skos/core#narrowerTransitive"/>
@@ -426,6 +466,7 @@
 
     <!-- http://www.w3.org/2004/02/skos/core#closeMatch -->
 
+
     <owl:ObjectProperty rdf:about="http://www.w3.org/2004/02/skos/core#closeMatch">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
@@ -436,6 +477,7 @@
 
 
     <!-- http://www.w3.org/2004/02/skos/core#exactMatch -->
+
 
     <owl:ObjectProperty rdf:about="http://www.w3.org/2004/02/skos/core#exactMatch">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#closeMatch"/>
@@ -450,6 +492,7 @@
 
     <!-- http://www.w3.org/2004/02/skos/core#hasTopConcept -->
 
+
     <owl:ObjectProperty rdf:about="http://www.w3.org/2004/02/skos/core#hasTopConcept">
         <owl:inverseOf rdf:resource="http://www.w3.org/2004/02/skos/core#topConceptOf"/>
         <rdfs:domain rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
@@ -462,6 +505,7 @@
 
     <!-- http://www.w3.org/2004/02/skos/core#inScheme -->
 
+
     <owl:ObjectProperty rdf:about="http://www.w3.org/2004/02/skos/core#inScheme">
         <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
         <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2004/02/skos/core"/>
@@ -473,6 +517,7 @@
 
     <!-- http://www.w3.org/2004/02/skos/core#mappingRelation -->
 
+
     <owl:ObjectProperty rdf:about="http://www.w3.org/2004/02/skos/core#mappingRelation">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#semanticRelation"/>
         <rdfs:comment xml:lang="en">These concept mapping relations mirror semantic relations, and the data model defined below is similar (with the exception of skos:exactMatch) to the data model defined for semantic relations. A distinct vocabulary is provided for concept mapping relations, to provide a convenient way to differentiate links within a concept scheme from links between concept schemes. However, this pattern of usage is not a formal requirement of the SKOS data model, and relies on informal definitions of best practice.</rdfs:comment>
@@ -483,6 +528,7 @@
 
 
     <!-- http://www.w3.org/2004/02/skos/core#member -->
+
 
     <owl:ObjectProperty rdf:about="http://www.w3.org/2004/02/skos/core#member">
         <rdfs:domain rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
@@ -502,6 +548,7 @@
 
     <!-- http://www.w3.org/2004/02/skos/core#memberList -->
 
+
     <owl:ObjectProperty rdf:about="http://www.w3.org/2004/02/skos/core#memberList">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://www.w3.org/2004/02/skos/core#OrderedCollection"/>
@@ -516,6 +563,7 @@
 
     <!-- http://www.w3.org/2004/02/skos/core#narrowMatch -->
 
+
     <owl:ObjectProperty rdf:about="http://www.w3.org/2004/02/skos/core#narrowMatch">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#narrower"/>
@@ -526,6 +574,7 @@
 
 
     <!-- http://www.w3.org/2004/02/skos/core#narrower -->
+
 
     <owl:ObjectProperty rdf:about="http://www.w3.org/2004/02/skos/core#narrower">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#narrowerTransitive"/>
@@ -539,6 +588,7 @@
 
     <!-- http://www.w3.org/2004/02/skos/core#narrowerTransitive -->
 
+
     <owl:ObjectProperty rdf:about="http://www.w3.org/2004/02/skos/core#narrowerTransitive">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#semanticRelation"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
@@ -550,6 +600,7 @@
 
 
     <!-- http://www.w3.org/2004/02/skos/core#related -->
+
 
     <owl:ObjectProperty rdf:about="http://www.w3.org/2004/02/skos/core#related">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#semanticRelation"/>
@@ -563,6 +614,7 @@
 
     <!-- http://www.w3.org/2004/02/skos/core#relatedMatch -->
 
+
     <owl:ObjectProperty rdf:about="http://www.w3.org/2004/02/skos/core#relatedMatch">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#related"/>
@@ -575,6 +627,7 @@
 
     <!-- http://www.w3.org/2004/02/skos/core#semanticRelation -->
 
+
     <owl:ObjectProperty rdf:about="http://www.w3.org/2004/02/skos/core#semanticRelation">
         <rdfs:domain rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -586,6 +639,7 @@
 
 
     <!-- http://www.w3.org/2004/02/skos/core#topConceptOf -->
+
 
     <owl:ObjectProperty rdf:about="http://www.w3.org/2004/02/skos/core#topConceptOf">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
@@ -605,10 +659,12 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+
     
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Link -->
+
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Link">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
@@ -623,6 +679,7 @@
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#format -->
 
+
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#format">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#MegalithicMonument"/>
@@ -633,6 +690,7 @@
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#heightMeters -->
+
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#heightMeters">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
@@ -645,6 +703,7 @@
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#rockType -->
 
+
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#rockType">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#MegalithicMonument"/>
@@ -655,6 +714,7 @@
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#usagetypeArtefacts -->
+
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#usagetypeArtefacts">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
@@ -667,6 +727,7 @@
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#usagetypeMegalithism -->
 
+
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#usagetypeMegalithism">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#MegalithicSite"/>
@@ -677,6 +738,7 @@
 
 
     <!-- http://www.w3.org/2004/02/skos/core#notation -->
+
 
     <owl:DatatypeProperty rdf:about="http://www.w3.org/2004/02/skos/core#notation">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
@@ -695,10 +757,12 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+
     
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#App -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#App">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E31_Document"/>
@@ -710,6 +774,7 @@
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#ArchaeologicalArtefact -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#ArchaeologicalArtefact">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E19_Physical_Object"/>
         <rdfs:comment>Artefacts found in an archaeological site.</rdfs:comment>
@@ -719,6 +784,7 @@
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#ArchaeologicalMonument -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#ArchaeologicalMonument">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#CulturalHeritageMonument"/>
@@ -730,6 +796,7 @@
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#ArchaeologicalSite -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#ArchaeologicalSite">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E27_Site"/>
         <rdfs:comment>The area where traces of human occupation have been found.</rdfs:comment>
@@ -739,6 +806,7 @@
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Archaeologist -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Archaeologist">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E21_Person"/>
@@ -750,6 +818,7 @@
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Arrowhead -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Arrowhead">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#ArchaeologicalArtefact"/>
         <rdfs:comment>The tip of an arrow.</rdfs:comment>
@@ -759,6 +828,7 @@
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Artist -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Artist">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E21_Person"/>
@@ -770,6 +840,7 @@
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Audio -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Audio">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E31_Document"/>
         <rdfs:comment>Audio files</rdfs:comment>
@@ -779,6 +850,7 @@
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Beaker -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Beaker">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#ArchaeologicalArtefact"/>
@@ -790,6 +862,7 @@
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#BirdSounds -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#BirdSounds">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#NaturalSoundscape"/>
         <rdfs:comment>Sounds of birds chirping.</rdfs:comment>
@@ -799,6 +872,7 @@
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#BronzeAge -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#BronzeAge">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E4_Period"/>
@@ -811,6 +885,7 @@
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Cave -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Cave">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#NaturalHeritageSite"/>
         <rdfs:comment>A natural underground space typically formed by the weathering of rock.</rdfs:comment>
@@ -820,6 +895,7 @@
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Climate -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Climate">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E26_Physical_Feature"/>
@@ -831,6 +907,7 @@
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Construction -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Construction">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E7_Activity"/>
         <rdfs:comment>The construction of the archaeological site.</rdfs:comment>
@@ -840,6 +917,7 @@
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Coordinates -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Coordinates">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E94_Space_Primitive"/>
@@ -851,6 +929,7 @@
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#CulturalHeritageMonument -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#CulturalHeritageMonument">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E24_Physical_Human-Made_Thing"/>
         <rdfs:label xml:lang="en">Cultural Heritage Monument</rdfs:label>
@@ -859,6 +938,7 @@
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#CulturalHeritageSite -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#CulturalHeritageSite">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E27_Site"/>
@@ -870,6 +950,7 @@
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#CulturalLandscape -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#CulturalLandscape">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Landscape"/>
         <rdfs:comment>A landscape containing features made by humans. It can be protected as a cultural heritage site.</rdfs:comment>
@@ -879,6 +960,7 @@
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#CulturalLandscapeSite -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#CulturalLandscapeSite">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E27_Site"/>
@@ -890,6 +972,7 @@
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Demonstrator -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Demonstrator">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E71_Human-Made_Thing"/>
         <rdfs:comment>A prototype or tool created to showcase a concept or functionality</rdfs:comment>
@@ -899,6 +982,7 @@
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#District -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#District">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E53_Place"/>
@@ -910,6 +994,7 @@
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E18_Physical_Thing -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E18_Physical_Thing">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E70_Thing"/>
         <rdfs:label xml:lang="en">E18 Physical Thing</rdfs:label>
@@ -918,6 +1003,7 @@
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E19_Physical_Object -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E19_Physical_Object">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E18_Physical_Thing"/>
@@ -928,6 +1014,7 @@
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E1_CRM_Entity -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E1_CRM_Entity">
         <rdfs:label xml:lang="en">E1 CRM Entity</rdfs:label>
     </owl:Class>
@@ -935,6 +1022,7 @@
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E21_Person -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E21_Person">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E39_Actor"/>
@@ -944,6 +1032,7 @@
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E24_Physical_Human-Made_Thing -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E24_Physical_Human-Made_Thing">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E18_Physical_Thing"/>
@@ -955,6 +1044,7 @@
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E26_Physical_Feature -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E26_Physical_Feature">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E18_Physical_Thing"/>
         <rdfs:label xml:lang="en">E26 Physical Feature</rdfs:label>
@@ -963,6 +1053,7 @@
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E27_Site -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E27_Site">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E26_Physical_Feature"/>
@@ -974,6 +1065,7 @@
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E2_Temporal_Entity -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E2_Temporal_Entity">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E1_CRM_Entity"/>
         <rdfs:label xml:lang="en">E2 Temporal Entity</rdfs:label>
@@ -982,6 +1074,7 @@
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E31_Document -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E31_Document">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E73_Information_Object"/>
@@ -992,6 +1085,7 @@
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E33_Linguistic_Object -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E33_Linguistic_Object">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E73_Information_Object"/>
         <rdfs:label xml:lang="en">E33 Linguistic Object</rdfs:label>
@@ -1000,6 +1094,7 @@
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E39_Actor -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E39_Actor">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E1_CRM_Entity"/>
@@ -1010,6 +1105,7 @@
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E4_Period -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E4_Period">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E2_Temporal_Entity"/>
         <rdfs:label xml:lang="en">E4 Period</rdfs:label>
@@ -1018,6 +1114,7 @@
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E52_TimeSpan -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E52_TimeSpan">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E1_CRM_Entity"/>
@@ -1028,6 +1125,7 @@
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E53_Place -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E53_Place">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E1_CRM_Entity"/>
         <rdfs:label xml:lang="en">E53 Place</rdfs:label>
@@ -1036,6 +1134,7 @@
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E55_Type -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E55_Type">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E1_CRM_Entity"/>
@@ -1046,6 +1145,7 @@
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E70_Thing -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E70_Thing">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E1_CRM_Entity"/>
         <rdfs:label xml:lang="en">E70 Thing</rdfs:label>
@@ -1054,6 +1154,7 @@
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E71_Human-Made_Thing -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E71_Human-Made_Thing">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E70_Thing"/>
@@ -1064,6 +1165,7 @@
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E73_Information_Object -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E73_Information_Object">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E90_Symbolic_Object"/>
         <rdfs:label xml:lang="en">E73 Information Object</rdfs:label>
@@ -1072,6 +1174,7 @@
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E74_Group -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E74_Group">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E39_Actor"/>
@@ -1082,6 +1185,7 @@
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E7_Activity -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E7_Activity">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E4_Period"/>
         <rdfs:label xml:lang="en">E7 Activity</rdfs:label>
@@ -1090,6 +1194,7 @@
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E89_Propositional_Object -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E89_Propositional_Object">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E71_Human-Made_Thing"/>
@@ -1100,6 +1205,7 @@
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E90_Symbolic_Object -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E90_Symbolic_Object">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E89_Propositional_Object"/>
         <rdfs:label xml:lang="en">E90 Symbolic Object</rdfs:label>
@@ -1109,6 +1215,7 @@
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E94_Space_Primitive -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E94_Space_Primitive">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E1_CRM_Entity"/>
         <rdfs:label xml:lang="en">E94 Space Primitive</rdfs:label>
@@ -1117,6 +1224,7 @@
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#EarlyNeolithic -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#EarlyNeolithic">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Neolithic"/>
@@ -1128,6 +1236,7 @@
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Engravings -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Engravings">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E90_Symbolic_Object"/>
         <rdfs:comment>Carved marks or decorations on menhirs.</rdfs:comment>
@@ -1137,6 +1246,7 @@
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Excavation -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Excavation">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E7_Activity"/>
@@ -1148,6 +1258,7 @@
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Fissure -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Fissure">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#NaturalHeritageSite"/>
         <rdfs:comment>A narrow opening or crack typically resulting from geological processes.</rdfs:comment>
@@ -1157,6 +1268,7 @@
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#FoodVessel -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#FoodVessel">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Beaker"/>
@@ -1168,6 +1280,7 @@
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Formation -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Formation">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E7_Activity"/>
         <rdfs:comment>The geological or natural formation of the site or landscape.</rdfs:comment>
@@ -1177,6 +1290,7 @@
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#GroovedWare -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#GroovedWare">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#ArchaeologicalArtefact"/>
@@ -1188,6 +1302,7 @@
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Hill -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Hill">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#NaturalHeritageSite"/>
         <rdfs:comment>A naturally raised area of land, smaller than a mountain.</rdfs:comment>
@@ -1197,6 +1312,7 @@
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Identification -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Identification">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E7_Activity"/>
@@ -1208,6 +1324,7 @@
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Idol -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Idol">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#ArchaeologicalArtefact"/>
         <rdfs:comment>Object made with the purpose of fulfilling a religious / ritualistic / symbolic goal.</rdfs:comment>
@@ -1217,6 +1334,7 @@
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Image -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Image">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E31_Document"/>
@@ -1228,6 +1346,7 @@
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Institution -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Institution">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E74_Group"/>
         <rdfs:comment>An organised body responsible for research, preservation, or management of cultural/natural heritage.</rdfs:comment>
@@ -1238,6 +1357,7 @@
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Intangible_Feature -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Intangible_Feature">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E55_Type"/>
         <rdfs:label>Intangible Feature</rdfs:label>
@@ -1246,6 +1366,7 @@
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Interview -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Interview">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E33_Linguistic_Object"/>
@@ -1257,6 +1378,7 @@
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Lake -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Lake">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#NaturalHeritageSite"/>
         <rdfs:comment>A large body of water surrounded by land.</rdfs:comment>
@@ -1266,6 +1388,7 @@
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Landscape -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Landscape">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E26_Physical_Feature"/>
@@ -1277,6 +1400,7 @@
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#LateNeolithic -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#LateNeolithic">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Neolithic"/>
         <rdfs:comment>The later phase of the Neolithic period, associated with complex societies and megalithic monuments.</rdfs:comment>
@@ -1286,6 +1410,7 @@
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#LithicTool -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#LithicTool">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#StoneTool"/>
@@ -1297,6 +1422,7 @@
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#LoomWeight -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#LoomWeight">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#ArchaeologicalArtefact"/>
         <rdfs:comment>Object used in textile production.</rdfs:comment>
@@ -1306,6 +1432,7 @@
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#MegalithicMonument -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#MegalithicMonument">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#ArchaeologicalMonument"/>
@@ -1317,6 +1444,7 @@
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#MegalithicSite -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#MegalithicSite">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#ArchaeologicalSite"/>
         <rdfs:comment>A specific geographical area where large stone monuments or constructions, like stones circles or standing stones, are located.</rdfs:comment>
@@ -1326,6 +1454,7 @@
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Menhir -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Menhir">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#MegalithicMonument"/>
@@ -1337,6 +1466,7 @@
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#MiddleBronzeAge -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#MiddleBronzeAge">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#BronzeAge"/>
         <rdfs:comment>The middle phase of the Bronze Age</rdfs:comment>
@@ -1346,6 +1476,7 @@
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Municipality -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Municipality">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E53_Place"/>
@@ -1357,6 +1488,7 @@
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Museum -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Museum">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E74_Group"/>
         <rdfs:comment>A public entity whose efforts involve the acquisition, preservation, research and exhibition of objects with different types of values.</rdfs:comment>
@@ -1366,6 +1498,7 @@
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Narrative -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Narrative">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E33_Linguistic_Object"/>
@@ -1377,6 +1510,7 @@
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#NaturalHeritageSite -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#NaturalHeritageSite">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E27_Site"/>
         <rdfs:comment>A location of outstanding geological, ecological, or scenic value, often protected for its environmental significance.</rdfs:comment>
@@ -1386,6 +1520,7 @@
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#NaturalLandscape -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#NaturalLandscape">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Landscape"/>
@@ -1397,6 +1532,7 @@
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#NaturalSoundscape -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#NaturalSoundscape">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Soundscape"/>
         <rdfs:comment>Sounds of nature in its characteristic environment.</rdfs:comment>
@@ -1406,6 +1542,7 @@
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Neolithic -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Neolithic">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E4_Period"/>
@@ -1417,6 +1554,7 @@
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#OcupationOrUsage -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#OcupationOrUsage">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E7_Activity"/>
         <rdfs:comment>The human usage or inhabitation of a site over a period of time.</rdfs:comment>
@@ -1426,6 +1564,7 @@
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#OtherSounds -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#OtherSounds">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#NaturalSoundscape"/>
@@ -1437,6 +1576,7 @@
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Paleoproterozoic -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Paleoproterozoic">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E4_Period"/>
         <rdfs:comment>A geological period dating from approximately 2.5 to 1.6 billion years ago.</rdfs:comment>
@@ -1446,6 +1586,7 @@
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Parish -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Parish">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E53_Place"/>
@@ -1457,6 +1598,7 @@
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Park -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Park">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#NaturalHeritageSite"/>
         <rdfs:comment>A designated area preserved for its natural environment and public enjoyment.</rdfs:comment>
@@ -1466,6 +1608,7 @@
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#PlaqueIdol -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#PlaqueIdol">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Idol"/>
@@ -1478,6 +1621,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Region -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Region">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E53_Place"/>
         <rdfs:comment>A geographical unit that can aggregate multiple districts</rdfs:comment>
@@ -1487,6 +1631,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Restoration -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Restoration">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E7_Activity"/>
@@ -1498,6 +1643,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Roll_up -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Roll_up">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E31_Document"/>
         <rdfs:comment>Roll ups of the exhibition</rdfs:comment>
@@ -1507,6 +1653,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Romanticism -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Romanticism">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E7_Activity"/>
@@ -1518,6 +1665,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#RuralLandscape -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#RuralLandscape">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#CulturalLandscape"/>
         <rdfs:comment>Landscape characterised by open fields, low population and green areas with diverse vegetation.</rdfs:comment>
@@ -1527,6 +1675,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#SoundsOfTheTreeBranches -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#SoundsOfTheTreeBranches">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#NaturalSoundscape"/>
@@ -1538,6 +1687,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#SoundsOfTheWindBlowing -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#SoundsOfTheWindBlowing">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#NaturalSoundscape"/>
         <rdfs:comment>Sounds of blowing wind</rdfs:comment>
@@ -1547,6 +1697,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Soundscape -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Soundscape">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E26_Physical_Feature"/>
@@ -1558,6 +1709,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#SpiritualOrRitualSite -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#SpiritualOrRitualSite">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E27_Site"/>
         <rdfs:comment>A location where ancient religious or ceremonial/ritualistic practices were/are conducted.</rdfs:comment>
@@ -1567,6 +1719,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#StoneCircleOrCromlech -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#StoneCircleOrCromlech">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#MegalithicMonument"/>
@@ -1578,6 +1731,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#StoneTool -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#StoneTool">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#ArchaeologicalArtefact"/>
         <rdfs:comment>A general-purpose manually shaped stone implement</rdfs:comment>
@@ -1587,6 +1741,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Text -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Text">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E31_Document"/>
@@ -1598,6 +1753,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#TouristicSite -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#TouristicSite">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E27_Site"/>
         <rdfs:comment>A space open to visitors.</rdfs:comment>
@@ -1607,6 +1763,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#UrbanLandscape -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#UrbanLandscape">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#CulturalLandscape"/>
@@ -1618,6 +1775,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Video -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Video">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E31_Document"/>
         <rdfs:comment>Video files</rdfs:comment>
@@ -1627,6 +1785,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Volunteer -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Volunteer">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E21_Person"/>
@@ -1638,6 +1797,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#3DModel -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#3DModel">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E31_Document"/>
         <rdfs:comment>3D model files</rdfs:comment>
@@ -1647,6 +1807,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Patron/Promoter -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Patron/Promoter">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E39_Actor"/>
@@ -1658,11 +1819,13 @@ plaques)</rdfs:comment>
 
     <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#List -->
 
+
     <owl:Class rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
     
 
 
     <!-- http://www.w3.org/2004/02/skos/core#Collection -->
+
 
     <owl:Class rdf:about="http://www.w3.org/2004/02/skos/core#Collection">
         <owl:disjointWith rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
@@ -1675,6 +1838,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.w3.org/2004/02/skos/core#Concept -->
 
+
     <owl:Class rdf:about="http://www.w3.org/2004/02/skos/core#Concept">
         <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2004/02/skos/core"/>
         <rdfs:label>Concept(Intangible Feature)</rdfs:label>
@@ -1684,6 +1848,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.w3.org/2004/02/skos/core#ConceptScheme -->
+
 
     <owl:Class rdf:about="http://www.w3.org/2004/02/skos/core#ConceptScheme">
         <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2004/02/skos/core"/>
@@ -1695,6 +1860,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.w3.org/2004/02/skos/core#OrderedCollection -->
+
 
     <owl:Class rdf:about="http://www.w3.org/2004/02/skos/core#OrderedCollection">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
@@ -1713,10 +1879,12 @@ plaques)</rdfs:comment>
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+
     
 
 
     <!-- http://www.co-ode.org/ontologies/ont.owl#S3_I.K._Inha -->
+
 
     <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#S3_I.K._Inha">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Artist"/>
@@ -1726,6 +1894,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.co-ode.org/ontologies/ont.owl#S3_Pekka_Halonen -->
 
+
     <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#S3_Pekka_Halonen">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Artist"/>
     </owl:NamedIndividual>
@@ -1733,6 +1902,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.co-ode.org/ontologies/ont.owl#S3_Venny_Soldan-Brofeldt -->
+
 
     <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#S3_Venny_Soldan-Brofeldt">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Artist"/>
@@ -1742,6 +1912,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_1970 -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_1970">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E52_TimeSpan"/>
     </owl:NamedIndividual>
@@ -1749,6 +1920,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_2005-2006 -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_2005-2006">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E52_TimeSpan"/>
@@ -1758,11 +1930,13 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_360_SiteView -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_360_SiteView"/>
     
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_3DMFont1 -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_3DMFont1">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#3DModel"/>
@@ -1773,6 +1947,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_3DMFont2 -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_3DMFont2">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#3DModel"/>
     </owl:NamedIndividual>
@@ -1780,6 +1955,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_3DMFont3 -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_3DMFont3">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#3DModel"/>
@@ -1789,6 +1965,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_3DMFont4 -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_3DMFont4">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#3DModel"/>
     </owl:NamedIndividual>
@@ -1796,6 +1973,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_3DMFont5 -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_3DMFont5">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#3DModel"/>
@@ -1805,6 +1983,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_7000-2000 -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_7000-2000">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E52_TimeSpan"/>
     </owl:NamedIndividual>
@@ -1812,6 +1991,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Alentejo_Central -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Alentejo_Central">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Region"/>
@@ -1822,6 +2002,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_App_Opening -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_App_Opening">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#App"/>
@@ -1834,11 +2015,13 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_App_WelcomingMessage -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_App_WelcomingMessage"/>
     
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_AudFont1 -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_AudFont1">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Audio"/>
@@ -1848,6 +2031,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_AudFont2 -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_AudFont2">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Audio"/>
     </owl:NamedIndividual>
@@ -1855,6 +2039,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_AudFont3 -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_AudFont3">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Audio"/>
@@ -1864,6 +2049,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_AudFont4 -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_AudFont4">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Audio"/>
     </owl:NamedIndividual>
@@ -1871,6 +2057,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_AudFont5 -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_AudFont5">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Audio"/>
@@ -1880,6 +2067,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_AudFont6 -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_AudFont6">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Audio"/>
     </owl:NamedIndividual>
@@ -1887,6 +2075,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_CF_M1 -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_CF_M1">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Menhir"/>
@@ -1897,6 +2086,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_CF_M2 -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_CF_M2">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Menhir"/>
         <hasEngravings rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Crescent_and_Crozier"/>
@@ -1906,6 +2096,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_CF_M3 -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_CF_M3">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Menhir"/>
     </owl:NamedIndividual>
@@ -1913,6 +2104,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_CF_M4 -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_CF_M4">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Menhir"/>
@@ -1922,6 +2114,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_CF_M5 -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_CF_M5">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Menhir"/>
     </owl:NamedIndividual>
@@ -1929,6 +2122,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_CF_M5a -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_CF_M5a">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Menhir"/>
@@ -1938,6 +2132,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_CF_M5b -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_CF_M5b">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Menhir"/>
     </owl:NamedIndividual>
@@ -1945,6 +2140,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_CF_M6 -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_CF_M6">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Menhir"/>
@@ -1954,6 +2150,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_CF_M6a -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_CF_M6a">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Menhir"/>
     </owl:NamedIndividual>
@@ -1961,6 +2158,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_CF_M7 -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_CF_M7">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Menhir"/>
@@ -1970,6 +2168,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_CF_M8 -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_CF_M8">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Menhir"/>
     </owl:NamedIndividual>
@@ -1977,6 +2176,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Construction_of_Cromeleque_das_Fontaínhas -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Construction_of_Cromeleque_das_Fontaínhas">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Construction"/>
@@ -1987,6 +2187,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Crescent_and_Crozier -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Crescent_and_Crozier">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Engravings"/>
     </owl:NamedIndividual>
@@ -1994,6 +2195,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Cromeleque_das_Fontaínhas -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Cromeleque_das_Fontaínhas">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#CulturalHeritageSite"/>
@@ -2021,6 +2223,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Excavation_of_Cromeleque_das_Fontaínhas -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Excavation_of_Cromeleque_das_Fontaínhas">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Excavation"/>
         <P8_took_place_on_or_within rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Cromeleque_das_Fontaínhas"/>
@@ -2030,6 +2233,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Identification_of_Cromeleque_das_Fontaínhas -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Identification_of_Cromeleque_das_Fontaínhas">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Identification"/>
@@ -2041,6 +2245,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont10_CF_M5a -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont10_CF_M5a">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Image"/>
         <P129_isAbout rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_CF_M5a"/>
@@ -2050,6 +2255,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont11_Ontology_Model -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont11_Ontology_Model">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Image"/>
     </owl:NamedIndividual>
@@ -2057,6 +2263,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont12_Environment_3 -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont12_Environment_3">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Image"/>
@@ -2066,6 +2273,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont13_Museum_Pictures -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont13_Museum_Pictures">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Image"/>
     </owl:NamedIndividual>
@@ -2073,6 +2281,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont14_Environment_4 -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont14_Environment_4">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Image"/>
@@ -2082,6 +2291,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont15_Environment_5 -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont15_Environment_5">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Image"/>
     </owl:NamedIndividual>
@@ -2089,6 +2299,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont16_Visitor_Pictures -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont16_Visitor_Pictures">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Image"/>
@@ -2098,6 +2309,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont17_Environment_6 -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont17_Environment_6">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Image"/>
     </owl:NamedIndividual>
@@ -2105,6 +2317,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont18_Tourism_Scheme -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont18_Tourism_Scheme">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Image"/>
@@ -2114,6 +2327,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont19_CF_M5b -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont19_CF_M5b">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Image"/>
     </owl:NamedIndividual>
@@ -2121,6 +2335,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont1_Environment -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont1_Environment">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Image"/>
@@ -2130,6 +2345,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont20_Cromlech_Pictures -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont20_Cromlech_Pictures">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Image"/>
     </owl:NamedIndividual>
@@ -2137,6 +2353,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont2_CF_M2 -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont2_CF_M2">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Image"/>
@@ -2147,6 +2364,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont3_CF_M3 -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont3_CF_M3">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Image"/>
         <P129_isAbout rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_CF_M3"/>
@@ -2155,6 +2373,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont4_CF_M4 -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont4_CF_M4">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Image"/>
@@ -2165,6 +2384,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont5_CF_M5 -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont5_CF_M5">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Image"/>
         <P129_isAbout rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_CF_M5"/>
@@ -2174,6 +2394,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont6_ArcheologicalDrawings -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont6_ArcheologicalDrawings">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Image"/>
     </owl:NamedIndividual>
@@ -2181,6 +2402,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont7_CF_M6 -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont7_CF_M6">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Image"/>
@@ -2191,6 +2413,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont8_Environment_2 -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont8_Environment_2">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Image"/>
     </owl:NamedIndividual>
@@ -2198,6 +2421,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont9_RecoveryAndExcavation -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont9_RecoveryAndExcavation">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Image"/>
@@ -2207,11 +2431,13 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Language_Selection -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Language_Selection"/>
     
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Leonor_Rocha -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Leonor_Rocha">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Archaeologist"/>
@@ -2221,6 +2447,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Manuel_Calado -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Manuel_Calado">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Archaeologist"/>
     </owl:NamedIndividual>
@@ -2228,6 +2455,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Mediterranean_Climate -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Mediterranean_Climate">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Climate"/>
@@ -2237,6 +2465,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Montado_Alentejano -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Montado_Alentejano">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#RuralLandscape"/>
     </owl:NamedIndividual>
@@ -2244,6 +2473,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Mora -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Mora">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Municipality"/>
@@ -2254,6 +2484,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Museu_do_Megalitismo_de_Mora -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Museu_do_Megalitismo_de_Mora">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Museum"/>
     </owl:NamedIndividual>
@@ -2261,6 +2492,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_NrtFont2_TalkingStone1 -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_NrtFont2_TalkingStone1">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Narrative"/>
@@ -2270,6 +2502,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_NrtFont3_TalkingStone2 -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_NrtFont3_TalkingStone2">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Narrative"/>
     </owl:NamedIndividual>
@@ -2277,6 +2510,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_NrtFont4_TalkingStone3 -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_NrtFont4_TalkingStone3">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Narrative"/>
@@ -2286,6 +2520,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_NrtFont5_TalkingStone4 -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_NrtFont5_TalkingStone4">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Narrative"/>
     </owl:NamedIndividual>
@@ -2294,6 +2529,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_NrtFont6_TalkingStone5 -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_NrtFont6_TalkingStone5">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Narrative"/>
     </owl:NamedIndividual>
@@ -2301,6 +2537,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Ocupation_of_Cromeleque_das_Fontaínhas -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Ocupation_of_Cromeleque_das_Fontaínhas">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#OcupationOrUsage"/>
@@ -2312,6 +2549,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_1 -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_1">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Roll_up"/>
         <P129_isAbout rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_TextFont1_INT-ACT_Project"/>
@@ -2321,6 +2559,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_10 -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_10">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Roll_up"/>
@@ -2333,6 +2572,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_11 -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_11">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Roll_up"/>
         <P46_IsComposedOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont15_Environment_5"/>
@@ -2342,6 +2582,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_12 -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_12">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Roll_up"/>
@@ -2356,6 +2597,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_13 -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_13">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Roll_up"/>
         <P46_IsComposedOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont19_CF_M5b"/>
@@ -2364,6 +2606,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_2 -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_2">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Roll_up"/>
@@ -2375,6 +2618,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_3 -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_3">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Roll_up"/>
         <P46_IsComposedOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont3_CF_M3"/>
@@ -2385,6 +2629,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_4 -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_4">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Roll_up"/>
         <P46_IsComposedOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont4_CF_M4"/>
@@ -2393,6 +2638,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_5 -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_5">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Roll_up"/>
@@ -2405,6 +2651,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_6 -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_6">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Roll_up"/>
         <P46_IsComposedOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont7_CF_M6"/>
@@ -2413,6 +2660,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_7 -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_7">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Roll_up"/>
@@ -2425,6 +2673,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_8 -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_8">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Roll_up"/>
         <P46_IsComposedOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont10_CF_M5a"/>
@@ -2434,6 +2683,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_9 -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_9">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Roll_up"/>
@@ -2446,6 +2696,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Pavia -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Pavia">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Parish"/>
         <P89_falls_within rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Mora"/>
@@ -2455,6 +2706,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Pedro_Alvim -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Pedro_Alvim">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Archaeologist"/>
     </owl:NamedIndividual>
@@ -2463,6 +2715,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Physical3DModel_MDF_CF_M1 -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Physical3DModel_MDF_CF_M1">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Demonstrator"/>
     </owl:NamedIndividual>
@@ -2470,6 +2723,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Plaque_Idol_from_Coudelaria_de_Alter -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Plaque_Idol_from_Coudelaria_de_Alter">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#PlaqueIdol"/>
@@ -2480,11 +2734,13 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Project_Partners -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Project_Partners"/>
     
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Restoration_of_Cromeleque_das_Fontaínhas -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Restoration_of_Cromeleque_das_Fontaínhas">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Restoration"/>
@@ -2494,6 +2750,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_TextFont1 -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_TextFont1">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Text"/>
@@ -2505,6 +2762,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_TextFont10_Megalithic_Tourism -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_TextFont10_Megalithic_Tourism">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Text"/>
     </owl:NamedIndividual>
@@ -2512,6 +2770,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_TextFont11_Future_Directions -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_TextFont11_Future_Directions">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Text"/>
@@ -2521,6 +2780,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_TextFont1_INT-ACT_Project -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_TextFont1_INT-ACT_Project">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Text"/>
     </owl:NamedIndividual>
@@ -2528,6 +2788,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_TextFont2_Cromlech_History -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_TextFont2_Cromlech_History">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Text"/>
@@ -2537,6 +2798,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_TextFont3_Lunar_Theory -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_TextFont3_Lunar_Theory">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Text"/>
     </owl:NamedIndividual>
@@ -2545,6 +2807,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_TextFont4_Archeological_Context -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_TextFont4_Archeological_Context">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Text"/>
     </owl:NamedIndividual>
@@ -2552,6 +2815,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_TextFont6_Narrative_Texts -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_TextFont6_Narrative_Texts">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Narrative"/>
@@ -2562,6 +2826,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_TextFont7_Ontology_Explanation -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_TextFont7_Ontology_Explanation">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Text"/>
     </owl:NamedIndividual>
@@ -2569,6 +2834,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_TextFont8_Museum_History -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_TextFont8_Museum_History">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Text"/>
@@ -2578,6 +2844,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_TextFont9_KeyAspectsTourism -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_TextFont9_KeyAspectsTourism">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Text"/>
     </owl:NamedIndividual>
@@ -2585,6 +2852,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_VidFont1_Panoramic_Video1 -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_VidFont1_Panoramic_Video1">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Video"/>
@@ -2594,6 +2862,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_VidFont2_Panoramic_Video2 -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_VidFont2_Panoramic_Video2">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Video"/>
     </owl:NamedIndividual>
@@ -2601,6 +2870,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Évora -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Évora">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#District"/>
@@ -2611,6 +2881,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_1680s -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_1680s">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E52_TimeSpan"/>
     </owl:NamedIndividual>
@@ -2618,6 +2889,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_1857 -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_1857">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E52_TimeSpan"/>
@@ -2627,6 +2899,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_1980-1986 -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_1980-1986">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E52_TimeSpan"/>
     </owl:NamedIndividual>
@@ -2634,6 +2907,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_2900-1500 -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_2900-1500">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E52_TimeSpan"/>
@@ -2643,6 +2917,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_3000-2500 -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_3000-2500">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E52_TimeSpan"/>
     </owl:NamedIndividual>
@@ -2651,6 +2926,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_3DMCal1 -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_3DMCal1">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#3DModel"/>
     </owl:NamedIndividual>
@@ -2658,6 +2934,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_AudCal1 -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_AudCal1">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Audio"/>
@@ -2668,6 +2945,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_AudCal2 -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_AudCal2">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Audio"/>
         <P129_isAbout rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_CalanaisI"/>
@@ -2677,6 +2955,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_BarbedTangedArrowheads -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_BarbedTangedArrowheads">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Arrowhead"/>
     </owl:NamedIndividual>
@@ -2684,6 +2963,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_CL_M1 -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_CL_M1">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Menhir"/>
@@ -2693,6 +2973,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_CL_M2 -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_CL_M2">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Menhir"/>
     </owl:NamedIndividual>
@@ -2700,6 +2981,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_CL_M3 -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_CL_M3">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Menhir"/>
@@ -2709,6 +2991,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_CL_M4 -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_CL_M4">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Menhir"/>
     </owl:NamedIndividual>
@@ -2716,6 +2999,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_CL_M45 -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_CL_M45">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Menhir"/>
@@ -2725,6 +3009,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_CL_M46 -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_CL_M46">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Menhir"/>
     </owl:NamedIndividual>
@@ -2732,6 +3017,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_CL_M47 -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_CL_M47">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Menhir"/>
@@ -2741,6 +3027,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_CL_M5 -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_CL_M5">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Menhir"/>
     </owl:NamedIndividual>
@@ -2748,6 +3035,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_CalanaisI -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_CalanaisI">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#CulturalHeritageSite"/>
@@ -2773,6 +3061,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_Comhairle_nan_Eilean_Siar -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_Comhairle_nan_Eilean_Siar">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Municipality"/>
         <P89_falls_within rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_Outer_Hebrides"/>
@@ -2781,6 +3070,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_Construction_of_CalanaisI -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_Construction_of_CalanaisI">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Construction"/>
@@ -2791,6 +3081,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_Excavation_of_CalanaisI -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_Excavation_of_CalanaisI">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Excavation"/>
@@ -2804,6 +3095,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_FineBeaker -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_FineBeaker">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Beaker"/>
     </owl:NamedIndividual>
@@ -2811,6 +3103,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_FlintLithics -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_FlintLithics">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#LithicTool"/>
@@ -2820,6 +3113,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_FoodVesselBeaker -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_FoodVesselBeaker">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#FoodVessel"/>
     </owl:NamedIndividual>
@@ -2827,6 +3121,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_Gerald_Ponting -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_Gerald_Ponting">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Volunteer"/>
@@ -2836,6 +3131,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_GroovedWareBowl -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_GroovedWareBowl">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#GroovedWare"/>
     </owl:NamedIndividual>
@@ -2843,6 +3139,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_Identification_of_CalanaisI -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_Identification_of_CalanaisI">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Identification"/>
@@ -2854,6 +3151,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_ImgCal1 -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_ImgCal1">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Image"/>
         <P129_isAbout rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_CalanaisI"/>
@@ -2862,6 +3160,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_ImgCal2 -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_ImgCal2">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Image"/>
@@ -2872,6 +3171,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_James_Matheson -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_James_Matheson">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Patron/Promoter"/>
     </owl:NamedIndividual>
@@ -2879,6 +3179,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_Margaret_Curtis -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_Margaret_Curtis">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Volunteer"/>
@@ -2888,6 +3189,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_MyloniteLithics -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_MyloniteLithics">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#LithicTool"/>
     </owl:NamedIndividual>
@@ -2895,6 +3197,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_NrtCal1 -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_NrtCal1">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Narrative"/>
@@ -2904,6 +3207,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_Occupation_or_Usage_of_CalanaisI -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_Occupation_or_Usage_of_CalanaisI">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#OcupationOrUsage"/>
@@ -2915,6 +3219,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_OceanicClimate -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_OceanicClimate">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Climate"/>
     </owl:NamedIndividual>
@@ -2923,6 +3228,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_Open_Moorland -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_Open_Moorland">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#RuralLandscape"/>
     </owl:NamedIndividual>
@@ -2930,6 +3236,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_Outer_Hebrides -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_Outer_Hebrides">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Region"/>
@@ -2941,6 +3248,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_Patrick_Ashmore -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_Patrick_Ashmore">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Archaeologist"/>
     </owl:NamedIndividual>
@@ -2949,6 +3257,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_QuartzLithics -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_QuartzLithics">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#LithicTool"/>
     </owl:NamedIndividual>
@@ -2956,6 +3265,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_Restoration_of_CalanaisI -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_Restoration_of_CalanaisI">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Restoration"/>
@@ -2966,6 +3276,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_Ron_Curtis -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_Ron_Curtis">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Volunteer"/>
     </owl:NamedIndividual>
@@ -2973,6 +3284,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_StoneTool1 -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_StoneTool1">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#StoneTool"/>
@@ -2982,6 +3294,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_Uig -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_Uig">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Parish"/>
     </owl:NamedIndividual>
@@ -2989,6 +3302,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_VidCal1 -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_VidCal1">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Video"/>
@@ -2999,6 +3313,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_1991 -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_1991">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E52_TimeSpan"/>
     </owl:NamedIndividual>
@@ -3006,6 +3321,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_19thCentury-20thCentury -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_19thCentury-20thCentury">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E52_TimeSpan"/>
@@ -3015,6 +3331,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_3B-2B -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_3B-2B">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E52_TimeSpan"/>
     </owl:NamedIndividual>
@@ -3022,6 +3339,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_3DMKoli1 -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_3DMKoli1">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#3DModel"/>
@@ -3031,6 +3349,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Akka-Koli_Hill -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Akka-Koli_Hill">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Hill"/>
@@ -3044,6 +3363,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Alfred_William_Finch -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Alfred_William_Finch">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Artist"/>
     </owl:NamedIndividual>
@@ -3051,6 +3371,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_AudKoli1 -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_AudKoli1">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Audio"/>
@@ -3061,6 +3382,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Boreal_Forest_Upland -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Boreal_Forest_Upland">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#NaturalLandscape"/>
     </owl:NamedIndividual>
@@ -3069,6 +3391,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Eero_Järnefelt -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Eero_Järnefelt">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Artist"/>
     </owl:NamedIndividual>
@@ -3076,6 +3399,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Formation_of_Koli -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Formation_of_Koli">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Formation"/>
@@ -3086,6 +3410,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Humid_Continental_Climate -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Humid_Continental_Climate">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Climate"/>
     </owl:NamedIndividual>
@@ -3093,6 +3418,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_ImgKoli1 -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_ImgKoli1">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Image"/>
@@ -3103,6 +3429,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Jean_Sibelius -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Jean_Sibelius">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Artist"/>
     </owl:NamedIndividual>
@@ -3111,6 +3438,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Juhani_Aho -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Juhani_Aho">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Artist"/>
     </owl:NamedIndividual>
@@ -3118,6 +3446,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Koli -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Koli">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#CulturalHeritageSite"/>
@@ -3135,6 +3464,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Koli_Cultural_Society -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Koli_Cultural_Society">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Institution"/>
     </owl:NamedIndividual>
@@ -3143,6 +3473,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Koli_Nature_Centre_Ukko -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Koli_Nature_Centre_Ukko">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Institution"/>
     </owl:NamedIndividual>
@@ -3150,6 +3481,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Lake_Pielinen -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Lake_Pielinen">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Lake"/>
@@ -3163,6 +3495,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Lieksa -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Lieksa">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Municipality"/>
         <P89_falls_within rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_North_Karelia"/>
@@ -3172,6 +3505,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Metsähallitus -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Metsähallitus">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Institution"/>
     </owl:NamedIndividual>
@@ -3179,6 +3513,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Mäkrävaara_Hill -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Mäkrävaara_Hill">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Hill"/>
@@ -3192,6 +3527,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_North_Karelia -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_North_Karelia">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Region"/>
         <hasClimate rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Humid_Continental_Climate"/>
@@ -3202,6 +3538,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_NrtKoli -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_NrtKoli">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Narrative"/>
         <P129_isAbout rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Koli"/>
@@ -3211,6 +3548,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Occupation_or_Usage_of_Koli -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Occupation_or_Usage_of_Koli">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#OcupationOrUsage"/>
         <P89_falls_within rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Koli"/>
@@ -3219,6 +3557,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Paha-Koli_Hill -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Paha-Koli_Hill">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Hill"/>
@@ -3232,6 +3571,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Paimenenvaara_Hill -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Paimenenvaara_Hill">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Hill"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#NaturalHeritageSite"/>
@@ -3243,6 +3583,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Pieni-Koli_Hill -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Pieni-Koli_Hill">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Hill"/>
@@ -3256,6 +3597,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Pirunkirkko -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Pirunkirkko">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Cave"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#NaturalHeritageSite"/>
@@ -3267,6 +3609,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Romanticist_Engagement_With_Koli -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Romanticist_Engagement_With_Koli">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Romanticism"/>
@@ -3282,6 +3625,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Uhrihalkeama -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Uhrihalkeama">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Fissure"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#NaturalHeritageSite"/>
@@ -3293,6 +3637,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Ukko-Koli_Hill -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Ukko-Koli_Hill">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Hill"/>
@@ -3306,6 +3651,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_VidKoli1 -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_VidKoli1">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Video"/>
         <P129_isAbout rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Koli"/>
@@ -3315,6 +3661,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_38.931079,_-8.121081 -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_38.931079,_-8.121081">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Coordinates"/>
     </owl:NamedIndividual>
@@ -3322,6 +3669,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_TextFont5_Cromlech_Excavation/Recovery -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_TextFont5_Cromlech_Excavation/Recovery">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Text"/>
@@ -3331,6 +3679,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_‘58.197541,_-6.7451450’ -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_‘58.197541,_-6.7451450’">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Coordinates"/>
     </owl:NamedIndividual>
@@ -3339,6 +3688,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_63.09444,_-_29.80861 -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_63.09444,_-_29.80861">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Coordinates"/>
     </owl:NamedIndividual>
@@ -3346,6 +3696,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.w3.org/2004/02/skos/core#Appreciation -->
+
 
     <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Appreciation">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Intangible_Feature"/>
@@ -3358,6 +3709,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.w3.org/2004/02/skos/core#Awe -->
 
+
     <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Awe">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Intangible_Feature"/>
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -3368,6 +3720,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.w3.org/2004/02/skos/core#Civic_and_Ethical_Emotions -->
+
 
     <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Civic_and_Ethical_Emotions">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Intangible_Feature"/>
@@ -3380,6 +3733,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.w3.org/2004/02/skos/core#Collective_Belonging -->
 
+
     <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Collective_Belonging">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Intangible_Feature"/>
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -3390,6 +3744,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.w3.org/2004/02/skos/core#Commemorative_and_Elevating_Emotions -->
+
 
     <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Commemorative_and_Elevating_Emotions">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Intangible_Feature"/>
@@ -3402,6 +3757,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.w3.org/2004/02/skos/core#Cultural_Expression -->
 
+
     <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Cultural_Expression">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Intangible_Feature"/>
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -3412,6 +3768,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.w3.org/2004/02/skos/core#Cultural_Well-being -->
+
 
     <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Cultural_Well-being">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Intangible_Feature"/>
@@ -3425,6 +3782,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.w3.org/2004/02/skos/core#Difficult_and_Conflictual_Emotions -->
 
+
     <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Difficult_and_Conflictual_Emotions">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Intangible_Feature"/>
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -3436,6 +3794,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.w3.org/2004/02/skos/core#Emotional_Connection -->
 
+
     <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Emotional_Connection">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Intangible_Feature"/>
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -3446,6 +3805,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.w3.org/2004/02/skos/core#Emotional_Well-being -->
+
 
     <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Emotional_Well-being">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Intangible_Feature"/>
@@ -3460,6 +3820,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.w3.org/2004/02/skos/core#Emotions_and_Experiences -->
 
+
     <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Emotions_and_Experiences">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Intangible_Feature"/>
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -3469,6 +3830,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.w3.org/2004/02/skos/core#Environmental_Well-being -->
+
 
     <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Environmental_Well-being">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Intangible_Feature"/>
@@ -3482,6 +3844,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.w3.org/2004/02/skos/core#Grief -->
 
+
     <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Grief">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Intangible_Feature"/>
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -3492,6 +3855,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.w3.org/2004/02/skos/core#Hearing -->
+
 
     <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Hearing">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Intangible_Feature"/>
@@ -3505,6 +3869,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.w3.org/2004/02/skos/core#Identity_and_Belonging -->
 
+
     <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Identity_and_Belonging">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Intangible_Feature"/>
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -3516,6 +3881,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.w3.org/2004/02/skos/core#Injustice_Indignation -->
 
+
     <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Injustice_Indignation">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Intangible_Feature"/>
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -3526,6 +3892,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.w3.org/2004/02/skos/core#Intellectual_Well-being -->
+
 
     <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Intellectual_Well-being">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Intangible_Feature"/>
@@ -3539,6 +3906,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.w3.org/2004/02/skos/core#Interpersonal_Well-being -->
 
+
     <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Interpersonal_Well-being">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Intangible_Feature"/>
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -3551,6 +3919,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.w3.org/2004/02/skos/core#Loss -->
 
+
     <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Loss">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Intangible_Feature"/>
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -3561,6 +3930,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.w3.org/2004/02/skos/core#Narrating -->
+
 
     <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Narrating">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Intangible_Feature"/>
@@ -3575,6 +3945,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.w3.org/2004/02/skos/core#Nostalgia -->
 
+
     <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Nostalgia">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Intangible_Feature"/>
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -3585,6 +3956,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.w3.org/2004/02/skos/core#Performing -->
+
 
     <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Performing">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Intangible_Feature"/>
@@ -3600,6 +3972,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.w3.org/2004/02/skos/core#Pride -->
 
+
     <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Pride">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Intangible_Feature"/>
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -3610,6 +3983,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.w3.org/2004/02/skos/core#Respect -->
+
 
     <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Respect">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Intangible_Feature"/>
@@ -3622,6 +3996,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.w3.org/2004/02/skos/core#Responsibility_Stewardship -->
 
+
     <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Responsibility_Stewardship">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Intangible_Feature"/>
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -3632,6 +4007,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.w3.org/2004/02/skos/core#Ritualizing -->
+
 
     <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Ritualizing">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Intangible_Feature"/>
@@ -3646,6 +4022,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.w3.org/2004/02/skos/core#Seeing -->
 
+
     <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Seeing">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Intangible_Feature"/>
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -3658,6 +4035,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.w3.org/2004/02/skos/core#Self-perception -->
 
+
     <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Self-perception">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Intangible_Feature"/>
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -3669,6 +4047,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.w3.org/2004/02/skos/core#Sensory_Experience -->
 
+
     <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Sensory_Experience">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Intangible_Feature"/>
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -3679,6 +4058,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.w3.org/2004/02/skos/core#Smelling -->
+
 
     <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Smelling">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Intangible_Feature"/>
@@ -3692,6 +4072,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.w3.org/2004/02/skos/core#Spiritual_Well-being -->
 
+
     <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Spiritual_Well-being">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Intangible_Feature"/>
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -3703,6 +4084,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.w3.org/2004/02/skos/core#Tasting -->
+
 
     <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Tasting">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Intangible_Feature"/>
@@ -3716,6 +4098,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.w3.org/2004/02/skos/core#Touching -->
 
+
     <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Touching">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Intangible_Feature"/>
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -3728,6 +4111,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.w3.org/2004/02/skos/core#Value_Alignment -->
 
+
     <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Value_Alignment">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Intangible_Feature"/>
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -3738,6 +4122,7 @@ plaques)</rdfs:comment>
 
 
     <!-- http://www.w3.org/2004/02/skos/core#Visualizing -->
+
 
     <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Visualizing">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Intangible_Feature"/>
@@ -3752,6 +4137,7 @@ plaques)</rdfs:comment>
 
     <!-- http://www.w3.org/2004/02/skos/core#Well-being -->
 
+
     <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#Well-being">
         <rdf:type rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Intangible_Feature"/>
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -3762,5 +4148,6 @@ plaques)</rdfs:comment>
 
 
 
-<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
 

@@ -245,7 +245,7 @@
 ###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#hasMegalithicComponents
 :hasMegalithicComponents rdf:type owl:ObjectProperty ;
                          rdfs:subPropertyOf :P46_IsComposedOf ;
-                         rdfs:domain :MegalithicMonument ;
+                         rdfs:domain :StoneCircleOrCromlech ;
                          rdfs:range :Menhir ;
                          rdfs:label "has Megalithic Components"@en .
 
@@ -857,6 +857,12 @@
              rdfs:subClassOf :E74_Group ;
              rdfs:comment "An organised body responsible for research, preservation, or management of cultural/natural heritage." ;
              rdfs:label "Institution"@en .
+
+
+###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Intangible_Feature
+:Intangible_Feature rdf:type owl:Class ;
+                    rdfs:subClassOf :E55_Type ;
+                    rdfs:label "Intangible Feature" .
 
 
 ###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Interview
@@ -2272,6 +2278,7 @@ rdf:List rdf:type owl:Class .
 
 ###  http://www.w3.org/2004/02/skos/core#Appreciation
 <http://www.w3.org/2004/02/skos/core#Appreciation> rdf:type owl:NamedIndividual ,
+                                                            :Intangible_Feature ,
                                                             <http://www.w3.org/2004/02/skos/core#Concept> ;
                                                    <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Commemorative_and_Elevating_Emotions> ;
                                                    <http://www.w3.org/2004/02/skos/core#prefLabel> "Appreciation"@en .
@@ -2279,6 +2286,7 @@ rdf:List rdf:type owl:Class .
 
 ###  http://www.w3.org/2004/02/skos/core#Awe
 <http://www.w3.org/2004/02/skos/core#Awe> rdf:type owl:NamedIndividual ,
+                                                   :Intangible_Feature ,
                                                    <http://www.w3.org/2004/02/skos/core#Concept> ;
                                           <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Commemorative_and_Elevating_Emotions> ;
                                           <http://www.w3.org/2004/02/skos/core#prefLabel> "Awe"@en .
@@ -2286,6 +2294,7 @@ rdf:List rdf:type owl:Class .
 
 ###  http://www.w3.org/2004/02/skos/core#Civic_and_Ethical_Emotions
 <http://www.w3.org/2004/02/skos/core#Civic_and_Ethical_Emotions> rdf:type owl:NamedIndividual ,
+                                                                          :Intangible_Feature ,
                                                                           <http://www.w3.org/2004/02/skos/core#Concept> ;
                                                                  <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Emotional_Connection> ;
                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Civic and Ethical Emotions"@en .
@@ -2293,6 +2302,7 @@ rdf:List rdf:type owl:Class .
 
 ###  http://www.w3.org/2004/02/skos/core#Collective_Belonging
 <http://www.w3.org/2004/02/skos/core#Collective_Belonging> rdf:type owl:NamedIndividual ,
+                                                                    :Intangible_Feature ,
                                                                     <http://www.w3.org/2004/02/skos/core#Concept> ;
                                                            <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Identity_and_Belonging> ;
                                                            <http://www.w3.org/2004/02/skos/core#prefLabel> "Collective belonging"@en .
@@ -2300,6 +2310,7 @@ rdf:List rdf:type owl:Class .
 
 ###  http://www.w3.org/2004/02/skos/core#Commemorative_and_Elevating_Emotions
 <http://www.w3.org/2004/02/skos/core#Commemorative_and_Elevating_Emotions> rdf:type owl:NamedIndividual ,
+                                                                                    :Intangible_Feature ,
                                                                                     <http://www.w3.org/2004/02/skos/core#Concept> ;
                                                                            <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Emotional_Connection> ;
                                                                            <http://www.w3.org/2004/02/skos/core#prefLabel> "Commemorative and Elevating Emotions"@en .
@@ -2307,6 +2318,7 @@ rdf:List rdf:type owl:Class .
 
 ###  http://www.w3.org/2004/02/skos/core#Cultural_Expression
 <http://www.w3.org/2004/02/skos/core#Cultural_Expression> rdf:type owl:NamedIndividual ,
+                                                                   :Intangible_Feature ,
                                                                    <http://www.w3.org/2004/02/skos/core#Concept> ;
                                                           <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Emotions_and_Experiences> ;
                                                           <http://www.w3.org/2004/02/skos/core#prefLabel> "Cultural Expression"@en .
@@ -2314,6 +2326,7 @@ rdf:List rdf:type owl:Class .
 
 ###  http://www.w3.org/2004/02/skos/core#Cultural_Well-being
 <http://www.w3.org/2004/02/skos/core#Cultural_Well-being> rdf:type owl:NamedIndividual ,
+                                                                   :Intangible_Feature ,
                                                                    <http://www.w3.org/2004/02/skos/core#Concept> ;
                                                           <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Well-being> ;
                                                           <http://www.w3.org/2004/02/skos/core#altLabel> "Inclusion"@en ;
@@ -2322,6 +2335,7 @@ rdf:List rdf:type owl:Class .
 
 ###  http://www.w3.org/2004/02/skos/core#Difficult_and_Conflictual_Emotions
 <http://www.w3.org/2004/02/skos/core#Difficult_and_Conflictual_Emotions> rdf:type owl:NamedIndividual ,
+                                                                                  :Intangible_Feature ,
                                                                                   <http://www.w3.org/2004/02/skos/core#Concept> ;
                                                                          <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Emotional_Connection> ;
                                                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "Difficult and Conflictual Emotions"@en .
@@ -2329,6 +2343,7 @@ rdf:List rdf:type owl:Class .
 
 ###  http://www.w3.org/2004/02/skos/core#Emotional_Connection
 <http://www.w3.org/2004/02/skos/core#Emotional_Connection> rdf:type owl:NamedIndividual ,
+                                                                    :Intangible_Feature ,
                                                                     <http://www.w3.org/2004/02/skos/core#Concept> ;
                                                            <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Emotions_and_Experiences> ;
                                                            <http://www.w3.org/2004/02/skos/core#prefLabel> "Emotional Connection"@en .
@@ -2336,6 +2351,7 @@ rdf:List rdf:type owl:Class .
 
 ###  http://www.w3.org/2004/02/skos/core#Emotional_Well-being
 <http://www.w3.org/2004/02/skos/core#Emotional_Well-being> rdf:type owl:NamedIndividual ,
+                                                                    :Intangible_Feature ,
                                                                     <http://www.w3.org/2004/02/skos/core#Concept> ;
                                                            <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Well-being> ;
                                                            <http://www.w3.org/2004/02/skos/core#altLabel> "Peace"@en ,
@@ -2345,12 +2361,14 @@ rdf:List rdf:type owl:Class .
 
 ###  http://www.w3.org/2004/02/skos/core#Emotions_and_Experiences
 <http://www.w3.org/2004/02/skos/core#Emotions_and_Experiences> rdf:type owl:NamedIndividual ,
+                                                                        :Intangible_Feature ,
                                                                         <http://www.w3.org/2004/02/skos/core#Concept> ;
                                                                <http://www.w3.org/2004/02/skos/core#prefLabel> "Emotions and Experiences"@en .
 
 
 ###  http://www.w3.org/2004/02/skos/core#Environmental_Well-being
 <http://www.w3.org/2004/02/skos/core#Environmental_Well-being> rdf:type owl:NamedIndividual ,
+                                                                        :Intangible_Feature ,
                                                                         <http://www.w3.org/2004/02/skos/core#Concept> ;
                                                                <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Well-being> ;
                                                                <http://www.w3.org/2004/02/skos/core#altLabel> "Safety"@en ;
@@ -2359,6 +2377,7 @@ rdf:List rdf:type owl:Class .
 
 ###  http://www.w3.org/2004/02/skos/core#Grief
 <http://www.w3.org/2004/02/skos/core#Grief> rdf:type owl:NamedIndividual ,
+                                                     :Intangible_Feature ,
                                                      <http://www.w3.org/2004/02/skos/core#Concept> ;
                                             <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Difficult_and_Conflictual_Emotions> ;
                                             <http://www.w3.org/2004/02/skos/core#prefLabel> "Grief"@en .
@@ -2366,6 +2385,7 @@ rdf:List rdf:type owl:Class .
 
 ###  http://www.w3.org/2004/02/skos/core#Hearing
 <http://www.w3.org/2004/02/skos/core#Hearing> rdf:type owl:NamedIndividual ,
+                                                       :Intangible_Feature ,
                                                        <http://www.w3.org/2004/02/skos/core#Concept> ;
                                               <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Sensory_Experience> ;
                                               <http://www.w3.org/2004/02/skos/core#altLabel> "Auditory perception"@en ;
@@ -2374,6 +2394,7 @@ rdf:List rdf:type owl:Class .
 
 ###  http://www.w3.org/2004/02/skos/core#Identity_and_Belonging
 <http://www.w3.org/2004/02/skos/core#Identity_and_Belonging> rdf:type owl:NamedIndividual ,
+                                                                      :Intangible_Feature ,
                                                                       <http://www.w3.org/2004/02/skos/core#Concept> ;
                                                              <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Emotions_and_Experiences> ;
                                                              <http://www.w3.org/2004/02/skos/core#prefLabel> "Identity and Belonging"@en .
@@ -2381,6 +2402,7 @@ rdf:List rdf:type owl:Class .
 
 ###  http://www.w3.org/2004/02/skos/core#Injustice_Indignation
 <http://www.w3.org/2004/02/skos/core#Injustice_Indignation> rdf:type owl:NamedIndividual ,
+                                                                     :Intangible_Feature ,
                                                                      <http://www.w3.org/2004/02/skos/core#Concept> ;
                                                             <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Civic_and_Ethical_Emotions> ;
                                                             <http://www.w3.org/2004/02/skos/core#prefLabel> "Injustice/Indignation"@en .
@@ -2388,6 +2410,7 @@ rdf:List rdf:type owl:Class .
 
 ###  http://www.w3.org/2004/02/skos/core#Intellectual_Well-being
 <http://www.w3.org/2004/02/skos/core#Intellectual_Well-being> rdf:type owl:NamedIndividual ,
+                                                                       :Intangible_Feature ,
                                                                        <http://www.w3.org/2004/02/skos/core#Concept> ;
                                                               <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Well-being> ;
                                                               <http://www.w3.org/2004/02/skos/core#altLabel> "Curiosity"@en ;
@@ -2396,6 +2419,7 @@ rdf:List rdf:type owl:Class .
 
 ###  http://www.w3.org/2004/02/skos/core#Interpersonal_Well-being
 <http://www.w3.org/2004/02/skos/core#Interpersonal_Well-being> rdf:type owl:NamedIndividual ,
+                                                                        :Intangible_Feature ,
                                                                         <http://www.w3.org/2004/02/skos/core#Concept> ;
                                                                <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Well-being> ;
                                                                <http://www.w3.org/2004/02/skos/core#altLabel> "Connectedness"@en ;
@@ -2404,6 +2428,7 @@ rdf:List rdf:type owl:Class .
 
 ###  http://www.w3.org/2004/02/skos/core#Loss
 <http://www.w3.org/2004/02/skos/core#Loss> rdf:type owl:NamedIndividual ,
+                                                    :Intangible_Feature ,
                                                     <http://www.w3.org/2004/02/skos/core#Concept> ;
                                            <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Difficult_and_Conflictual_Emotions> ;
                                            <http://www.w3.org/2004/02/skos/core#prefLabel> "Loss"@en .
@@ -2411,6 +2436,7 @@ rdf:List rdf:type owl:Class .
 
 ###  http://www.w3.org/2004/02/skos/core#Narrating
 <http://www.w3.org/2004/02/skos/core#Narrating> rdf:type owl:NamedIndividual ,
+                                                         :Intangible_Feature ,
                                                          <http://www.w3.org/2004/02/skos/core#Concept> ;
                                                 <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Cultural_Expression> ;
                                                 <http://www.w3.org/2004/02/skos/core#altLabel> "Oral history"@en ,
@@ -2420,6 +2446,7 @@ rdf:List rdf:type owl:Class .
 
 ###  http://www.w3.org/2004/02/skos/core#Nostalgia
 <http://www.w3.org/2004/02/skos/core#Nostalgia> rdf:type owl:NamedIndividual ,
+                                                         :Intangible_Feature ,
                                                          <http://www.w3.org/2004/02/skos/core#Concept> ;
                                                 <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Commemorative_and_Elevating_Emotions> ;
                                                 <http://www.w3.org/2004/02/skos/core#prefLabel> "Nostalgia"@en .
@@ -2427,6 +2454,7 @@ rdf:List rdf:type owl:Class .
 
 ###  http://www.w3.org/2004/02/skos/core#Performing
 <http://www.w3.org/2004/02/skos/core#Performing> rdf:type owl:NamedIndividual ,
+                                                          :Intangible_Feature ,
                                                           <http://www.w3.org/2004/02/skos/core#Concept> ;
                                                  <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Cultural_Expression> ;
                                                  <http://www.w3.org/2004/02/skos/core#altLabel> "Dance"@en ,
@@ -2437,6 +2465,7 @@ rdf:List rdf:type owl:Class .
 
 ###  http://www.w3.org/2004/02/skos/core#Pride
 <http://www.w3.org/2004/02/skos/core#Pride> rdf:type owl:NamedIndividual ,
+                                                     :Intangible_Feature ,
                                                      <http://www.w3.org/2004/02/skos/core#Concept> ;
                                             <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Commemorative_and_Elevating_Emotions> ;
                                             <http://www.w3.org/2004/02/skos/core#prefLabel> "Pride"@en .
@@ -2444,6 +2473,7 @@ rdf:List rdf:type owl:Class .
 
 ###  http://www.w3.org/2004/02/skos/core#Respect
 <http://www.w3.org/2004/02/skos/core#Respect> rdf:type owl:NamedIndividual ,
+                                                       :Intangible_Feature ,
                                                        <http://www.w3.org/2004/02/skos/core#Concept> ;
                                               <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Commemorative_and_Elevating_Emotions> ;
                                               <http://www.w3.org/2004/02/skos/core#prefLabel> "Respect"@en .
@@ -2451,6 +2481,7 @@ rdf:List rdf:type owl:Class .
 
 ###  http://www.w3.org/2004/02/skos/core#Responsibility_Stewardship
 <http://www.w3.org/2004/02/skos/core#Responsibility_Stewardship> rdf:type owl:NamedIndividual ,
+                                                                          :Intangible_Feature ,
                                                                           <http://www.w3.org/2004/02/skos/core#Concept> ;
                                                                  <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Civic_and_Ethical_Emotions> ;
                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Responsibility/Stewardship"@en .
@@ -2458,6 +2489,7 @@ rdf:List rdf:type owl:Class .
 
 ###  http://www.w3.org/2004/02/skos/core#Ritualizing
 <http://www.w3.org/2004/02/skos/core#Ritualizing> rdf:type owl:NamedIndividual ,
+                                                           :Intangible_Feature ,
                                                            <http://www.w3.org/2004/02/skos/core#Concept> ;
                                                   <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Cultural_Expression> ;
                                                   <http://www.w3.org/2004/02/skos/core#altLabel> "Customs"@en ,
@@ -2467,6 +2499,7 @@ rdf:List rdf:type owl:Class .
 
 ###  http://www.w3.org/2004/02/skos/core#Seeing
 <http://www.w3.org/2004/02/skos/core#Seeing> rdf:type owl:NamedIndividual ,
+                                                      :Intangible_Feature ,
                                                       <http://www.w3.org/2004/02/skos/core#Concept> ;
                                              <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Sensory_Experience> ;
                                              <http://www.w3.org/2004/02/skos/core#altLabel> "Visual perception"@en ;
@@ -2475,6 +2508,7 @@ rdf:List rdf:type owl:Class .
 
 ###  http://www.w3.org/2004/02/skos/core#Self-perception
 <http://www.w3.org/2004/02/skos/core#Self-perception> rdf:type owl:NamedIndividual ,
+                                                               :Intangible_Feature ,
                                                                <http://www.w3.org/2004/02/skos/core#Concept> ;
                                                       <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Identity_and_Belonging> ;
                                                       <http://www.w3.org/2004/02/skos/core#prefLabel> "Self-perception"@en .
@@ -2482,6 +2516,7 @@ rdf:List rdf:type owl:Class .
 
 ###  http://www.w3.org/2004/02/skos/core#Sensory_Experience
 <http://www.w3.org/2004/02/skos/core#Sensory_Experience> rdf:type owl:NamedIndividual ,
+                                                                  :Intangible_Feature ,
                                                                   <http://www.w3.org/2004/02/skos/core#Concept> ;
                                                          <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Emotions_and_Experiences> ;
                                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "Sensory Experience"@en .
@@ -2489,6 +2524,7 @@ rdf:List rdf:type owl:Class .
 
 ###  http://www.w3.org/2004/02/skos/core#Smelling
 <http://www.w3.org/2004/02/skos/core#Smelling> rdf:type owl:NamedIndividual ,
+                                                        :Intangible_Feature ,
                                                         <http://www.w3.org/2004/02/skos/core#Concept> ;
                                                <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Sensory_Experience> ;
                                                <http://www.w3.org/2004/02/skos/core#altLabel> "Olfactory perception"@en ;
@@ -2497,6 +2533,7 @@ rdf:List rdf:type owl:Class .
 
 ###  http://www.w3.org/2004/02/skos/core#Spiritual_Well-being
 <http://www.w3.org/2004/02/skos/core#Spiritual_Well-being> rdf:type owl:NamedIndividual ,
+                                                                    :Intangible_Feature ,
                                                                     <http://www.w3.org/2004/02/skos/core#Concept> ;
                                                            <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Well-being> ;
                                                            <http://www.w3.org/2004/02/skos/core#altLabel> "Purpose"@en ;
@@ -2505,6 +2542,7 @@ rdf:List rdf:type owl:Class .
 
 ###  http://www.w3.org/2004/02/skos/core#Tasting
 <http://www.w3.org/2004/02/skos/core#Tasting> rdf:type owl:NamedIndividual ,
+                                                       :Intangible_Feature ,
                                                        <http://www.w3.org/2004/02/skos/core#Concept> ;
                                               <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Sensory_Experience> ;
                                               <http://www.w3.org/2004/02/skos/core#altLabel> "Gustatory perception"@en ;
@@ -2513,6 +2551,7 @@ rdf:List rdf:type owl:Class .
 
 ###  http://www.w3.org/2004/02/skos/core#Touching
 <http://www.w3.org/2004/02/skos/core#Touching> rdf:type owl:NamedIndividual ,
+                                                        :Intangible_Feature ,
                                                         <http://www.w3.org/2004/02/skos/core#Concept> ;
                                                <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Sensory_Experience> ;
                                                <http://www.w3.org/2004/02/skos/core#altLabel> "Bodily/Tactile perception"@en ;
@@ -2521,6 +2560,7 @@ rdf:List rdf:type owl:Class .
 
 ###  http://www.w3.org/2004/02/skos/core#Value_Alignment
 <http://www.w3.org/2004/02/skos/core#Value_Alignment> rdf:type owl:NamedIndividual ,
+                                                               :Intangible_Feature ,
                                                                <http://www.w3.org/2004/02/skos/core#Concept> ;
                                                       <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Identity_and_Belonging> ;
                                                       <http://www.w3.org/2004/02/skos/core#prefLabel> "Value alignment"@en .
@@ -2528,6 +2568,7 @@ rdf:List rdf:type owl:Class .
 
 ###  http://www.w3.org/2004/02/skos/core#Visualizing
 <http://www.w3.org/2004/02/skos/core#Visualizing> rdf:type owl:NamedIndividual ,
+                                                           :Intangible_Feature ,
                                                            <http://www.w3.org/2004/02/skos/core#Concept> ;
                                                   <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Cultural_Expression> ;
                                                   <http://www.w3.org/2004/02/skos/core#altLabel> "Architecture"@en ,
@@ -2537,6 +2578,7 @@ rdf:List rdf:type owl:Class .
 
 ###  http://www.w3.org/2004/02/skos/core#Well-being
 <http://www.w3.org/2004/02/skos/core#Well-being> rdf:type owl:NamedIndividual ,
+                                                          :Intangible_Feature ,
                                                           <http://www.w3.org/2004/02/skos/core#Concept> ;
                                                  <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Emotional_Connection> ;
                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Well-being"@en .

@@ -752,6 +752,15 @@
     "@id" : "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E74_Group"
   } ]
 }, {
+  "@id" : "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Intangible_Feature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Intangible Feature"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E55_Type"
+  } ]
+}, {
   "@id" : "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Interview",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
@@ -3058,7 +3067,7 @@
   "@id" : "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#hasMegalithicComponents",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#MegalithicMonument"
+    "@id" : "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#StoneCircleOrCromlech"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3173,6 +3182,8 @@
   "@id" : "http://www.w3.org/2004/02/skos/core#Appreciation",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Intangible_Feature"
+  }, {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
@@ -3186,6 +3197,8 @@
   "@id" : "http://www.w3.org/2004/02/skos/core#Awe",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Intangible_Feature"
+  }, {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
@@ -3199,6 +3212,8 @@
   "@id" : "http://www.w3.org/2004/02/skos/core#Civic_and_Ethical_Emotions",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Intangible_Feature"
+  }, {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
@@ -3229,6 +3244,8 @@
   "@id" : "http://www.w3.org/2004/02/skos/core#Collective_Belonging",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Intangible_Feature"
+  }, {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
@@ -3242,6 +3259,8 @@
   "@id" : "http://www.w3.org/2004/02/skos/core#Commemorative_and_Elevating_Emotions",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Intangible_Feature"
+  }, {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
@@ -3286,6 +3305,8 @@
   "@id" : "http://www.w3.org/2004/02/skos/core#Cultural_Expression",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Intangible_Feature"
+  }, {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
@@ -3299,6 +3320,8 @@
   "@id" : "http://www.w3.org/2004/02/skos/core#Cultural_Well-being",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Intangible_Feature"
+  }, {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
   } ],
   "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
@@ -3316,6 +3339,8 @@
   "@id" : "http://www.w3.org/2004/02/skos/core#Difficult_and_Conflictual_Emotions",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Intangible_Feature"
+  }, {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
@@ -3329,6 +3354,8 @@
   "@id" : "http://www.w3.org/2004/02/skos/core#Emotional_Connection",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Intangible_Feature"
+  }, {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
@@ -3342,6 +3369,8 @@
   "@id" : "http://www.w3.org/2004/02/skos/core#Emotional_Well-being",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Intangible_Feature"
+  }, {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
   } ],
   "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
@@ -3362,6 +3391,8 @@
   "@id" : "http://www.w3.org/2004/02/skos/core#Emotions_and_Experiences",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Intangible_Feature"
+  }, {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -3372,6 +3403,8 @@
   "@id" : "http://www.w3.org/2004/02/skos/core#Environmental_Well-being",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Intangible_Feature"
+  }, {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
   } ],
   "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
@@ -3389,6 +3422,8 @@
   "@id" : "http://www.w3.org/2004/02/skos/core#Grief",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Intangible_Feature"
+  }, {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
@@ -3402,6 +3437,8 @@
   "@id" : "http://www.w3.org/2004/02/skos/core#Hearing",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Intangible_Feature"
+  }, {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
   } ],
   "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
@@ -3419,6 +3456,8 @@
   "@id" : "http://www.w3.org/2004/02/skos/core#Identity_and_Belonging",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Intangible_Feature"
+  }, {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
@@ -3432,6 +3471,8 @@
   "@id" : "http://www.w3.org/2004/02/skos/core#Injustice_Indignation",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Intangible_Feature"
+  }, {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
@@ -3445,6 +3486,8 @@
   "@id" : "http://www.w3.org/2004/02/skos/core#Intellectual_Well-being",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Intangible_Feature"
+  }, {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
   } ],
   "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
@@ -3462,6 +3505,8 @@
   "@id" : "http://www.w3.org/2004/02/skos/core#Interpersonal_Well-being",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Intangible_Feature"
+  }, {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
   } ],
   "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
@@ -3479,6 +3524,8 @@
   "@id" : "http://www.w3.org/2004/02/skos/core#Loss",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Intangible_Feature"
+  }, {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
@@ -3492,6 +3539,8 @@
   "@id" : "http://www.w3.org/2004/02/skos/core#Narrating",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Intangible_Feature"
+  }, {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
   } ],
   "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
@@ -3512,6 +3561,8 @@
   "@id" : "http://www.w3.org/2004/02/skos/core#Nostalgia",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Intangible_Feature"
+  }, {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
@@ -3542,6 +3593,8 @@
   "@id" : "http://www.w3.org/2004/02/skos/core#Performing",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Intangible_Feature"
+  }, {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
   } ],
   "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
@@ -3565,6 +3618,8 @@
   "@id" : "http://www.w3.org/2004/02/skos/core#Pride",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Intangible_Feature"
+  }, {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
@@ -3578,6 +3633,8 @@
   "@id" : "http://www.w3.org/2004/02/skos/core#Respect",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Intangible_Feature"
+  }, {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
@@ -3591,6 +3648,8 @@
   "@id" : "http://www.w3.org/2004/02/skos/core#Responsibility_Stewardship",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Intangible_Feature"
+  }, {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
@@ -3604,6 +3663,8 @@
   "@id" : "http://www.w3.org/2004/02/skos/core#Ritualizing",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Intangible_Feature"
+  }, {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
   } ],
   "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
@@ -3624,6 +3685,8 @@
   "@id" : "http://www.w3.org/2004/02/skos/core#Seeing",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Intangible_Feature"
+  }, {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
   } ],
   "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
@@ -3641,6 +3704,8 @@
   "@id" : "http://www.w3.org/2004/02/skos/core#Self-perception",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Intangible_Feature"
+  }, {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
@@ -3654,6 +3719,8 @@
   "@id" : "http://www.w3.org/2004/02/skos/core#Sensory_Experience",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Intangible_Feature"
+  }, {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
@@ -3667,6 +3734,8 @@
   "@id" : "http://www.w3.org/2004/02/skos/core#Smelling",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Intangible_Feature"
+  }, {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
   } ],
   "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
@@ -3684,6 +3753,8 @@
   "@id" : "http://www.w3.org/2004/02/skos/core#Spiritual_Well-being",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Intangible_Feature"
+  }, {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
   } ],
   "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
@@ -3701,6 +3772,8 @@
   "@id" : "http://www.w3.org/2004/02/skos/core#Tasting",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Intangible_Feature"
+  }, {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
   } ],
   "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
@@ -3718,6 +3791,8 @@
   "@id" : "http://www.w3.org/2004/02/skos/core#Touching",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Intangible_Feature"
+  }, {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
   } ],
   "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
@@ -3735,6 +3810,8 @@
   "@id" : "http://www.w3.org/2004/02/skos/core#Value_Alignment",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Intangible_Feature"
+  }, {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
@@ -3748,6 +3825,8 @@
   "@id" : "http://www.w3.org/2004/02/skos/core#Visualizing",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Intangible_Feature"
+  }, {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
   } ],
   "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
@@ -3768,6 +3847,8 @@
   "@id" : "http://www.w3.org/2004/02/skos/core#Well-being",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Intangible_Feature"
+  }, {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
