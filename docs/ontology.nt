@@ -451,7 +451,7 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # 
 # http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#ArchaeologicalArtefact
 <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#ArchaeologicalArtefact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#ArchaeologicalArtefact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E19_Physical_Object> .
+<http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#ArchaeologicalArtefact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E24_Physical_Human-Made_Thing> .
 <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#ArchaeologicalArtefact> <http://www.w3.org/2000/01/rdf-schema#comment> "Artefacts found in an archaeological site." .
 <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#ArchaeologicalArtefact> <http://www.w3.org/2000/01/rdf-schema#label> "Archaeological Artefact"@en .
 # 
@@ -573,11 +573,6 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E18_Physical_Thing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E18_Physical_Thing> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E70_Thing> .
 <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E18_Physical_Thing> <http://www.w3.org/2000/01/rdf-schema#label> "E18 Physical Thing"@en .
-# 
-# http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E19_Physical_Object
-<http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E19_Physical_Object> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E19_Physical_Object> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E18_Physical_Thing> .
-<http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E19_Physical_Object> <http://www.w3.org/2000/01/rdf-schema#label> "E19 Physical Object"@en .
 # 
 # http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E1_CRM_Entity
 <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E1_CRM_Entity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .

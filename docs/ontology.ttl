@@ -498,7 +498,7 @@
 
 ###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#ArchaeologicalArtefact
 :ArchaeologicalArtefact rdf:type owl:Class ;
-                        rdfs:subClassOf :E19_Physical_Object ;
+                        rdfs:subClassOf :E24_Physical_Human-Made_Thing ;
                         rdfs:comment "Artefacts found in an archaeological site." ;
                         rdfs:label "Archaeological Artefact"@en .
 
@@ -640,12 +640,6 @@
 :E18_Physical_Thing rdf:type owl:Class ;
                     rdfs:subClassOf :E70_Thing ;
                     rdfs:label "E18 Physical Thing"@en .
-
-
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E19_Physical_Object
-:E19_Physical_Object rdf:type owl:Class ;
-                     rdfs:subClassOf :E18_Physical_Thing ;
-                     rdfs:label "E19 Physical Object"@en .
 
 
 ###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E1_CRM_Entity

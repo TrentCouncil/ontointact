@@ -114,7 +114,7 @@
     "@value" : "Archaeological Artefact"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E19_Physical_Object"
+    "@id" : "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E24_Physical_Human-Made_Thing"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#ArchaeologicalMonument",
@@ -372,16 +372,6 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E70_Thing"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E19_Physical_Object",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "E19 Physical Object"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E18_Physical_Thing"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E1_CRM_Entity",

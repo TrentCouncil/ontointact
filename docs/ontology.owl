@@ -776,7 +776,7 @@
 
 
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#ArchaeologicalArtefact">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E19_Physical_Object"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E24_Physical_Human-Made_Thing"/>
         <rdfs:comment>Artefacts found in an archaeological site.</rdfs:comment>
         <rdfs:label xml:lang="en">Archaeological Artefact</rdfs:label>
     </owl:Class>
@@ -998,16 +998,6 @@
     <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E18_Physical_Thing">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E70_Thing"/>
         <rdfs:label xml:lang="en">E18 Physical Thing</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E19_Physical_Object -->
-
-
-    <owl:Class rdf:about="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E19_Physical_Object">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E18_Physical_Thing"/>
-        <rdfs:label xml:lang="en">E19 Physical Object</rdfs:label>
     </owl:Class>
     
 
