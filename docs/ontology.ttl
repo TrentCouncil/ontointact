@@ -1,17 +1,17 @@
-@prefix : <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#> .
+@prefix : <http://www.semanticweb.org/int-act-project/int-act-ontology#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#> .
+@base <http://www.semanticweb.org/int-act-project/int-act-ontology#> .
 
-<http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30> rdf:type owl:Ontology ;
-                                                                           owl:versionIRI <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30/1.0.0> ;
-                                                                           <http://purl.org/dc/terms/creator> "INT-ACT UÉvora Team" ;
-                                                                           <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> ;
-                                                                           <http://purl.org/dc/terms/title> "INT-ACT Ontology" ;
-                                                                           rdfs:comment "This ontology reuses and integrates the SKOS (Simple Knowledge Organization System) vocabulary for the organisation of domain-specific concepts, and builds upon the CIDOC Conceptual Reference Model (CRM) for the representation of cultural heritage entities and events." .
+<http://www.semanticweb.org/int-act-project/int-act-ontology> rdf:type owl:Ontology ;
+                                                               owl:versionIRI <http://www.semanticweb.org/int-act-project/int-act-ontology> ;
+                                                               <http://purl.org/dc/terms/creator> "INT-ACT UÉvora Team" ;
+                                                               <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> ;
+                                                               <http://purl.org/dc/terms/title> "INT-ACT Ontology" ;
+                                                               rdfs:comment "This ontology reuses and integrates the SKOS (Simple Knowledge Organization System) vocabulary for the organisation of domain-specific concepts, and builds upon the CIDOC Conceptual Reference Model (CRM) for the representation of cultural heritage entities and events." .
 
 #################################################################
 #    Annotation properties
@@ -117,85 +117,101 @@
 #    Object Properties
 #################################################################
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#P129_isAbout
-:P129_isAbout rdf:type owl:ObjectProperty ;
-              rdfs:domain :E89_Propositional_Object ;
-              rdfs:range :E1_CRM_Entity ;
-              rdfs:label "is About"@en .
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#P129_is_about
+:P129_is_about rdf:type owl:ObjectProperty ;
+               rdfs:domain :E89_Propositional_Object ;
+               rdfs:range :E1_CRM_Entity ;
+               rdfs:label "P129 is about"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#P130_shows_features_of
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#P130_shows_features_of
 :P130_shows_features_of rdf:type owl:ObjectProperty ;
                         rdfs:domain :E70_Thing ;
                         rdfs:range :E70_Thing ;
-                        rdfs:label "shows features of"@en .
+                        rdfs:label "P130 shows features of"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#P14_carriedOutBy
-:P14_carriedOutBy rdf:type owl:ObjectProperty ;
-                  rdfs:domain :E7_Activity ;
-                  rdfs:range :E39_Actor ;
-                  rdfs:label "carried Out By"@en .
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#P14_carried_out_by
+:P14_carried_out_by rdf:type owl:ObjectProperty ;
+                    rdfs:domain :E7_Activity ;
+                    rdfs:range :E39_Actor ;
+                    rdfs:label "P14 carried out by"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#P165_incorporates
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#P165_incorporates
 :P165_incorporates rdf:type owl:ObjectProperty ;
                    rdfs:domain :E89_Propositional_Object ;
                    rdfs:range :E90_Symbolic_Object ;
-                   rdfs:label "incorporates"@en .
+                   rdfs:label "P165 incorporates"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#P198_holds_or_supports
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#P198_holds_or_supports
 :P198_holds_or_supports rdf:type owl:ObjectProperty ;
                         rdfs:domain :E18_Physical_Thing ;
                         rdfs:range :E18_Physical_Thing ;
-                        rdfs:label "holds or supports"@en .
+                        rdfs:label "P198 holds or supports"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#P46_IsComposedOf
-:P46_IsComposedOf rdf:type owl:ObjectProperty ;
-                  rdfs:domain :E18_Physical_Thing ;
-                  rdfs:range :E18_Physical_Thing ;
-                  rdfs:label "Is Composed Of"@en .
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#P46_is_composed_Of
+:P46_is_composed_Of rdf:type owl:ObjectProperty ;
+                    rdfs:domain :E18_Physical_Thing ;
+                    rdfs:range :E18_Physical_Thing ;
+                    rdfs:label "P46 is composed of"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#P4_hasTimeSpan
-:P4_hasTimeSpan rdf:type owl:ObjectProperty ;
-                rdfs:domain :E2_Temporal_Entity ;
-                rdfs:range :E52_TimeSpan ;
-                rdfs:label "has Time Span"@en .
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#P4_has_time_span
+:P4_has_time_span rdf:type owl:ObjectProperty ;
+                  rdfs:domain :E2_Temporal_Entity ;
+                  rdfs:range :E52_TimeSpan ;
+                  rdfs:label "P4 has time span"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#P53_has_former_or_current_location
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#P53_has_former_or_current_location
 :P53_has_former_or_current_location rdf:type owl:ObjectProperty ;
                                     rdfs:domain :E18_Physical_Thing ;
                                     rdfs:range :E53_Place ;
-                                    rdfs:label "has former or current location"@en .
+                                    rdfs:label "P53 has former or current location"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#P89_falls_within
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#P67_refers_to
+:P67_refers_to rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf owl:topObjectProperty ;
+               rdfs:domain :E89_Propositional_Object ;
+               rdfs:range :E1_CRM_Entity ;
+               rdfs:comment "P67 refers to" .
+
+
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#P89_falls_within
 :P89_falls_within rdf:type owl:ObjectProperty ;
                   rdfs:domain :E53_Place ;
                   rdfs:range :E53_Place ;
-                  rdfs:label "falls within"@en .
+                  rdfs:label "P89 falls within"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#P8_took_place_on_or_within
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#P8_took_place_on_or_within
 :P8_took_place_on_or_within rdf:type owl:ObjectProperty ;
                             rdfs:domain :E4_Period ;
                             rdfs:range :E18_Physical_Thing ;
-                            rdfs:label "took place on or within"@en .
+                            rdfs:label "P8 took place on or within"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#hasArtisticTimeSpan
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#connects_to
+:connects_to rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf :P67_refers_to ;
+             rdfs:domain :E31_Document ;
+             rdfs:range :Intangible_Feature ;
+             rdfs:label "connects to" .
+
+
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#hasArtisticTimeSpan
 :hasArtisticTimeSpan rdf:type owl:ObjectProperty ;
-                     rdfs:subPropertyOf :P4_hasTimeSpan ;
+                     rdfs:subPropertyOf :P4_has_time_span ;
                      rdfs:domain :Romanticism ;
                      rdfs:range :E52_TimeSpan ;
                      rdfs:label "has Artistic Time Span"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#hasClimate
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#hasClimate
 :hasClimate rdf:type owl:ObjectProperty ;
             rdfs:subPropertyOf :P130_shows_features_of ;
             rdfs:domain :E53_Place ;
@@ -203,15 +219,15 @@
             rdfs:label "has Climate"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#hasConstructionTimeSpan
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#hasConstructionTimeSpan
 :hasConstructionTimeSpan rdf:type owl:ObjectProperty ;
-                         rdfs:subPropertyOf :P4_hasTimeSpan ;
+                         rdfs:subPropertyOf :P4_has_time_span ;
                          rdfs:domain :Construction ;
                          rdfs:range :E52_TimeSpan ;
                          rdfs:label "has Construction Time Span"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#hasEngravings
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#hasEngravings
 :hasEngravings rdf:type owl:ObjectProperty ;
                rdfs:subPropertyOf :P130_shows_features_of ;
                rdfs:domain :Menhir ;
@@ -219,38 +235,38 @@
                rdfs:label "has Engravings"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#hasExcavationTimeSpan
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#hasExcavationTimeSpan
 :hasExcavationTimeSpan rdf:type owl:ObjectProperty ;
-                       rdfs:subPropertyOf :P4_hasTimeSpan ;
+                       rdfs:subPropertyOf :P4_has_time_span ;
                        rdfs:domain :Excavation ;
                        rdfs:range :E52_TimeSpan ;
                        rdfs:label "has Excavation Time Span"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#hasFormationTimeSpan
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#hasFormationTimeSpan
 :hasFormationTimeSpan rdf:type owl:ObjectProperty ;
-                      rdfs:subPropertyOf :P4_hasTimeSpan ;
+                      rdfs:subPropertyOf :P4_has_time_span ;
                       rdfs:domain :Formation ;
                       rdfs:range :E52_TimeSpan ;
                       rdfs:label "has Formation Time Span"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#hasIdentificationTimeSpan
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#hasIdentificationTimeSpan
 :hasIdentificationTimeSpan rdf:type owl:ObjectProperty ;
-                           rdfs:subPropertyOf :P4_hasTimeSpan ;
+                           rdfs:subPropertyOf :P4_has_time_span ;
                            rdfs:domain :Identification ;
                            rdfs:label "has Identification Time Span"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#hasMegalithicComponents
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#hasMegalithicComponents
 :hasMegalithicComponents rdf:type owl:ObjectProperty ;
-                         rdfs:subPropertyOf :P46_IsComposedOf ;
+                         rdfs:subPropertyOf :P46_is_composed_Of ;
                          rdfs:domain :StoneCircleOrCromlech ;
                          rdfs:range :Menhir ;
                          rdfs:label "has Megalithic Components"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#hasTypicalLandscape
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#hasTypicalLandscape
 :hasTypicalLandscape rdf:type owl:ObjectProperty ;
                      rdfs:subPropertyOf :P130_shows_features_of ;
                      rdfs:domain :E53_Place ;
@@ -258,12 +274,19 @@
                      rdfs:label "has Typical Landscape"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#hasUsageTimeSpan
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#hasUsageTimeSpan
 :hasUsageTimeSpan rdf:type owl:ObjectProperty ;
-                  rdfs:subPropertyOf :P4_hasTimeSpan ;
+                  rdfs:subPropertyOf :P4_has_time_span ;
                   rdfs:domain :OcupationOrUsage ;
                   rdfs:range :E52_TimeSpan ;
                   rdfs:label "has Usage Time Span"@en .
+
+
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#mentions
+:mentions rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf :P67_refers_to ;
+          rdfs:domain :E31_Document ;
+          rdfs:range :Intangible_Feature .
 
 
 ###  http://www.w3.org/2004/02/skos/core#broadMatch
@@ -427,7 +450,7 @@
 #    Data properties
 #################################################################
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Link
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#Link
 :Link rdf:type owl:DatatypeProperty ;
       rdfs:subPropertyOf owl:topDataProperty ;
       rdfs:domain :Audio ,
@@ -437,7 +460,7 @@
       rdfs:label "Link"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#format
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#format
 :format rdf:type owl:DatatypeProperty ;
         rdfs:subPropertyOf owl:topDataProperty ;
         rdfs:domain :MegalithicMonument ;
@@ -445,7 +468,7 @@
         rdfs:label "format"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#heightMeters
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#heightMeters
 :heightMeters rdf:type owl:DatatypeProperty ;
               rdfs:subPropertyOf owl:topDataProperty ;
               rdfs:domain :Menhir ;
@@ -453,7 +476,7 @@
               rdfs:label "height Meters"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#rockType
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#rockType
 :rockType rdf:type owl:DatatypeProperty ;
           rdfs:subPropertyOf owl:topDataProperty ;
           rdfs:domain :MegalithicMonument ;
@@ -461,7 +484,7 @@
           rdfs:label "rock Type"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#usagetypeArtefacts
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#usagetypeArtefacts
 :usagetypeArtefacts rdf:type owl:DatatypeProperty ;
                     rdfs:subPropertyOf owl:topDataProperty ;
                     rdfs:domain :ArchaeologicalArtefact ;
@@ -469,7 +492,7 @@
                     rdfs:label "usagetype Artefacts"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#usagetypeMegalithism
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#usagetypeMegalithism
 :usagetypeMegalithism rdf:type owl:DatatypeProperty ;
                       rdfs:subPropertyOf owl:topDataProperty ;
                       rdfs:domain :MegalithicSite ;
@@ -489,77 +512,77 @@
 #    Classes
 #################################################################
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#App
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#App
 :App rdf:type owl:Class ;
      rdfs:subClassOf :E31_Document ;
      rdfs:comment "A software application designed to guide or assist users, often in cultural or educational contexts" ;
      rdfs:label "App"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#ArchaeologicalArtefact
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#ArchaeologicalArtefact
 :ArchaeologicalArtefact rdf:type owl:Class ;
                         rdfs:subClassOf :E24_Physical_Human-Made_Thing ;
                         rdfs:comment "Artefacts found in an archaeological site." ;
                         rdfs:label "Archaeological Artefact"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#ArchaeologicalMonument
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#ArchaeologicalMonument
 :ArchaeologicalMonument rdf:type owl:Class ;
                         rdfs:subClassOf :CulturalHeritageMonument ;
                         rdfs:comment "A monument that preserves traces of human occupation" ;
                         rdfs:label "Archaeological Monument"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#ArchaeologicalSite
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#ArchaeologicalSite
 :ArchaeologicalSite rdf:type owl:Class ;
                     rdfs:subClassOf :E27_Site ;
                     rdfs:comment "The area where traces of human occupation have been found." ;
                     rdfs:label "Archaeological Site"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Archaeologist
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#Archaeologist
 :Archaeologist rdf:type owl:Class ;
                rdfs:subClassOf :E21_Person ;
                rdfs:comment "A professional whose expertise involves both on-site and off-site study of past human societies." ;
                rdfs:label "Archaeologist"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Arrowhead
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#Arrowhead
 :Arrowhead rdf:type owl:Class ;
            rdfs:subClassOf :ArchaeologicalArtefact ;
            rdfs:comment "The tip of an arrow." ;
            rdfs:label "Arrowhead"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Artist
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#Artist
 :Artist rdf:type owl:Class ;
         rdfs:subClassOf :E21_Person ;
         rdfs:comment "An individual whose creative work reflects or engages with the heritage site" ;
         rdfs:label "Artist"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Audio
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#Audio
 :Audio rdf:type owl:Class ;
        rdfs:subClassOf :E31_Document ;
        rdfs:comment "Audio files" ;
        rdfs:label "Audio"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Beaker
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#Beaker
 :Beaker rdf:type owl:Class ;
         rdfs:subClassOf :ArchaeologicalArtefact ;
         rdfs:comment "A ceramic drinking or storage vessel typical of Late Neolithic/Bronze Age." ;
         rdfs:label "Beaker"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#BirdSounds
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#BirdSounds
 :BirdSounds rdf:type owl:Class ;
             rdfs:subClassOf :NaturalSoundscape ;
             rdfs:comment "Sounds of birds chirping." ;
             rdfs:label "Bird Sounds"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#BronzeAge
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#BronzeAge
 :BronzeAge rdf:type owl:Class ;
            rdfs:subClassOf :E4_Period ;
            owl:disjointWith :Neolithic ;
@@ -567,453 +590,453 @@
            rdfs:label "Bronze Age"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Cave
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#Cave
 :Cave rdf:type owl:Class ;
       rdfs:subClassOf :NaturalHeritageSite ;
       rdfs:comment "A natural underground space typically formed by the weathering of rock." ;
       rdfs:label "Cave"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Climate
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#Climate
 :Climate rdf:type owl:Class ;
          rdfs:subClassOf :E26_Physical_Feature ;
          rdfs:comment "A feature regarding weather conditions." ;
          rdfs:label "Climate"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Construction
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#Construction
 :Construction rdf:type owl:Class ;
               rdfs:subClassOf :E7_Activity ;
               rdfs:comment "The construction of the archaeological site." ;
               rdfs:label "Construction"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Coordinates
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#Coordinates
 :Coordinates rdf:type owl:Class ;
              rdfs:subClassOf :E94_Space_Primitive ;
              rdfs:comment "A specific location in space" ;
              rdfs:label "Coordinates"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#CulturalHeritageMonument
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#CulturalHeritageMonument
 :CulturalHeritageMonument rdf:type owl:Class ;
                           rdfs:subClassOf :E24_Physical_Human-Made_Thing ;
                           rdfs:label "Cultural Heritage Monument"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#CulturalHeritageSite
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#CulturalHeritageSite
 :CulturalHeritageSite rdf:type owl:Class ;
                       rdfs:subClassOf :E27_Site ;
                       rdfs:comment "A place of importance recognised for its historical and cultural value" ;
                       rdfs:label "Cultural Heritage Site"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#CulturalLandscape
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#CulturalLandscape
 :CulturalLandscape rdf:type owl:Class ;
                    rdfs:subClassOf :Landscape ;
                    rdfs:comment "A landscape containing features made by humans. It can be protected as a cultural heritage site." ;
                    rdfs:label "Cultural Landscape"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#CulturalLandscapeSite
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#CulturalLandscapeSite
 :CulturalLandscapeSite rdf:type owl:Class ;
                        rdfs:subClassOf :E27_Site ;
                        rdfs:comment "A landscape that has been shaped or symbolically interpreted through cultural practices, beliefs, or artistic representation." ;
                        rdfs:label "Cultural Landscape Site"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Demonstrator
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#Demonstrator
 :Demonstrator rdf:type owl:Class ;
               rdfs:subClassOf :E71_Human-Made_Thing ;
               rdfs:comment "A prototype or tool created to showcase a concept or functionality" ;
               rdfs:label "Demonstrator"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#District
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#District
 :District rdf:type owl:Class ;
           rdfs:subClassOf :E53_Place ;
           rdfs:comment "A subdivision of a region that can encompass multiple municipalities within boundaries" ;
           rdfs:label "District"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E18_Physical_Thing
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#E18_Physical_Thing
 :E18_Physical_Thing rdf:type owl:Class ;
                     rdfs:subClassOf :E70_Thing ;
                     rdfs:label "E18 Physical Thing"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E1_CRM_Entity
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#E1_CRM_Entity
 :E1_CRM_Entity rdf:type owl:Class ;
                rdfs:label "E1 CRM Entity"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E21_Person
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#E21_Person
 :E21_Person rdf:type owl:Class ;
             rdfs:subClassOf :E39_Actor ;
             rdfs:label "E21 Person"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E24_Physical_Human-Made_Thing
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#E24_Physical_Human-Made_Thing
 :E24_Physical_Human-Made_Thing rdf:type owl:Class ;
                                rdfs:subClassOf :E18_Physical_Thing ,
                                                :E71_Human-Made_Thing ;
                                rdfs:label "E24 Physical Human Made Thing"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E26_Physical_Feature
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#E26_Physical_Feature
 :E26_Physical_Feature rdf:type owl:Class ;
                       rdfs:subClassOf :E18_Physical_Thing ;
                       rdfs:label "E26 Physical Feature"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E27_Site
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#E27_Site
 :E27_Site rdf:type owl:Class ;
           rdfs:subClassOf :E26_Physical_Feature ;
           rdfs:comment "This class comprises pieces of land or sea floor. In contrast to the purely geometric notion of E53 Place, this class describes constellations of matter on the surface of the Earth or other celestial body, which can be represented by photographs, paintings and maps. Instances of E27 Site are composed of relatively immobile material items and features in a particular configuration at a particular location." ;
           rdfs:label "Site"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E2_Temporal_Entity
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#E2_Temporal_Entity
 :E2_Temporal_Entity rdf:type owl:Class ;
                     rdfs:subClassOf :E1_CRM_Entity ;
                     rdfs:label "E2 Temporal Entity"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E31_Document
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#E31_Document
 :E31_Document rdf:type owl:Class ;
               rdfs:subClassOf :E73_Information_Object ;
               rdfs:label "E31 Document"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E33_Linguistic_Object
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#E33_Linguistic_Object
 :E33_Linguistic_Object rdf:type owl:Class ;
                        rdfs:subClassOf :E73_Information_Object ;
                        rdfs:label "E33 Linguistic Object"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E39_Actor
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#E39_Actor
 :E39_Actor rdf:type owl:Class ;
            rdfs:subClassOf :E1_CRM_Entity ;
            rdfs:label "E39 Actor"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E4_Period
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#E4_Period
 :E4_Period rdf:type owl:Class ;
            rdfs:subClassOf :E2_Temporal_Entity ;
            rdfs:label "E4 Period"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E52_TimeSpan
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#E52_TimeSpan
 :E52_TimeSpan rdf:type owl:Class ;
               rdfs:subClassOf :E1_CRM_Entity ;
               rdfs:label "E52 Time Span"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E53_Place
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#E53_Place
 :E53_Place rdf:type owl:Class ;
            rdfs:subClassOf :E1_CRM_Entity ;
            rdfs:label "E53 Place"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E55_Type
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#E55_Type
 :E55_Type rdf:type owl:Class ;
           rdfs:subClassOf :E1_CRM_Entity ;
           rdfs:label "E55 Type"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E70_Thing
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#E70_Thing
 :E70_Thing rdf:type owl:Class ;
            rdfs:subClassOf :E1_CRM_Entity ;
            rdfs:label "E70 Thing"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E71_Human-Made_Thing
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#E71_Human-Made_Thing
 :E71_Human-Made_Thing rdf:type owl:Class ;
                       rdfs:subClassOf :E70_Thing ;
                       rdfs:label "E71 Human Made Thing"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E73_Information_Object
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#E73_Information_Object
 :E73_Information_Object rdf:type owl:Class ;
                         rdfs:subClassOf :E90_Symbolic_Object ;
                         rdfs:label "E73 Information Object"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E74_Group
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#E74_Group
 :E74_Group rdf:type owl:Class ;
            rdfs:subClassOf :E39_Actor ;
            rdfs:label "E74 Group"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E7_Activity
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#E7_Activity
 :E7_Activity rdf:type owl:Class ;
              rdfs:subClassOf :E4_Period ;
              rdfs:label "E7 Activity"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E89_Propositional_Object
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#E89_Propositional_Object
 :E89_Propositional_Object rdf:type owl:Class ;
                           rdfs:subClassOf :E71_Human-Made_Thing ;
                           rdfs:label "E89 Propositional Object"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E90_Symbolic_Object
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#E90_Symbolic_Object
 :E90_Symbolic_Object rdf:type owl:Class ;
                      rdfs:subClassOf :E89_Propositional_Object ;
                      rdfs:label "E90 Symbolic Object"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#E94_Space_Primitive
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#E94_Space_Primitive
 :E94_Space_Primitive rdf:type owl:Class ;
                      rdfs:subClassOf :E1_CRM_Entity ;
                      rdfs:label "E94 Space Primitive"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#EarlyNeolithic
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#EarlyNeolithic
 :EarlyNeolithic rdf:type owl:Class ;
                 rdfs:subClassOf :Neolithic ;
                 rdfs:comment "The earliest phase of the Neolithic, characterised by the initial adoption of agriculture, domestication of plants and animals, and the use of polished stone tools." ;
                 rdfs:label "Early Neolithic"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Engravings
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#Engravings
 :Engravings rdf:type owl:Class ;
             rdfs:subClassOf :E90_Symbolic_Object ;
             rdfs:comment "Carved marks or decorations on menhirs." ;
             rdfs:label "Engravings"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Excavation
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#Excavation
 :Excavation rdf:type owl:Class ;
             rdfs:subClassOf :E7_Activity ;
             rdfs:comment "Technical examination of an archaeological site which involves the digging and removal of layers of earth and their associated artefacts." ;
             rdfs:label "Excavation"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Fissure
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#Fissure
 :Fissure rdf:type owl:Class ;
          rdfs:subClassOf :NaturalHeritageSite ;
          rdfs:comment "A narrow opening or crack typically resulting from geological processes." ;
          rdfs:label "Fissure"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#FoodVessel
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#FoodVessel
 :FoodVessel rdf:type owl:Class ;
             rdfs:subClassOf :Beaker ;
             rdfs:comment "A subtype of Beaker, typically larger and used in funerary contexts." ;
             rdfs:label "Food Vessel"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Formation
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#Formation
 :Formation rdf:type owl:Class ;
            rdfs:subClassOf :E7_Activity ;
            rdfs:comment "The geological or natural formation of the site or landscape." ;
            rdfs:label "Formation"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#GroovedWare
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#GroovedWare
 :GroovedWare rdf:type owl:Class ;
              rdfs:subClassOf :ArchaeologicalArtefact ;
              rdfs:comment "Neolithic ceramic tradition characterized by incised decoration" ;
              rdfs:label "Grooved Ware"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Hill
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#Hill
 :Hill rdf:type owl:Class ;
       rdfs:subClassOf :NaturalHeritageSite ;
       rdfs:comment "A naturally raised area of land, smaller than a mountain." ;
       rdfs:label "Hill"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Identification
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#Identification
 :Identification rdf:type owl:Class ;
                 rdfs:subClassOf :E7_Activity ;
                 rdfs:comment "The identification of the archaeological site." ;
                 rdfs:label "Identification"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Idol
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#Idol
 :Idol rdf:type owl:Class ;
       rdfs:subClassOf :ArchaeologicalArtefact ;
       rdfs:comment "Object made with the purpose of fulfilling a religious / ritualistic / symbolic goal." ;
       rdfs:label "Idol"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Image
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#Image
 :Image rdf:type owl:Class ;
        rdfs:subClassOf :E31_Document ;
        rdfs:comment "Image FIles" ;
        rdfs:label "Image"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Institution
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#Institution
 :Institution rdf:type owl:Class ;
              rdfs:subClassOf :E74_Group ;
              rdfs:comment "An organised body responsible for research, preservation, or management of cultural/natural heritage." ;
              rdfs:label "Institution"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Intangible_Feature
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#Intangible_Feature
 :Intangible_Feature rdf:type owl:Class ;
                     rdfs:subClassOf :E55_Type ;
                     rdfs:label "Intangible Feature" .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Interview
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#Interview
 :Interview rdf:type owl:Class ;
            rdfs:subClassOf :E33_Linguistic_Object ;
            rdfs:comment "Conversations capturing personal or collective testimonies." ;
            rdfs:label "Interview"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Lake
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#Lake
 :Lake rdf:type owl:Class ;
       rdfs:subClassOf :NaturalHeritageSite ;
       rdfs:comment "A large body of water surrounded by land." ;
       rdfs:label "Lake"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Landscape
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#Landscape
 :Landscape rdf:type owl:Class ;
            rdfs:subClassOf :E26_Physical_Feature ;
            rdfs:comment "Landscape includes physical and natural elements of an environment, as well as human elements such as built structures." ;
            rdfs:label "Landscape"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#LateNeolithic
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#LateNeolithic
 :LateNeolithic rdf:type owl:Class ;
                rdfs:subClassOf :Neolithic ;
                rdfs:comment "The later phase of the Neolithic period, associated with complex societies and megalithic monuments." ;
                rdfs:label "Late Neolithic"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#LithicTool
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#LithicTool
 :LithicTool rdf:type owl:Class ;
             rdfs:subClassOf :StoneTool ;
             rdfs:comment "Tool made by knapping stone such as flint, quartz or mylonite" ;
             rdfs:label "Lithic Tool"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#LoomWeight
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#LoomWeight
 :LoomWeight rdf:type owl:Class ;
             rdfs:subClassOf :ArchaeologicalArtefact ;
             rdfs:comment "Object used in textile production." ;
             rdfs:label "Loom Weight"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#MegalithicMonument
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#MegalithicMonument
 :MegalithicMonument rdf:type owl:Class ;
                     rdfs:subClassOf :ArchaeologicalMonument ;
                     rdfs:comment "An archaeological monument built with standing megalithic stones" ;
                     rdfs:label "Megalithic Monument"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#MegalithicSite
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#MegalithicSite
 :MegalithicSite rdf:type owl:Class ;
                 rdfs:subClassOf :ArchaeologicalSite ;
                 rdfs:comment "A specific geographical area where large stone monuments or constructions, like stones circles or standing stones, are located." ;
                 rdfs:label "Megalithic Site"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Menhir
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#Menhir
 :Menhir rdf:type owl:Class ;
         rdfs:subClassOf :MegalithicMonument ;
         rdfs:comment "A standing stone placed in the ground by humans." ;
         rdfs:label "Menhir"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#MiddleBronzeAge
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#MiddleBronzeAge
 :MiddleBronzeAge rdf:type owl:Class ;
                  rdfs:subClassOf :BronzeAge ;
                  rdfs:comment "The middle phase of the Bronze Age" ;
                  rdfs:label "Middle Bronze Age"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Municipality
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#Municipality
 :Municipality rdf:type owl:Class ;
               rdfs:subClassOf :E53_Place ;
               rdfs:comment "Second-level administrative division after district,with its own jurisdiction and local government" ;
               rdfs:label "Municipality"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Museum
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#Museum
 :Museum rdf:type owl:Class ;
         rdfs:subClassOf :E74_Group ;
         rdfs:comment "A public entity whose efforts involve the acquisition, preservation, research and exhibition of objects with different types of values." ;
         rdfs:label "Museum"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Narrative
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#Narrative
 :Narrative rdf:type owl:Class ;
            rdfs:subClassOf :E33_Linguistic_Object ;
            rdfs:comment "A story/saying that transmits meaning, sentiments and significant memories of a specific place" ;
            rdfs:label "Narrative"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#NaturalHeritageSite
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#NaturalHeritageSite
 :NaturalHeritageSite rdf:type owl:Class ;
                      rdfs:subClassOf :E27_Site ;
                      rdfs:comment "A location of outstanding geological, ecological, or scenic value, often protected for its environmental significance." ;
                      rdfs:label "Natural Heritage Site"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#NaturalLandscape
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#NaturalLandscape
 :NaturalLandscape rdf:type owl:Class ;
                   rdfs:subClassOf :Landscape ;
                   rdfs:comment "A landscape predominantly shaped by natural processes, characterised by the absence of significant human intervention or built structures." ;
                   rdfs:label "Natural Landscape"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#NaturalSoundscape
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#NaturalSoundscape
 :NaturalSoundscape rdf:type owl:Class ;
                    rdfs:subClassOf :Soundscape ;
                    rdfs:comment "Sounds of nature in its characteristic environment." ;
                    rdfs:label "Natural Soundscape"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Neolithic
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#Neolithic
 :Neolithic rdf:type owl:Class ;
            rdfs:subClassOf :E4_Period ;
            rdfs:comment "A specific period from pre-history marked by early farming and stone tools." ;
            rdfs:label "Neolithic"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#OcupationOrUsage
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#OcupationOrUsage
 :OcupationOrUsage rdf:type owl:Class ;
                   rdfs:subClassOf :E7_Activity ;
                   rdfs:comment "The human usage or inhabitation of a site over a period of time." ;
                   rdfs:label "Ocupation Or Usage"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#OtherSounds
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#OtherSounds
 :OtherSounds rdf:type owl:Class ;
              rdfs:subClassOf :NaturalSoundscape ;
              rdfs:comment "Other sounds." ;
              rdfs:label "Other Sounds"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Paleoproterozoic
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#Paleoproterozoic
 :Paleoproterozoic rdf:type owl:Class ;
                   rdfs:subClassOf :E4_Period ;
                   rdfs:comment "A geological period dating from approximately 2.5 to 1.6 billion years ago." ;
                   rdfs:label "Paleoproterozoic"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Parish
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#Parish
 :Parish rdf:type owl:Class ;
         rdfs:subClassOf :E53_Place ;
         rdfs:comment "A minor administrative division, sub part of Municipalities" ;
         rdfs:label "Parish"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Park
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#Park
 :Park rdf:type owl:Class ;
       rdfs:subClassOf :NaturalHeritageSite ;
       rdfs:comment "A designated area preserved for its natural environment and public enjoyment." ;
       rdfs:label "Park"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#PlaqueIdol
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#PlaqueIdol
 :PlaqueIdol rdf:type owl:Class ;
             rdfs:subClassOf :Idol ;
             rdfs:comment """An idol in the shape of a plaque (engraved stone
@@ -1021,130 +1044,130 @@ plaques)""" ;
             rdfs:label "Plaque Idol"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Region
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#Region
 :Region rdf:type owl:Class ;
         rdfs:subClassOf :E53_Place ;
         rdfs:comment "A geographical unit that can aggregate multiple districts" ;
         rdfs:label "Region"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Restoration
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#Restoration
 :Restoration rdf:type owl:Class ;
              rdfs:subClassOf :E7_Activity ;
              rdfs:comment "The restoration of components of the archaeological site." ;
              rdfs:label "Restoration"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Roll_up
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#Roll_up
 :Roll_up rdf:type owl:Class ;
          rdfs:subClassOf :E31_Document ;
          rdfs:comment "Roll ups of the exhibition" ;
          rdfs:label "Roll up"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Romanticism
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#Romanticism
 :Romanticism rdf:type owl:Class ;
              rdfs:subClassOf :E7_Activity ;
              rdfs:comment "An artistic and intellectual movement emphasizing nature, emotion, and individualism, often associated with the 19th century." ;
              rdfs:label "Romanticism"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#RuralLandscape
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#RuralLandscape
 :RuralLandscape rdf:type owl:Class ;
                 rdfs:subClassOf :CulturalLandscape ;
                 rdfs:comment "Landscape characterised by open fields, low population and green areas with diverse vegetation." ;
                 rdfs:label "Rural Landscape"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#SoundsOfTheTreeBranches
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#SoundsOfTheTreeBranches
 :SoundsOfTheTreeBranches rdf:type owl:Class ;
                          rdfs:subClassOf :NaturalSoundscape ;
                          rdfs:comment "Sounds of tree branches moving." ;
                          rdfs:label "Sounds Of The Tree Branches"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#SoundsOfTheWindBlowing
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#SoundsOfTheWindBlowing
 :SoundsOfTheWindBlowing rdf:type owl:Class ;
                         rdfs:subClassOf :NaturalSoundscape ;
                         rdfs:comment "Sounds of blowing wind" ;
                         rdfs:label "Sounds Of The Wind Blowing"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Soundscape
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#Soundscape
 :Soundscape rdf:type owl:Class ;
             rdfs:subClassOf :E26_Physical_Feature ;
             rdfs:comment "Set of sounds typical from an environment." ;
             rdfs:label "Soundscape"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#SpiritualOrRitualSite
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#SpiritualOrRitualSite
 :SpiritualOrRitualSite rdf:type owl:Class ;
                        rdfs:subClassOf :E27_Site ;
                        rdfs:comment "A location where ancient religious or ceremonial/ritualistic practices were/are conducted." ;
                        rdfs:label "Spiritual Or Ritual Site"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#StoneCircleOrCromlech
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#StoneCircleOrCromlech
 :StoneCircleOrCromlech rdf:type owl:Class ;
                        rdfs:subClassOf :MegalithicMonument ;
                        rdfs:comment "An arrangement of standing stones (menhirs) placed by humans." ;
                        rdfs:label "Stone Circle Or Cromlech"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#StoneTool
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#StoneTool
 :StoneTool rdf:type owl:Class ;
            rdfs:subClassOf :ArchaeologicalArtefact ;
            rdfs:comment "A general-purpose manually shaped stone implement" ;
            rdfs:label "Stone Tool"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Text
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#Text
 :Text rdf:type owl:Class ;
       rdfs:subClassOf :E31_Document ;
       rdfs:comment "The written files of the interviews" ;
       rdfs:label "Text"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#TouristicSite
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#TouristicSite
 :TouristicSite rdf:type owl:Class ;
                rdfs:subClassOf :E27_Site ;
                rdfs:comment "A space open to visitors." ;
                rdfs:label "Touristic Site"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#UrbanLandscape
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#UrbanLandscape
 :UrbanLandscape rdf:type owl:Class ;
                 rdfs:subClassOf :CulturalLandscape ;
                 rdfs:comment "A space, like a city, that contains physical and visual elements built by humans." ;
                 rdfs:label "Urban Landscape"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Video
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#Video
 :Video rdf:type owl:Class ;
        rdfs:subClassOf :E31_Document ;
        rdfs:comment "Video files" ;
        rdfs:label "Video"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Volunteer
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#Volunteer
 :Volunteer rdf:type owl:Class ;
            rdfs:subClassOf :E21_Person ;
            rdfs:comment "Committed participant without a professional background, actively involved in fieldwork" ;
            rdfs:label "Volunteer"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#3DModel
-<http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#3DModel> rdf:type owl:Class ;
-                                                                                  rdfs:subClassOf :E31_Document ;
-                                                                                  rdfs:comment "3D model files" ;
-                                                                                  rdfs:label "3D Model"@en .
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#3DModel
+<http://www.semanticweb.org/int-act-project/int-act-ontology#3DModel> rdf:type owl:Class ;
+                                                                      rdfs:subClassOf :E31_Document ;
+                                                                      rdfs:comment "3D model files" ;
+                                                                      rdfs:label "3D Model"@en .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Patron/Promoter
-<http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Patron/Promoter> rdf:type owl:Class ;
-                                                                                          rdfs:subClassOf :E39_Actor ;
-                                                                                          rdfs:comment "The sponsor of the archaeological intervention" ;
-                                                                                          rdfs:label "Patron/Promoter"@en .
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#Patron/Promoter
+<http://www.semanticweb.org/int-act-project/int-act-ontology#Patron/Promoter> rdf:type owl:Class ;
+                                                                              rdfs:subClassOf :E39_Actor ;
+                                                                              rdfs:comment "The sponsor of the archaeological intervention" ;
+                                                                              rdfs:label "Patron/Promoter"@en .
 
 
 ###  http://www.w3.org/1999/02/22-rdf-syntax-ns#List
@@ -1201,59 +1224,59 @@ rdf:List rdf:type owl:Class .
                                                                              :Artist .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_1970
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_1970
 :S1_1970 rdf:type owl:NamedIndividual ,
                   :E52_TimeSpan .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_2005-2006
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_2005-2006
 :S1_2005-2006 rdf:type owl:NamedIndividual ,
                        :E52_TimeSpan .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_360_SiteView
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_360_SiteView
 :S1_360_SiteView rdf:type owl:NamedIndividual .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_3DMFont1
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_3DMFont1
 :S1_3DMFont1 rdf:type owl:NamedIndividual ,
-                      <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#3DModel> ;
-             :P129_isAbout :S1_Cromeleque_das_Fontaínhas .
+                      <http://www.semanticweb.org/int-act-project/int-act-ontology#3DModel> ;
+             :P129_is_about :S1_Cromeleque_das_Fontaínhas .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_3DMFont2
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_3DMFont2
 :S1_3DMFont2 rdf:type owl:NamedIndividual ,
-                      <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#3DModel> .
+                      <http://www.semanticweb.org/int-act-project/int-act-ontology#3DModel> .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_3DMFont3
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_3DMFont3
 :S1_3DMFont3 rdf:type owl:NamedIndividual ,
-                      <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#3DModel> .
+                      <http://www.semanticweb.org/int-act-project/int-act-ontology#3DModel> .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_3DMFont4
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_3DMFont4
 :S1_3DMFont4 rdf:type owl:NamedIndividual ,
-                      <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#3DModel> .
+                      <http://www.semanticweb.org/int-act-project/int-act-ontology#3DModel> .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_3DMFont5
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_3DMFont5
 :S1_3DMFont5 rdf:type owl:NamedIndividual ,
-                      <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#3DModel> .
+                      <http://www.semanticweb.org/int-act-project/int-act-ontology#3DModel> .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_7000-2000
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_7000-2000
 :S1_7000-2000 rdf:type owl:NamedIndividual ,
                        :E52_TimeSpan .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Alentejo_Central
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_Alentejo_Central
 :S1_Alentejo_Central rdf:type owl:NamedIndividual ,
                               :Region ;
                      :hasClimate :S1_Mediterranean_Climate ;
                      :hasTypicalLandscape :S1_Montado_Alentejano .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_App_Opening
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_App_Opening
 :S1_App_Opening rdf:type owl:NamedIndividual ,
                          :App ;
                 :P165_incorporates :S1_App_WelcomingMessage ,
@@ -1261,109 +1284,109 @@ rdf:List rdf:type owl:Class .
                                    :S1_Project_Partners .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_App_WelcomingMessage
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_App_WelcomingMessage
 :S1_App_WelcomingMessage rdf:type owl:NamedIndividual .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_AudFont1
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_AudFont1
 :S1_AudFont1 rdf:type owl:NamedIndividual ,
                       :Audio .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_AudFont2
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_AudFont2
 :S1_AudFont2 rdf:type owl:NamedIndividual ,
                       :Audio .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_AudFont3
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_AudFont3
 :S1_AudFont3 rdf:type owl:NamedIndividual ,
                       :Audio .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_AudFont4
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_AudFont4
 :S1_AudFont4 rdf:type owl:NamedIndividual ,
                       :Audio .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_AudFont5
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_AudFont5
 :S1_AudFont5 rdf:type owl:NamedIndividual ,
                       :Audio .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_AudFont6
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_AudFont6
 :S1_AudFont6 rdf:type owl:NamedIndividual ,
                       :Audio .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_CF_M1
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_CF_M1
 :S1_CF_M1 rdf:type owl:NamedIndividual ,
                    :Menhir ;
           :heightMeters 4.00 .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_CF_M2
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_CF_M2
 :S1_CF_M2 rdf:type owl:NamedIndividual ,
                    :Menhir ;
           :hasEngravings :S1_Crescent_and_Crozier .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_CF_M3
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_CF_M3
 :S1_CF_M3 rdf:type owl:NamedIndividual ,
                    :Menhir .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_CF_M4
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_CF_M4
 :S1_CF_M4 rdf:type owl:NamedIndividual ,
                    :Menhir .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_CF_M5
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_CF_M5
 :S1_CF_M5 rdf:type owl:NamedIndividual ,
                    :Menhir .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_CF_M5a
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_CF_M5a
 :S1_CF_M5a rdf:type owl:NamedIndividual ,
                     :Menhir .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_CF_M5b
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_CF_M5b
 :S1_CF_M5b rdf:type owl:NamedIndividual ,
                     :Menhir .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_CF_M6
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_CF_M6
 :S1_CF_M6 rdf:type owl:NamedIndividual ,
                    :Menhir .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_CF_M6a
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_CF_M6a
 :S1_CF_M6a rdf:type owl:NamedIndividual ,
                     :Menhir .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_CF_M7
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_CF_M7
 :S1_CF_M7 rdf:type owl:NamedIndividual ,
                    :Menhir .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_CF_M8
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_CF_M8
 :S1_CF_M8 rdf:type owl:NamedIndividual ,
                    :Menhir .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Construction_of_Cromeleque_das_Fontaínhas
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_Construction_of_Cromeleque_das_Fontaínhas
 :S1_Construction_of_Cromeleque_das_Fontaínhas rdf:type owl:NamedIndividual ,
                                                        :Construction ;
                                               :P8_took_place_on_or_within :S1_Cromeleque_das_Fontaínhas .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Crescent_and_Crozier
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_Crescent_and_Crozier
 :S1_Crescent_and_Crozier rdf:type owl:NamedIndividual ,
                                   :Engravings .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Cromeleque_das_Fontaínhas
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_Cromeleque_das_Fontaínhas
 :S1_Cromeleque_das_Fontaínhas rdf:type owl:NamedIndividual ,
                                        :CulturalHeritageSite ,
                                        :MegalithicSite ,
@@ -1386,482 +1409,482 @@ rdf:List rdf:type owl:Class .
                               :usagetypeMegalithism "Non-Funerary" .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Excavation_of_Cromeleque_das_Fontaínhas
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_Excavation_of_Cromeleque_das_Fontaínhas
 :S1_Excavation_of_Cromeleque_das_Fontaínhas rdf:type owl:NamedIndividual ,
                                                      :Excavation ;
                                             :P8_took_place_on_or_within :S1_Cromeleque_das_Fontaínhas ;
                                             :hasExcavationTimeSpan :S1_2005-2006 .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Identification_of_Cromeleque_das_Fontaínhas
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_Identification_of_Cromeleque_das_Fontaínhas
 :S1_Identification_of_Cromeleque_das_Fontaínhas rdf:type owl:NamedIndividual ,
                                                          :Identification ;
                                                 :P8_took_place_on_or_within :S1_Cromeleque_das_Fontaínhas ;
                                                 :hasIdentificationTimeSpan :S1_1970 .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont10_CF_M5a
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_ImgFont10_CF_M5a
 :S1_ImgFont10_CF_M5a rdf:type owl:NamedIndividual ,
                               :Image ;
-                     :P129_isAbout :S1_CF_M5a .
+                     :P129_is_about :S1_CF_M5a .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont11_Ontology_Model
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_ImgFont11_Ontology_Model
 :S1_ImgFont11_Ontology_Model rdf:type owl:NamedIndividual ,
                                       :Image .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont12_Environment_3
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_ImgFont12_Environment_3
 :S1_ImgFont12_Environment_3 rdf:type owl:NamedIndividual ,
                                      :Image .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont13_Museum_Pictures
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_ImgFont13_Museum_Pictures
 :S1_ImgFont13_Museum_Pictures rdf:type owl:NamedIndividual ,
                                        :Image .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont14_Environment_4
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_ImgFont14_Environment_4
 :S1_ImgFont14_Environment_4 rdf:type owl:NamedIndividual ,
                                      :Image .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont15_Environment_5
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_ImgFont15_Environment_5
 :S1_ImgFont15_Environment_5 rdf:type owl:NamedIndividual ,
                                      :Image .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont16_Visitor_Pictures
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_ImgFont16_Visitor_Pictures
 :S1_ImgFont16_Visitor_Pictures rdf:type owl:NamedIndividual ,
                                         :Image .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont17_Environment_6
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_ImgFont17_Environment_6
 :S1_ImgFont17_Environment_6 rdf:type owl:NamedIndividual ,
                                      :Image .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont18_Tourism_Scheme
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_ImgFont18_Tourism_Scheme
 :S1_ImgFont18_Tourism_Scheme rdf:type owl:NamedIndividual ,
                                       :Image .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont19_CF_M5b
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_ImgFont19_CF_M5b
 :S1_ImgFont19_CF_M5b rdf:type owl:NamedIndividual ,
                               :Image .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont1_Environment
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_ImgFont1_Environment
 :S1_ImgFont1_Environment rdf:type owl:NamedIndividual ,
                                   :Image .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont20_Cromlech_Pictures
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_ImgFont20_Cromlech_Pictures
 :S1_ImgFont20_Cromlech_Pictures rdf:type owl:NamedIndividual ,
                                          :Image .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont2_CF_M2
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_ImgFont2_CF_M2
 :S1_ImgFont2_CF_M2 rdf:type owl:NamedIndividual ,
                             :Image ;
-                   :P129_isAbout :S1_CF_M2 .
+                   :P129_is_about :S1_CF_M2 .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont3_CF_M3
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_ImgFont3_CF_M3
 :S1_ImgFont3_CF_M3 rdf:type owl:NamedIndividual ,
                             :Image ;
-                   :P129_isAbout :S1_CF_M3 .
+                   :P129_is_about :S1_CF_M3 .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont4_CF_M4
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_ImgFont4_CF_M4
 :S1_ImgFont4_CF_M4 rdf:type owl:NamedIndividual ,
                             :Image ;
-                   :P129_isAbout :S1_CF_M4 .
+                   :P129_is_about :S1_CF_M4 .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont5_CF_M5
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_ImgFont5_CF_M5
 :S1_ImgFont5_CF_M5 rdf:type owl:NamedIndividual ,
                             :Image ;
-                   :P129_isAbout :S1_CF_M5 .
+                   :P129_is_about :S1_CF_M5 .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont6_ArcheologicalDrawings
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_ImgFont6_ArcheologicalDrawings
 :S1_ImgFont6_ArcheologicalDrawings rdf:type owl:NamedIndividual ,
                                             :Image .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont7_CF_M6
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_ImgFont7_CF_M6
 :S1_ImgFont7_CF_M6 rdf:type owl:NamedIndividual ,
                             :Image ;
-                   :P129_isAbout :S1_CF_M6 .
+                   :P129_is_about :S1_CF_M6 .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont8_Environment_2
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_ImgFont8_Environment_2
 :S1_ImgFont8_Environment_2 rdf:type owl:NamedIndividual ,
                                     :Image .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_ImgFont9_RecoveryAndExcavation
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_ImgFont9_RecoveryAndExcavation
 :S1_ImgFont9_RecoveryAndExcavation rdf:type owl:NamedIndividual ,
                                             :Image .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Language_Selection
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_Language_Selection
 :S1_Language_Selection rdf:type owl:NamedIndividual .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Leonor_Rocha
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_Leonor_Rocha
 :S1_Leonor_Rocha rdf:type owl:NamedIndividual ,
                           :Archaeologist .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Manuel_Calado
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_Manuel_Calado
 :S1_Manuel_Calado rdf:type owl:NamedIndividual ,
                            :Archaeologist .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Mediterranean_Climate
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_Mediterranean_Climate
 :S1_Mediterranean_Climate rdf:type owl:NamedIndividual ,
                                    :Climate .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Montado_Alentejano
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_Montado_Alentejano
 :S1_Montado_Alentejano rdf:type owl:NamedIndividual ,
                                 :RuralLandscape .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Mora
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_Mora
 :S1_Mora rdf:type owl:NamedIndividual ,
                   :Municipality ;
          :P89_falls_within :S1_Évora .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Museu_do_Megalitismo_de_Mora
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_Museu_do_Megalitismo_de_Mora
 :S1_Museu_do_Megalitismo_de_Mora rdf:type owl:NamedIndividual ,
                                           :Museum .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_NrtFont2_TalkingStone1
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_NrtFont2_TalkingStone1
 :S1_NrtFont2_TalkingStone1 rdf:type owl:NamedIndividual ,
                                     :Narrative .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_NrtFont3_TalkingStone2
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_NrtFont3_TalkingStone2
 :S1_NrtFont3_TalkingStone2 rdf:type owl:NamedIndividual ,
                                     :Narrative .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_NrtFont4_TalkingStone3
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_NrtFont4_TalkingStone3
 :S1_NrtFont4_TalkingStone3 rdf:type owl:NamedIndividual ,
                                     :Narrative .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_NrtFont5_TalkingStone4
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_NrtFont5_TalkingStone4
 :S1_NrtFont5_TalkingStone4 rdf:type owl:NamedIndividual ,
                                     :Narrative .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_NrtFont6_TalkingStone5
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_NrtFont6_TalkingStone5
 :S1_NrtFont6_TalkingStone5 rdf:type owl:NamedIndividual ,
                                     :Narrative .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Ocupation_of_Cromeleque_das_Fontaínhas
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_Ocupation_of_Cromeleque_das_Fontaínhas
 :S1_Ocupation_of_Cromeleque_das_Fontaínhas rdf:type owl:NamedIndividual ,
                                                     :OcupationOrUsage ;
                                            :P8_took_place_on_or_within :S1_Cromeleque_das_Fontaínhas ;
                                            :hasUsageTimeSpan :S1_7000-2000 .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_1
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_Panel_1
 :S1_Panel_1 rdf:type owl:NamedIndividual ,
                      :Roll_up ;
-            :P129_isAbout :S1_TextFont1_INT-ACT_Project ;
-            :P46_IsComposedOf :S1_ImgFont1_Environment .
+            :P129_is_about :S1_TextFont1_INT-ACT_Project ;
+            :P46_is_composed_Of :S1_ImgFont1_Environment .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_10
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_Panel_10
 :S1_Panel_10 rdf:type owl:NamedIndividual ,
                       :Roll_up ;
-             :P46_IsComposedOf :S1_ImgFont13_Museum_Pictures ,
-                               :S1_ImgFont14_Environment_4 ,
-                               :S1_TextFont8_Museum_History .
+             :P46_is_composed_Of :S1_ImgFont13_Museum_Pictures ,
+                                 :S1_ImgFont14_Environment_4 ,
+                                 :S1_TextFont8_Museum_History .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_11
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_Panel_11
 :S1_Panel_11 rdf:type owl:NamedIndividual ,
                       :Roll_up ;
-             :P46_IsComposedOf :S1_ImgFont15_Environment_5 ,
-                               :S1_TextFont9_KeyAspectsTourism .
+             :P46_is_composed_Of :S1_ImgFont15_Environment_5 ,
+                                 :S1_TextFont9_KeyAspectsTourism .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_12
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_Panel_12
 :S1_Panel_12 rdf:type owl:NamedIndividual ,
                       :Roll_up ;
-             :P46_IsComposedOf :S1_ImgFont16_Visitor_Pictures ,
-                               :S1_ImgFont17_Environment_6 ,
-                               :S1_ImgFont18_Tourism_Scheme ,
-                               :S1_TextFont10_Megalithic_Tourism ,
-                               :S1_TextFont11_Future_Directions .
+             :P46_is_composed_Of :S1_ImgFont16_Visitor_Pictures ,
+                                 :S1_ImgFont17_Environment_6 ,
+                                 :S1_ImgFont18_Tourism_Scheme ,
+                                 :S1_TextFont10_Megalithic_Tourism ,
+                                 :S1_TextFont11_Future_Directions .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_13
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_Panel_13
 :S1_Panel_13 rdf:type owl:NamedIndividual ,
                       :Roll_up ;
-             :P46_IsComposedOf :S1_ImgFont19_CF_M5b .
+             :P46_is_composed_Of :S1_ImgFont19_CF_M5b .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_2
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_Panel_2
 :S1_Panel_2 rdf:type owl:NamedIndividual ,
                      :Roll_up ;
-            :P46_IsComposedOf :S1_ImgFont2_CF_M2 ,
-                              :S1_TextFont2_Cromlech_History .
+            :P46_is_composed_Of :S1_ImgFont2_CF_M2 ,
+                                :S1_TextFont2_Cromlech_History .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_3
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_Panel_3
 :S1_Panel_3 rdf:type owl:NamedIndividual ,
                      :Roll_up ;
-            :P46_IsComposedOf :S1_ImgFont3_CF_M3 ,
-                              :S1_TextFont3_Lunar_Theory .
+            :P46_is_composed_Of :S1_ImgFont3_CF_M3 ,
+                                :S1_TextFont3_Lunar_Theory .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_4
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_Panel_4
 :S1_Panel_4 rdf:type owl:NamedIndividual ,
                      :Roll_up ;
-            :P46_IsComposedOf :S1_ImgFont4_CF_M4 .
+            :P46_is_composed_Of :S1_ImgFont4_CF_M4 .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_5
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_Panel_5
 :S1_Panel_5 rdf:type owl:NamedIndividual ,
                      :Roll_up ;
-            :P46_IsComposedOf :S1_ImgFont5_CF_M5 ,
-                              :S1_ImgFont6_ArcheologicalDrawings ,
-                              :S1_TextFont4_Archeological_Context .
+            :P46_is_composed_Of :S1_ImgFont5_CF_M5 ,
+                                :S1_ImgFont6_ArcheologicalDrawings ,
+                                :S1_TextFont4_Archeological_Context .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_6
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_Panel_6
 :S1_Panel_6 rdf:type owl:NamedIndividual ,
                      :Roll_up ;
-            :P46_IsComposedOf :S1_ImgFont7_CF_M6 .
+            :P46_is_composed_Of :S1_ImgFont7_CF_M6 .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_7
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_Panel_7
 :S1_Panel_7 rdf:type owl:NamedIndividual ,
                      :Roll_up ;
-            :P46_IsComposedOf :S1_ImgFont8_Environment_2 ,
-                              :S1_ImgFont9_RecoveryAndExcavation ,
-                              <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_TextFont5_Cromlech_Excavation/Recovery> .
+            :P46_is_composed_Of :S1_ImgFont8_Environment_2 ,
+                                :S1_ImgFont9_RecoveryAndExcavation ,
+                                <http://www.semanticweb.org/int-act-project/int-act-ontology#S1_TextFont5_Cromlech_Excavation/Recovery> .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_8
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_Panel_8
 :S1_Panel_8 rdf:type owl:NamedIndividual ,
                      :Roll_up ;
-            :P46_IsComposedOf :S1_ImgFont10_CF_M5a ,
-                              :S1_TextFont6_Narrative_Texts .
+            :P46_is_composed_Of :S1_ImgFont10_CF_M5a ,
+                                :S1_TextFont6_Narrative_Texts .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Panel_9
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_Panel_9
 :S1_Panel_9 rdf:type owl:NamedIndividual ,
                      :Roll_up ;
-            :P46_IsComposedOf :S1_ImgFont11_Ontology_Model ,
-                              :S1_ImgFont12_Environment_3 ,
-                              :S1_TextFont7_Ontology_Explanation .
+            :P46_is_composed_Of :S1_ImgFont11_Ontology_Model ,
+                                :S1_ImgFont12_Environment_3 ,
+                                :S1_TextFont7_Ontology_Explanation .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Pavia
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_Pavia
 :S1_Pavia rdf:type owl:NamedIndividual ,
                    :Parish ;
           :P89_falls_within :S1_Mora .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Pedro_Alvim
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_Pedro_Alvim
 :S1_Pedro_Alvim rdf:type owl:NamedIndividual ,
                          :Archaeologist .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Physical3DModel_MDF_CF_M1
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_Physical3DModel_MDF_CF_M1
 :S1_Physical3DModel_MDF_CF_M1 rdf:type owl:NamedIndividual ,
                                        :Demonstrator .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Plaque_Idol_from_Coudelaria_de_Alter
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_Plaque_Idol_from_Coudelaria_de_Alter
 :S1_Plaque_Idol_from_Coudelaria_de_Alter rdf:type owl:NamedIndividual ,
                                                   :PlaqueIdol ;
                                          :usagetypeArtefacts "Funerary" .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Project_Partners
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_Project_Partners
 :S1_Project_Partners rdf:type owl:NamedIndividual .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Restoration_of_Cromeleque_das_Fontaínhas
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_Restoration_of_Cromeleque_das_Fontaínhas
 :S1_Restoration_of_Cromeleque_das_Fontaínhas rdf:type owl:NamedIndividual ,
                                                       :Restoration ;
                                              :P8_took_place_on_or_within :S1_Cromeleque_das_Fontaínhas .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_TextFont1
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_TextFont1
 :S1_TextFont1 rdf:type owl:NamedIndividual ,
                        :Text ;
-              :P129_isAbout :S1_Cromeleque_das_Fontaínhas ;
+              :P129_is_about :S1_Cromeleque_das_Fontaínhas ;
               :P165_incorporates :S1_NrtFont2_TalkingStone1 .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_TextFont10_Megalithic_Tourism
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_TextFont10_Megalithic_Tourism
 :S1_TextFont10_Megalithic_Tourism rdf:type owl:NamedIndividual ,
                                            :Text .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_TextFont11_Future_Directions
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_TextFont11_Future_Directions
 :S1_TextFont11_Future_Directions rdf:type owl:NamedIndividual ,
                                           :Text .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_TextFont1_INT-ACT_Project
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_TextFont1_INT-ACT_Project
 :S1_TextFont1_INT-ACT_Project rdf:type owl:NamedIndividual ,
                                        :Text .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_TextFont2_Cromlech_History
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_TextFont2_Cromlech_History
 :S1_TextFont2_Cromlech_History rdf:type owl:NamedIndividual ,
                                         :Text .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_TextFont3_Lunar_Theory
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_TextFont3_Lunar_Theory
 :S1_TextFont3_Lunar_Theory rdf:type owl:NamedIndividual ,
                                     :Text .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_TextFont4_Archeological_Context
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_TextFont4_Archeological_Context
 :S1_TextFont4_Archeological_Context rdf:type owl:NamedIndividual ,
                                              :Text .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_TextFont6_Narrative_Texts
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_TextFont6_Narrative_Texts
 :S1_TextFont6_Narrative_Texts rdf:type owl:NamedIndividual ,
                                        :Narrative ,
                                        :Text .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_TextFont7_Ontology_Explanation
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_TextFont7_Ontology_Explanation
 :S1_TextFont7_Ontology_Explanation rdf:type owl:NamedIndividual ,
                                             :Text .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_TextFont8_Museum_History
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_TextFont8_Museum_History
 :S1_TextFont8_Museum_History rdf:type owl:NamedIndividual ,
                                       :Text .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_TextFont9_KeyAspectsTourism
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_TextFont9_KeyAspectsTourism
 :S1_TextFont9_KeyAspectsTourism rdf:type owl:NamedIndividual ,
                                          :Text .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_VidFont1_Panoramic_Video1
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_VidFont1_Panoramic_Video1
 :S1_VidFont1_Panoramic_Video1 rdf:type owl:NamedIndividual ,
                                        :Video .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_VidFont2_Panoramic_Video2
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_VidFont2_Panoramic_Video2
 :S1_VidFont2_Panoramic_Video2 rdf:type owl:NamedIndividual ,
                                        :Video .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_Évora
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_Évora
 :S1_Évora rdf:type owl:NamedIndividual ,
                    :District ;
           :P89_falls_within :S1_Alentejo_Central .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_1680s
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S2_1680s
 :S2_1680s rdf:type owl:NamedIndividual ,
                    :E52_TimeSpan .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_1857
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S2_1857
 :S2_1857 rdf:type owl:NamedIndividual ,
                   :E52_TimeSpan .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_1980-1986
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S2_1980-1986
 :S2_1980-1986 rdf:type owl:NamedIndividual ,
                        :E52_TimeSpan .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_2900-1500
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S2_2900-1500
 :S2_2900-1500 rdf:type owl:NamedIndividual ,
                        :E52_TimeSpan .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_3000-2500
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S2_3000-2500
 :S2_3000-2500 rdf:type owl:NamedIndividual ,
                        :E52_TimeSpan .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_3DMCal1
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S2_3DMCal1
 :S2_3DMCal1 rdf:type owl:NamedIndividual ,
-                     <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#3DModel> .
+                     <http://www.semanticweb.org/int-act-project/int-act-ontology#3DModel> .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_AudCal1
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S2_AudCal1
 :S2_AudCal1 rdf:type owl:NamedIndividual ,
                      :Audio ;
-            :P129_isAbout :S2_CalanaisI .
+            :P129_is_about :S2_CalanaisI .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_AudCal2
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S2_AudCal2
 :S2_AudCal2 rdf:type owl:NamedIndividual ,
                      :Audio ;
-            :P129_isAbout :S2_CalanaisI .
+            :P129_is_about :S2_CalanaisI .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_BarbedTangedArrowheads
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S2_BarbedTangedArrowheads
 :S2_BarbedTangedArrowheads rdf:type owl:NamedIndividual ,
                                     :Arrowhead .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_CL_M1
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S2_CL_M1
 :S2_CL_M1 rdf:type owl:NamedIndividual ,
                    :Menhir .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_CL_M2
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S2_CL_M2
 :S2_CL_M2 rdf:type owl:NamedIndividual ,
                    :Menhir .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_CL_M3
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S2_CL_M3
 :S2_CL_M3 rdf:type owl:NamedIndividual ,
                    :Menhir .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_CL_M4
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S2_CL_M4
 :S2_CL_M4 rdf:type owl:NamedIndividual ,
                    :Menhir .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_CL_M45
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S2_CL_M45
 :S2_CL_M45 rdf:type owl:NamedIndividual ,
                     :Menhir .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_CL_M46
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S2_CL_M46
 :S2_CL_M46 rdf:type owl:NamedIndividual ,
                     :Menhir .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_CL_M47
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S2_CL_M47
 :S2_CL_M47 rdf:type owl:NamedIndividual ,
                     :Menhir .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_CL_M5
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S2_CL_M5
 :S2_CL_M5 rdf:type owl:NamedIndividual ,
                    :Menhir .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_CalanaisI
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S2_CalanaisI
 :S2_CalanaisI rdf:type owl:NamedIndividual ,
                        :CulturalHeritageSite ,
                        :MegalithicSite ,
@@ -1882,176 +1905,176 @@ rdf:List rdf:type owl:Class .
               :usagetypeMegalithism "Funerary" .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_Comhairle_nan_Eilean_Siar
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S2_Comhairle_nan_Eilean_Siar
 :S2_Comhairle_nan_Eilean_Siar rdf:type owl:NamedIndividual ,
                                        :Municipality ;
                               :P89_falls_within :S2_Outer_Hebrides .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_Construction_of_CalanaisI
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S2_Construction_of_CalanaisI
 :S2_Construction_of_CalanaisI rdf:type owl:NamedIndividual ,
                                        :Construction ;
                               :P8_took_place_on_or_within :S2_CalanaisI ;
                               :hasConstructionTimeSpan :S2_3000-2500 .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_Excavation_of_CalanaisI
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S2_Excavation_of_CalanaisI
 :S2_Excavation_of_CalanaisI rdf:type owl:NamedIndividual ,
                                      :Excavation ;
-                            :P14_carriedOutBy :S2_James_Matheson ;
+                            :P14_carried_out_by :S2_James_Matheson ;
                             :P8_took_place_on_or_within :S2_CalanaisI ;
                             :hasExcavationTimeSpan :S2_1857 ,
                                                    :S2_1980-1986 .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_FineBeaker
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S2_FineBeaker
 :S2_FineBeaker rdf:type owl:NamedIndividual ,
                         :Beaker .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_FlintLithics
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S2_FlintLithics
 :S2_FlintLithics rdf:type owl:NamedIndividual ,
                           :LithicTool .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_FoodVesselBeaker
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S2_FoodVesselBeaker
 :S2_FoodVesselBeaker rdf:type owl:NamedIndividual ,
                               :FoodVessel .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_Gerald_Ponting
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S2_Gerald_Ponting
 :S2_Gerald_Ponting rdf:type owl:NamedIndividual ,
                             :Volunteer .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_GroovedWareBowl
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S2_GroovedWareBowl
 :S2_GroovedWareBowl rdf:type owl:NamedIndividual ,
                              :GroovedWare .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_Identification_of_CalanaisI
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S2_Identification_of_CalanaisI
 :S2_Identification_of_CalanaisI rdf:type owl:NamedIndividual ,
                                          :Identification ;
                                 :P8_took_place_on_or_within :S2_CalanaisI ;
                                 :hasIdentificationTimeSpan :S2_1680s .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_ImgCal1
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S2_ImgCal1
 :S2_ImgCal1 rdf:type owl:NamedIndividual ,
                      :Image ;
-            :P129_isAbout :S2_CalanaisI .
+            :P129_is_about :S2_CalanaisI .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_ImgCal2
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S2_ImgCal2
 :S2_ImgCal2 rdf:type owl:NamedIndividual ,
                      :Image ;
-            :P129_isAbout :S2_CL_M1 .
+            :P129_is_about :S2_CL_M1 .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_James_Matheson
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S2_James_Matheson
 :S2_James_Matheson rdf:type owl:NamedIndividual ,
-                            <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#Patron/Promoter> .
+                            <http://www.semanticweb.org/int-act-project/int-act-ontology#Patron/Promoter> .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_Margaret_Curtis
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S2_Margaret_Curtis
 :S2_Margaret_Curtis rdf:type owl:NamedIndividual ,
                              :Volunteer .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_MyloniteLithics
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S2_MyloniteLithics
 :S2_MyloniteLithics rdf:type owl:NamedIndividual ,
                              :LithicTool .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_NrtCal1
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S2_NrtCal1
 :S2_NrtCal1 rdf:type owl:NamedIndividual ,
                      :Narrative ;
-            :P129_isAbout :S2_CalanaisI .
+            :P129_is_about :S2_CalanaisI .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_Occupation_or_Usage_of_CalanaisI
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S2_Occupation_or_Usage_of_CalanaisI
 :S2_Occupation_or_Usage_of_CalanaisI rdf:type owl:NamedIndividual ,
                                               :OcupationOrUsage ;
                                      :P8_took_place_on_or_within :S2_CalanaisI ;
                                      :hasUsageTimeSpan :S2_2900-1500 .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_OceanicClimate
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S2_OceanicClimate
 :S2_OceanicClimate rdf:type owl:NamedIndividual ,
                             :Climate .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_Open_Moorland
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S2_Open_Moorland
 :S2_Open_Moorland rdf:type owl:NamedIndividual ,
                            :RuralLandscape .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_Outer_Hebrides
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S2_Outer_Hebrides
 :S2_Outer_Hebrides rdf:type owl:NamedIndividual ,
                             :Region ;
                    :hasClimate :S2_OceanicClimate ;
                    :hasTypicalLandscape :S2_Open_Moorland .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_Patrick_Ashmore
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S2_Patrick_Ashmore
 :S2_Patrick_Ashmore rdf:type owl:NamedIndividual ,
                              :Archaeologist .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_QuartzLithics
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S2_QuartzLithics
 :S2_QuartzLithics rdf:type owl:NamedIndividual ,
                            :LithicTool .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_Restoration_of_CalanaisI
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S2_Restoration_of_CalanaisI
 :S2_Restoration_of_CalanaisI rdf:type owl:NamedIndividual ,
                                       :Restoration ;
                              :P8_took_place_on_or_within :S2_CalanaisI .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_Ron_Curtis
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S2_Ron_Curtis
 :S2_Ron_Curtis rdf:type owl:NamedIndividual ,
                         :Volunteer .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_StoneTool1
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S2_StoneTool1
 :S2_StoneTool1 rdf:type owl:NamedIndividual ,
                         :StoneTool .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_Uig
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S2_Uig
 :S2_Uig rdf:type owl:NamedIndividual ,
                  :Parish .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_VidCal1
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S2_VidCal1
 :S2_VidCal1 rdf:type owl:NamedIndividual ,
                      :Video ;
-            :P129_isAbout :S2_CalanaisI .
+            :P129_is_about :S2_CalanaisI .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_1991
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S3_1991
 :S3_1991 rdf:type owl:NamedIndividual ,
                   :E52_TimeSpan .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_19thCentury-20thCentury
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S3_19thCentury-20thCentury
 :S3_19thCentury-20thCentury rdf:type owl:NamedIndividual ,
                                      :E52_TimeSpan .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_3B-2B
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S3_3B-2B
 :S3_3B-2B rdf:type owl:NamedIndividual ,
                    :E52_TimeSpan .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_3DMKoli1
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S3_3DMKoli1
 :S3_3DMKoli1 rdf:type owl:NamedIndividual ,
-                      <http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#3DModel> ;
-             :P129_isAbout :S3_Koli .
+                      <http://www.semanticweb.org/int-act-project/int-act-ontology#3DModel> ;
+             :P129_is_about :S3_Koli .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Akka-Koli_Hill
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S3_Akka-Koli_Hill
 :S3_Akka-Koli_Hill rdf:type owl:NamedIndividual ,
                             :Hill ,
                             :NaturalHeritageSite ,
@@ -2060,55 +2083,55 @@ rdf:List rdf:type owl:Class .
                    :P89_falls_within :S3_Koli .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Alfred_William_Finch
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S3_Alfred_William_Finch
 :S3_Alfred_William_Finch rdf:type owl:NamedIndividual ,
                                   :Artist .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_AudKoli1
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S3_AudKoli1
 :S3_AudKoli1 rdf:type owl:NamedIndividual ,
                       :Audio ;
-             :P129_isAbout :S3_Koli .
+             :P129_is_about :S3_Koli .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Boreal_Forest_Upland
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S3_Boreal_Forest_Upland
 :S3_Boreal_Forest_Upland rdf:type owl:NamedIndividual ,
                                   :NaturalLandscape .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Eero_Järnefelt
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S3_Eero_Järnefelt
 :S3_Eero_Järnefelt rdf:type owl:NamedIndividual ,
                             :Artist .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Formation_of_Koli
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S3_Formation_of_Koli
 :S3_Formation_of_Koli rdf:type owl:NamedIndividual ,
                                :Formation ;
                       :hasFormationTimeSpan :S3_3B-2B .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Humid_Continental_Climate
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S3_Humid_Continental_Climate
 :S3_Humid_Continental_Climate rdf:type owl:NamedIndividual ,
                                        :Climate .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_ImgKoli1
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S3_ImgKoli1
 :S3_ImgKoli1 rdf:type owl:NamedIndividual ,
                       :Image ;
-             :P129_isAbout :S3_Koli .
+             :P129_is_about :S3_Koli .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Jean_Sibelius
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S3_Jean_Sibelius
 :S3_Jean_Sibelius rdf:type owl:NamedIndividual ,
                            :Artist .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Juhani_Aho
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S3_Juhani_Aho
 :S3_Juhani_Aho rdf:type owl:NamedIndividual ,
                         :Artist .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Koli
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S3_Koli
 :S3_Koli rdf:type owl:NamedIndividual ,
                   :CulturalHeritageSite ,
                   :CulturalLandscapeSite ,
@@ -2121,17 +2144,17 @@ rdf:List rdf:type owl:Class .
                    "gneissTrondhjemite" .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Koli_Cultural_Society
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S3_Koli_Cultural_Society
 :S3_Koli_Cultural_Society rdf:type owl:NamedIndividual ,
                                    :Institution .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Koli_Nature_Centre_Ukko
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S3_Koli_Nature_Centre_Ukko
 :S3_Koli_Nature_Centre_Ukko rdf:type owl:NamedIndividual ,
                                      :Institution .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Lake_Pielinen
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S3_Lake_Pielinen
 :S3_Lake_Pielinen rdf:type owl:NamedIndividual ,
                            :Lake ,
                            :NaturalHeritageSite ,
@@ -2140,18 +2163,18 @@ rdf:List rdf:type owl:Class .
                   :P89_falls_within :S3_Koli .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Lieksa
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S3_Lieksa
 :S3_Lieksa rdf:type owl:NamedIndividual ,
                     :Municipality ;
            :P89_falls_within :S3_North_Karelia .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Metsähallitus
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S3_Metsähallitus
 :S3_Metsähallitus rdf:type owl:NamedIndividual ,
                            :Institution .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Mäkrävaara_Hill
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S3_Mäkrävaara_Hill
 :S3_Mäkrävaara_Hill rdf:type owl:NamedIndividual ,
                              :Hill ,
                              :NaturalHeritageSite ,
@@ -2160,26 +2183,26 @@ rdf:List rdf:type owl:Class .
                     :P89_falls_within :S3_Koli .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_North_Karelia
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S3_North_Karelia
 :S3_North_Karelia rdf:type owl:NamedIndividual ,
                            :Region ;
                   :hasClimate :S3_Humid_Continental_Climate ;
                   :hasTypicalLandscape :S3_Boreal_Forest_Upland .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_NrtKoli
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S3_NrtKoli
 :S3_NrtKoli rdf:type owl:NamedIndividual ,
                      :Narrative ;
-            :P129_isAbout :S3_Koli .
+            :P129_is_about :S3_Koli .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Occupation_or_Usage_of_Koli
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S3_Occupation_or_Usage_of_Koli
 :S3_Occupation_or_Usage_of_Koli rdf:type owl:NamedIndividual ,
                                          :OcupationOrUsage ;
                                 :P89_falls_within :S3_Koli .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Paha-Koli_Hill
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S3_Paha-Koli_Hill
 :S3_Paha-Koli_Hill rdf:type owl:NamedIndividual ,
                             :Hill ,
                             :NaturalHeritageSite ,
@@ -2188,7 +2211,7 @@ rdf:List rdf:type owl:Class .
                    :P89_falls_within :S3_Koli .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Paimenenvaara_Hill
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S3_Paimenenvaara_Hill
 :S3_Paimenenvaara_Hill rdf:type owl:NamedIndividual ,
                                 :Hill ,
                                 :NaturalHeritageSite ,
@@ -2197,7 +2220,7 @@ rdf:List rdf:type owl:Class .
                        :P89_falls_within :S3_Koli .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Pieni-Koli_Hill
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S3_Pieni-Koli_Hill
 :S3_Pieni-Koli_Hill rdf:type owl:NamedIndividual ,
                              :Hill ,
                              :NaturalHeritageSite ,
@@ -2206,7 +2229,7 @@ rdf:List rdf:type owl:Class .
                     :P89_falls_within :S3_Koli .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Pirunkirkko
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S3_Pirunkirkko
 :S3_Pirunkirkko rdf:type owl:NamedIndividual ,
                          :Cave ,
                          :NaturalHeritageSite ,
@@ -2215,18 +2238,18 @@ rdf:List rdf:type owl:Class .
                 :P89_falls_within :S3_Koli .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Romanticist_Engagement_With_Koli
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S3_Romanticist_Engagement_With_Koli
 :S3_Romanticist_Engagement_With_Koli rdf:type owl:NamedIndividual ,
                                               :Romanticism ;
-                                     :P14_carriedOutBy :S3_Alfred_William_Finch ,
-                                                       :S3_Eero_Järnefelt ,
-                                                       :S3_Jean_Sibelius ,
-                                                       :S3_Juhani_Aho ;
+                                     :P14_carried_out_by :S3_Alfred_William_Finch ,
+                                                         :S3_Eero_Järnefelt ,
+                                                         :S3_Jean_Sibelius ,
+                                                         :S3_Juhani_Aho ;
                                      :P8_took_place_on_or_within :S3_Koli ;
                                      :hasArtisticTimeSpan :S3_19thCentury-20thCentury .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Uhrihalkeama
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S3_Uhrihalkeama
 :S3_Uhrihalkeama rdf:type owl:NamedIndividual ,
                           :Fissure ,
                           :NaturalHeritageSite ,
@@ -2235,7 +2258,7 @@ rdf:List rdf:type owl:Class .
                  :P89_falls_within :S3_Koli .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_Ukko-Koli_Hill
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S3_Ukko-Koli_Hill
 :S3_Ukko-Koli_Hill rdf:type owl:NamedIndividual ,
                             :Hill ,
                             :NaturalHeritageSite ,
@@ -2244,30 +2267,38 @@ rdf:List rdf:type owl:Class .
                    :P89_falls_within :S3_Koli .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_VidKoli1
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S3_VidKoli1
 :S3_VidKoli1 rdf:type owl:NamedIndividual ,
                       :Video ;
-             :P129_isAbout :S3_Koli .
+             :P129_is_about :S3_Koli .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_38.931079,_-8.121081
-<http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_38.931079,_-8.121081> rdf:type owl:NamedIndividual ,
-                                                                                                           :Coordinates .
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_38.931079,_-8.121081
+<http://www.semanticweb.org/int-act-project/int-act-ontology#S1_38.931079,_-8.121081> rdf:type owl:NamedIndividual ,
+                                                                                               :Coordinates .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_TextFont5_Cromlech_Excavation/Recovery
-<http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S1_TextFont5_Cromlech_Excavation/Recovery> rdf:type owl:NamedIndividual ,
-                                                                                                                             :Text .
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S1_TextFont5_Cromlech_Excavation/Recovery
+<http://www.semanticweb.org/int-act-project/int-act-ontology#S1_TextFont5_Cromlech_Excavation/Recovery> rdf:type owl:NamedIndividual ,
+                                                                                                                 :Text .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_‘58.197541,_-6.7451450’
-<http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S2_‘58.197541,_-6.7451450’> rdf:type owl:NamedIndividual ,
-                                                                                                              :Coordinates .
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S2_‘58.197541,_-6.7451450’
+<http://www.semanticweb.org/int-act-project/int-act-ontology#S2_‘58.197541,_-6.7451450’> rdf:type owl:NamedIndividual ,
+                                                                                                  :Coordinates .
 
 
-###  http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_63.09444,_-_29.80861
-<http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30#S3_63.09444,_-_29.80861> rdf:type owl:NamedIndividual ,
-                                                                                                           :Coordinates .
+###  http://www.semanticweb.org/int-act-project/int-act-ontology#S3_63.09444,_-_29.80861
+<http://www.semanticweb.org/int-act-project/int-act-ontology#S3_63.09444,_-_29.80861> rdf:type owl:NamedIndividual ,
+                                                                                               :Coordinates .
+
+
+###  http://www.w3.org/2004/02/skos/core#Anger
+<http://www.w3.org/2004/02/skos/core#Anger> rdf:type owl:NamedIndividual ,
+                                                     :Intangible_Feature ,
+                                                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                            <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Difficult_and_Conflictual_Emotions> ;
+                                            <http://www.w3.org/2004/02/skos/core#prefLabel> "Anger"@en .
 
 
 ###  http://www.w3.org/2004/02/skos/core#Appreciation
@@ -2369,14 +2400,6 @@ rdf:List rdf:type owl:Class .
                                                                <http://www.w3.org/2004/02/skos/core#prefLabel> "Environmental well-being"@en .
 
 
-###  http://www.w3.org/2004/02/skos/core#Grief
-<http://www.w3.org/2004/02/skos/core#Grief> rdf:type owl:NamedIndividual ,
-                                                     :Intangible_Feature ,
-                                                     <http://www.w3.org/2004/02/skos/core#Concept> ;
-                                            <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Difficult_and_Conflictual_Emotions> ;
-                                            <http://www.w3.org/2004/02/skos/core#prefLabel> "Grief"@en .
-
-
 ###  http://www.w3.org/2004/02/skos/core#Hearing
 <http://www.w3.org/2004/02/skos/core#Hearing> rdf:type owl:NamedIndividual ,
                                                        :Intangible_Feature ,
@@ -2418,14 +2441,6 @@ rdf:List rdf:type owl:Class .
                                                                <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Well-being> ;
                                                                <http://www.w3.org/2004/02/skos/core#altLabel> "Connectedness"@en ;
                                                                <http://www.w3.org/2004/02/skos/core#prefLabel> "Interpersonal well-being"@en .
-
-
-###  http://www.w3.org/2004/02/skos/core#Loss
-<http://www.w3.org/2004/02/skos/core#Loss> rdf:type owl:NamedIndividual ,
-                                                    :Intangible_Feature ,
-                                                    <http://www.w3.org/2004/02/skos/core#Concept> ;
-                                           <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Difficult_and_Conflictual_Emotions> ;
-                                           <http://www.w3.org/2004/02/skos/core#prefLabel> "Loss"@en .
 
 
 ###  http://www.w3.org/2004/02/skos/core#Narrating
@@ -2576,6 +2591,14 @@ rdf:List rdf:type owl:Class .
                                                           <http://www.w3.org/2004/02/skos/core#Concept> ;
                                                  <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Emotional_Connection> ;
                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Well-being"@en .
+
+
+###  http://www.w3.org/2004/02/skos/core#Loss/Grief
+<http://www.w3.org/2004/02/skos/core#Loss/Grief> rdf:type owl:NamedIndividual ,
+                                                          :Intangible_Feature ,
+                                                          <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                                 <http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2004/02/skos/core#Difficult_and_Conflictual_Emotions> ;
+                                                 <http://www.w3.org/2004/02/skos/core#prefLabel> "Loss/Grief"@en .
 
 
 ###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
